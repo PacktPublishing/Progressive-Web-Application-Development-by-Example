@@ -1,0 +1,14 @@
+{
+    "name": "2048",
+    "version": "1.0.0",
+    "description": "2048 Progressive Web App",
+    "author": "Chris Love",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "http-server www/ -p 18500 -c -i"
+    },
+    "private": true,
+    "devDependencies": {
+        "http-server": "*"
+    }
+}

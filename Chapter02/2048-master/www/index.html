@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+  <title>2048</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <meta name="apple-mobile-web-app-title" content="2048 PWA">
+
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+  <!-- iPhone 5+ -->
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)">
+  <!-- iPhone, retina -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link rel="apple-touch-icon" href="meta/2048-logo-80x80.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="meta/2048-logo-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="meta/2048-logo-180x180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="meta/2048-logo-167x167.png">
+
+  <meta name="application-name" content="2048" />
+  <meta name="msapplication-square70x70logo" content="meta/2048-logo-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="meta/2048-logo-152x152.png" />
+  <meta name="msapplication-wide310x150logo" content="meta/2048-logo-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="meta/2048-logo-310x310.png" />
+  <meta name="msapplication-TileColor" content="#ECC400" />
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <div class="container">
+    <header class="heading">
+      <h1 class="title">2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </header>
+
+    <div class="above-game">
+      <p class="game-intro">Join the numbers and get to the
+        <strong>2048 tile!</strong>
+      </p>
+      <a class="restart-button">New Game</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your
+      <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they
+      <strong>merge into one!</strong>
+    </p>
+    <hr>
+    <p>
+      <strong class="important">Note:</strong> This site is the official version of 2048. You can play it on your phone via
+      <a href="http://git.io/2048">http://git.io/2048.</a> All other apps or sites are derivatives or fakes, and should be used with caution.
+    </p>
+    <hr>
+    <p>
+      Created by
+      <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on
+      <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to
+      <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+    </p>
+  </div>
+  <div class="ad2hs-prompt bounceInUp">
+    <h1>Add 2048 To Your Homescreen!</h1>
+    <div class="btn btn-premium">Add</div>
+  </div>
+
+  <script>
+    var scripts = [
+        "js/keyboard_input_manager.js",
+        "js/html_actuator.js",
+        "js/grid.js",
+        "js/tile.js",
+        "js/local_storage_manager.js",
+        "js/game_manager.js",
+        "js/application.js"
+      ],
+      src,
+      script,
+      pendingScripts = [],
+      firstScript = document.scripts[0];
+
+    if (typeof Function.prototype.bind !== "function") {
+
+      scripts.unshift("js/polyfills/bind_polyfill.js");
+
+    }
+
+    if ("classList" in document.documentElement === false) {
+
+      scripts.unshift("js/polyfills/classlist_polyfill.js");
+
+    }
+
+    if (!window.requestAnimationFrame) {
+
+      scripts.unshift("js/polyfills/animframe_polyfill.js");
+
+    }
+
+    // Watch scripts load in IE
+    function stateChange() {
+      // Execute as many scripts in order as we can
+
+      var pendingScript;
+
+      while (pendingScripts[0] && pendingScripts[0].readyState == 'loaded') {
+        pendingScript = pendingScripts.shift();
+        // avoid future loading events from this script (eg, if src changes)
+        pendingScript.onreadystatechange = null;
+        // can't just appendChild, old IE bug if element isn't closed
+        firstScript.parentNode.insertBefore(pendingScript, firstScript);
+      }
+
+    }
+
+    // loop through our script urls
+    while (src = scripts.shift()) {
+
+      if ('async' in firstScript) { // modern browsers
+
+        script = document.createElement('script');
+        script.async = false;
+        script.src = src;
+        document.body.appendChild(script);
+
+      } else if (firstScript.readyState) { // IE<10
+        // create a script and add it to our todo pile
+        script = document.createElement('script');
+        pendingScripts.push(script);
+        // listen for state changes
+        script.onreadystatechange = stateChange;
+        // must set src AFTER adding onreadystatechange listener
+        // else we’ll miss the loaded event for cached scripts
+        script.src = src;
+      } else { // fall back to defer
+        document.write('<script src="' + src + '" defer></' + 'script>');
+      }
+    }
+  </script>
+
+  <script>
+
+    if ('serviceWorker' in navigator) {  
+
+      navigator.serviceWorker.register('/sw.js')
+        .then(function (registration) {    // Registration was successful
+             
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);  
+
+        }).catch(function (err) {    // registration failed :(
+             
+          console.log('ServiceWorker registration failed: ', err);  
+        });
+
+    }
+  </script>
+
+</body>
+
+</html>
