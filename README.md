@@ -54,7 +54,7 @@ With the following software and hardware list you can run all code files present
 
 * Hands-on Full Stack Development with Angular 5 and Firebase [[Packt]](https://www.packtpub.com/application-development/hands-full-stack-development-angular-5-and-firebase?utm_source=github&utm_medium=repository&utm_campaign=9781788298735) [[Amazon]](https://www.amazon.com/dp/178829873X)
 
-## Get to Know the Author(s)
+## Get to Know the Author
 **Chris Love**
 Chris Love is a frontend developer with 25 years of professional experience. He has won the Microsoft MVP award for 12 years and has authored multiple books. He has helped over 1,000 businesses of all sizes and from various industries.
 
