@@ -27,10 +27,11 @@ All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
 ```
-if (test expression)
-{
-  Statement upon condition is true
-}
+ function renderResults(results) {
+
+        var template = document.getElementById("search-results-
+        template"),
+            searchResults = document.querySelector('.search-results');
 ```
 
 **Following is what you need for this book:**
