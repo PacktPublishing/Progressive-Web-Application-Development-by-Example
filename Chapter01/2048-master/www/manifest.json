@@ -1,0 +1,60 @@
+{
+  "name": "2048 - Progressive Web App",
+  "short_name": "2048 PWA",
+  "description": "This is a fork of the original 2048 web application source. It is upgraded to be a progressive web application and used as a reference application in the Packt Book - Progressive Web Applications By Example",
+  "icons": [
+    {
+      "src": "meta/2048-logo-70x70.png",
+      "sizes": "70x70",
+      "type": "image/png"
+    },
+    {
+      "src": "meta/2048-logo-120x120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "meta/2048-logo-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "meta/2048-logo-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "meta/2048-logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "meta/2048-logo-310x174.png",
+      "sizes": "310x174",
+      "type": "image/png"
+    },
+    {
+      "src": "meta/2048-logo-310x310.png",
+      "sizes": "310x310",
+      "type": "image/png"
+    },
+    {
+      "src": "meta/2048-logo-340x340.png",
+      "sizes": "340x340",
+      "type": "image/png"
+    },
+    {
+      "src": "meta/2048-logo-600x310.png",
+      "sizes": "600x310",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?hs=2349872398472894",
+  "scope": "/",
+  "display": "fullscreen",
+  "background_color": "#fff",
+  "theme_color": "#ECC400",
+  "orientation": "portrait",
+  "lang": "en",
+  "dir": "ltr"
+}
