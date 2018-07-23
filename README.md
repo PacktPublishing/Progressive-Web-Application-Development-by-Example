@@ -41,27 +41,27 @@ With the following software and hardware list you can run all code files present
 
 ### Software and Hardware List
 
-| Chapter  | Software required                   | OS required                        |
-| -------- | ------------------------------------| -----------------------------------|
-| 1-10        | R version 3.3.0                     | Windows, Mac OS X, and Linux (Any) |
+| Chapter  | Software required                   | OS required                                                  |
+| -------- | ------------------------------------| -------------------------------------------------------------|
+| 1-10     | Nodejs 6.1 or above                 |Windows, MacOS or Linux supported by NodeJs and has a browser |
+|          |  Chrome, Microsoft Edge,            |                                                              |
+|          |   FireFox, Opera or Safari          |                                                              |
+|          |  Visual Studio Code or Sublime      |                                                              |
 
 
 ### Related products <Paste books from the Other books you may enjoy section>
-* Progressive Web Apps with React [[Packt]](https://www.packtpub.com/web-development/progressive-web-apps-react?utm_source=github&utm_medium=repository&utm_campaign=9781788297554) [[Amazon]](https://www.amazon.com/dp/)
+* Progressive Web Apps with React [[Packt]](https://www.packtpub.com/web-development/progressive-web-apps-react?utm_source=github&utm_medium=repository&utm_campaign=9781788297554) [[Amazon]](https://www.amazon.com/dp/1788297555)
 
-* Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Hands-on Full Stack Development with Angular 5 and Firebase [[Packt]](https://www.packtpub.com/application-development/hands-full-stack-development-angular-5-and-firebase?utm_source=github&utm_medium=repository&utm_campaign=9781788298735) [[Amazon]](https://www.amazon.com/dp/178829873X)
 
 ## Get to Know the Author(s)
-**Author Name**
-Bio
+**Chris Love**
+Chris Love is a frontend developer with 25 years of professional experience. He has won the Microsoft MVP award for 12 years and has authored multiple books. He has helped over 1,000 businesses of all sizes and from various industries.
 
-**Author Name**
-Bio
+Chris regularly speaks at user groups, code camps, and developer conferences, and also writes articles and videos to help fellow developers.
 
+When he's not working on frontend development, you can find him spending time with his step-kids, doing karate, and taking part in Spartan races.
 
-## Other books by the authors
-* [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-* [Linux Mint Essentials](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
