@@ -1,0 +1,22 @@
+<div class="card ticket-card" id="{{id}}">
+    <div class="card-header">
+        <h5 class="card-title">{{event.title}}</h5>
+    </div>
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <img class="card-img-top ticket-barcode" src="qrcodes/{{barcode}}" alt="{{id}}" />
+        </div>
+        <div class="col-md-6">
+            <div class="card-body">
+                <p class="card-text">{{event.venue}}</p>
+                <p class="card-text">{{event.date}} - {{event.city}} {{event.state}}</p>
+                <p class="card-text">{{id}}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Section {{section}}</li>
+                <li class="list-group-item">Row {{row}}</li>
+                <li class="list-group-item">Seat {{seat}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

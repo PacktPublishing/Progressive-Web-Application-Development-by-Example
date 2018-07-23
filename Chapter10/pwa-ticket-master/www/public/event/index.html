@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <base href="/">
+
+    <link rel="preload" href="css/libs/bootstrap.min.css" as="style">
+    <link rel="preload" href="css/app/site.css" as="style">
+
+    <link rel="preload" href="js/libs/utils.js" as="script" type="application/javascript">
+    <link rel="preload" href="js/libs/localforage.min.js" as="script" type="application/javascript">
+    <link rel="preload" href="js/libs/mustache.min.js" as="script" type="application/javascript">
+    <link rel="preload" href="js/app/pages/event.js" as="script" type="application/javascript">
+    <link rel="preload" href="js/app/app.js" as="script" type="application/javascript">
+
+    <!-- Stylesheets -->
+    <link href="css/libs/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app/site.css" rel="stylesheet">
+    <title>The PWA Ticket App | </title>
+    <meta name="description" content="">
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#000066" />
+
+    <!-- Favicon -->
+    <link href="favicon.png" rel="shortcut icon">
+
+    <!-- social networking -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="PWA Tickets">
+    <meta property="og:description" content="A Progressive Web App to Manage Event Tickets">
+    <meta property="og:url" content="Sat, 17 Mar 2018 20:28:34 GMT">
+    <meta property="og:site_name" content="Love2Dev">
+    <meta property="article:publisher" content="https://www.facebook.com/love2dev/">
+    <meta property="article:section" content="main">
+    <meta property="article:published_time" content="Sat, 17 Mar 2018 20:28:34 GMT">
+    <meta property="article:modified_time" content="Sat, 17 Mar 2018 20:28:34 GMT">
+    <meta property="og:updated_time" content="Sat, 17 Mar 2018 20:28:34 GMT">
+    <meta property="og:image" content="meta/windows10/Square310x310Logo.scale-100.png">
+    <meta property="og:image:width" content="310">
+    <meta property="og:image:height" content="310">
+    <meta property="twitter:account_id" content="5658652" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="A Progressive Web App to Manage Event Tickets">
+    <meta name="twitter:title" content="PWA Tickets">
+    <meta name="twitter:site" content="@ChrisLove">
+    <meta name="twitter:image" content="meta/windows10/Square310x310Logo.scale-100.png">
+    <meta name="twitter:creator" content="@ChrisLove">
+
+    <!-- Web Application Manifest -->
+    <link href="manifest.json" rel="manifest">
+    <link href="humans.txt" rel="author">
+</head>
+
+<body>
+
+    <div class="navbar navbar-expand-lg navbar-light bg-light fixed-top " role="navigation">
+        <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div>
+            <a class="navbar-brand" href="/">
+                <img srcset="img/pwa-tickets-logo-1158x559.png 1158w,img/pwa-tickets-logo-700x338.png 700w,img/pwa-tickets-logo-570x276.png 570w,img/pwa-tickets-logo-533x258.png 533w,img/pwa-tickets-logo-460x223.png 460w,img/pwa-tickets-logo-320x155.png 320w"
+                    class="navbar-logo" src="img/pwa-tickets-logo-1158x559.png" sizes="(max-width: 480px) 40vw, (max-width: 720px) 20vw, 10vw"
+                    alt="pwa-tickets-logo">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="events/">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tickets/">Tickets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile/">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="config/">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <button class="logout-btn btn-primary btn-outline-info my-2 my-sm-0" type="submit">Logout</button>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 flex-nowrap">
+                <input class="form-control mr-sm-2 search-input" type="search" placeholder="Search" aria-label="Search">
+                <button class="search-query-btn btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <main class="page-content content-target">
+        <div class="loader"></div>
+    
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <!-- edit footer logo here -->
+                    <a href="/" class="logo col-sm-8">
+                        <img srcset="img/pwa-tickets-logo-1158x559.png 1158w,img/pwa-tickets-logo-700x338.png 700w,img/pwa-tickets-logo-570x276.png 570w,img/pwa-tickets-logo-533x258.png 533w,img/pwa-tickets-logo-460x223.png 460w,img/pwa-tickets-logo-320x155.png 320w"
+                            class="navbar-logo" src="img/pwa-tickets-logo-1158x559.png" sizes="(max-width: 480px) 40vw, (max-width: 720px) 20vw, 10vw"
+                            alt="pwa-tickets-logo">
+                    </a>
+                    <div class="col-sm-12 text">
+                        <p>
+                            <i class="fa fa-map-pin"></i> 354 MAIN STREET | ANYTOWN USA | 11111</p>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:9192515067">Phone : (919) 251-5067</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i> E-mail :
+                            <a href="mailto:info@love2dev.com">info@love2dev.com</a>
+                        </p>
+                    </div>
+                    <span class="col-sm-12 social-wrapper circle">
+                        <a href="http://twitter.com/chrislove" class="social-icon fa fa-twitter"></a>
+                        <a href="https://www.facebook.com/love2dev/" class="social-icon fa fa-facebook"></a>
+                        <a target="_blank" href="https://plus.google.com/b/110904107389779237581/?pageId=110904107389779237581">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/love2dev">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UC3mfh2MN-5D-zOyiRLp9H6g">
+                            <i class="fa fa-youtube-play"></i>
+                        </a>
+                        <a target="_blank" href="https://www.pinterest.com/docluv/">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="footer-content">
+                        <h2>Links</h2>
+                        <nav>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li>
+                                    <a href="events/">Events</a>
+                                </li>
+                                <li>
+                                    <a href="tickets/">Tickets</a>
+                                </li>
+                                <li>
+                                    <a href="profile/">Profile</a>
+                                </li>
+                                <li>
+                                    <a href="config/">Config</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="script-polyfil" id="polyfilassign" src="js/libs/polyfils/object.assign.js"></script>
+    <script type="script-polyfil" id="polyfilpromise" src="js/libs/polyfils/es6-promise.min.js"></script>
+    <script type="script-polyfil" id="polyfilfetch" src="js/libs/polyfils/fetch.js"></script>
+
+    <script>
+        //wrap in IIFE to keep out of global scope
+        (function () {
+
+            function toggleScript(id) {
+
+                var target = document.getElementById("polyfil" + id);
+
+                target.setAttribute("type", "text/javascript");
+
+            }
+
+            if (typeof Object.assign != 'function') {
+
+                toggleScript("assign");
+
+            }
+
+            if (typeof Promise === "undefined" || Promise.toString().indexOf("[native code]") === -1) {
+
+                toggleScript("promise");
+
+            }
+
+            if (typeof fetch === "undefined" || fetch.toString().indexOf("[native code]") === -1) {
+
+                toggleScript("fetch");
+
+            }
+
+        }());
+    </script>
+
+    <script src="js/libs/utils.js"></script>
+    <script src="js/libs/localforage.min.js"></script>
+    <script src="js/libs/mustache.min.js"></script>
+    <script src="js/libs/utils.js"></script>
+    <script src="js/app/libs/api.js"></script>
+    <script src="js/app/libs/push-mgr.js"></script>
+    <script src="js/app/app.js"></script>
+    <script src="js/app/pages/event.js"></script>
+</body>
+
+</html>

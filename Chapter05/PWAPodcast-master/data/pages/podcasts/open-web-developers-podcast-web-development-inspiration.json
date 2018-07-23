@@ -1,0 +1,114 @@
+{
+    "Name": "Open Web Developers Podcast – Web Development Inspiration",
+    "LongName": "Open Web Developers Podcast – Web Development Inspiration",
+    "lowerAppName": "Open Web Developers Podcast – Web Development Inspiration",
+    "slug": "open-web-developers-podcast-web-development-inspiration",
+    "title": "Open Web Developers Podcast – Web Development Inspiration",
+    "description": "Marc Grabanski",
+    "layout": "default",
+    "app-shell": "app",
+    "body": "<div class=\"container\">    <div class=\"row\">        <div class=\"card\">            <img srcset=\"http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/30x30bb.jpg 30w, http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/60x60bb.jpg 60w, http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/100x100bb.jpg 100w, http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/600x600bb.jpg 600w\" sizes=\"(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw\"                src=\"http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/600x600bb.jpg\" alt=\"Open Web Developers Podcast – Web Development Inspiration\" class=\"card-img-top\">            <div class=\"card-body\">                <h3 class=\"card-title\">Open Web Developers Podcast – Web Development Inspiration</h3>                <p class=\"card-text\">Marc Grabanski</p>            </div>            <i class=\"fa fa-plus\" aria-hidden=\"true\"></i>        </div>    </div>    <div class=\"row episode-list\">        <a href=\"/episode/podcast-3-interview-with-nate-abele-of-lithium-php-framework-httpopenwebdeveloperscomp75\" class=\"episode-list-item\">Podcast #3: Interview with Nate Abele of Lithium PHP Framework</a>        <a href=\"/episode/podcast-2-interview-with-scott-gonzlez-of-jquery-ui-httpopenwebdeveloperscomp38\" class=\"episode-list-item\">Podcast #2: Interview with Scott González of jQuery UI</a>        <a href=\"/episode/podcast-1-interview-with-christopher-schmitt-httpopenwebdeveloperscomp28\" class=\"episode-list-item\">Podcast #1: Interview with Christopher Schmitt</a>        <a href=\"/episode/announcing-open-web-developers-podcast-httpopenwebdeveloperscomp8\" class=\"episode-list-item\">Announcing Open Web Developers Podcast</a>    </div></div>",
+    "author": "Chris Love",
+    "facebook-publisher": "https://www.facebook.com/Love2Dev/",
+    "twitter": "ChrisLove",
+    "google-plus": "https://plus.google.com/b/110904107389779237581/?pageId=110904107389779237581",
+    "linkedin": "https://www.linkedin.com/in/Love2Dev/",
+    "pinterest": "https://www.pinterest.com/docluv/",
+    "youtube": "https://www.youtube.com/channel/UC3mfh2MN-5D-zOyiRLp9H6g",
+    "bing-user-key": "7EDAB92AF63E3B35E57195D810D64C57",
+    "image": {
+        "url": "http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/600x600bb.jpg",
+        "width": 600,
+        "height": 600
+    },
+    "cache": {},
+    "headers": {
+        "Cache-Control": "public, max-age=30240, s-max-age=1200"
+    },
+    "meta": {
+        "type": "article",
+        "og:type": "article",
+        "section": "progressive web apps",
+        "url": "https://podstr.love2dev.com/",
+        "route": "/"
+    },
+    "subtitle": null,
+    "featured-image": "img/pwa-podstr-logo-600x310.png",
+    "abstract": "Marc Grabanski",
+    "approved": true,
+    "published": 1509053533697,
+    "active": true,
+    "tags": [],
+    "publishedDay": 20,
+    "publishedMonth": 10,
+    "publishedYear": 2117,
+    "collectionId": 382733425,
+    "feedUrl": "http://feeds.feedburner.com/OpenWebDevs",
+    "artwork": {
+        "30": "http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/30x30bb.jpg",
+        "60": "http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/60x60bb.jpg",
+        "100": "http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/100x100bb.jpg",
+        "600": "http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/600x600bb.jpg"
+    },
+    "genres": [
+        "Software How-To",
+        "Podcasts",
+        "Technology",
+        "Tech News",
+        "Podcasting"
+    ],
+    "episodes": [
+        {
+            "slug": "podcast-3-interview-with-nate-abele-of-lithium-php-framework-httpopenwebdeveloperscomp75",
+            "title": "Podcast #3: Interview with Nate Abele of Lithium PHP Framework",
+            "description": "<p><img class=\"size-full wp-image-80 alignleft\" title=\"Nate Abele\" src=\"http://openwebdevelopers.com/wp-content/uploads/4642949350_d603551e3c_z.jpeg\" alt=\"Nate Abele\" width=\"199\" height=\"257\" /> Nate Abele has been pushing the boundaries of desktop and web technologies for over 14 years. As the former lead developer of the most popular framework for the most popular web programming language (<a href=\"http://cakephp.org\">CakePHP</a>), co-founder of the cutting-edge <a href=\"http://lithify.me/\">Lithium PHP framework</a>, and former senior engineer at world-renowend software consultancy OmniTI, Nate has stayed at the forefront of the web, while working with, learning from, and teaching some of the best and brightest in the industry.</p>\n<div>As a renaissance geek, Nate enjoys (in addition to coding), snowboarding, playing guitar, and writing about himself in the third person.</div>\n<p>Get updates from Nate Abele on twitter <a href=\"http://twitter.com/nateabele\">@nateabele</a></p>\n<p>Interviewed by <a href=\"http://marcgrabanski.com/\">Marc Grabanski</a></p>\n<p>Also special thanks to <a href=\"http://www.cannonaccess.com/\">Aaron Cannon</a> for post-editing.</p>\n<img src=\"http://feeds.feedburner.com/~r/OpenWebDevs/~4/0YIXaroJJpg\" height=\"1\" width=\"1\" alt=\"\"/>",
+            "pubdate": "2010-09-07T19:44:58.000Z",
+            "link": "http://feedproxy.google.com/~r/OpenWebDevs/~3/0YIXaroJJpg/",
+            "guid": "http://openwebdevelopers.com/?p=75",
+            "podcast": {
+                "title": "Open Web Developers Podcast – Web Development Inspiration",
+                "description": "Interviews with Developers Who Build Inspiring Things",
+                "image": "http://openwebdevelopers.com/wp-content/uploads/OpenWebDevelopers1.png"
+            }
+        },
+        {
+            "slug": "podcast-2-interview-with-scott-gonzlez-of-jquery-ui-httpopenwebdeveloperscomp38",
+            "title": "Podcast #2: Interview with Scott González of jQuery UI",
+            "description": "<p><img class=\"size-full wp-image-55 alignleft\" style=\"margin: 15px; -webkit-box-shadow: 0px 0px 8px #000; box-shadow: 0px 0px 8px #000;\" title=\"scott-gonzalez\" src=\"http://openwebdevelopers.com/wp-content/uploads/bio-300x280.jpg\" alt=\"\" width=\"185\" height=\"173\" /> Scott González is a full-stack web application developer living in Raleigh, North Carolina. He has been an active contributor to <a href=\"http://jquery.com\">jQuery</a> since 2007 and is currently the development lead for <a href=\"http://jqueryui.com\">jQuery UI</a>, jQuery&#8217;s official user interface library. He is also active in the <a href=\"http://nodejs.org\">node.js</a> and <a href=\"http://whatwg.org\">WHATWG</a> communities.</p>\n<p>Scott <a title=\"Scott González on SpeakerRate\" href=\"http://speakerrate.com/scott.gonzalez\">speaks at various conferences</a>, co-authored the <a href=\"http://oreilly.com/catalog/9780596159788\">jQuery Cookbook</a> published by O&#8217;Reilly, and has written articles for <a href=\"http://jsmag.com\">jsmag</a>. He also publishes tutorials on his personal blog, <a href=\"//nemikor.com\">nemikor.com</a>. To see what Scott&#8217;s currently hacking on, check out his <a title=\"Scott González on GitHub\" href=\"http://github.com/scottgonzalez\">GitHub account</a>.</p>\n<p>Get updates from Scott González on twitter <a href=\"http://twitter.com/scott_gonzalez\">@scott_gonzalez</a><br />\nInterviewed by <a href=\"http://marcgrabanski.com/\">Marc Grabanski</a>, get updates from him on twitter <a href=\"http://twitter.com/1marc\">@1marc</a></p>\n<p>Also special thanks to <a href=\"http://www.cannonaccess.com/\">Aaron Cannon</a> for post-editing.</p>\n<img src=\"http://feeds.feedburner.com/~r/OpenWebDevs/~4/F1pgsnMMK90\" height=\"1\" width=\"1\" alt=\"\"/>",
+            "pubdate": "2010-07-23T01:25:00.000Z",
+            "link": "http://feedproxy.google.com/~r/OpenWebDevs/~3/F1pgsnMMK90/",
+            "guid": "http://openwebdevelopers.com/?p=38",
+            "podcast": {
+                "title": "Open Web Developers Podcast – Web Development Inspiration",
+                "description": "Interviews with Developers Who Build Inspiring Things",
+                "image": "http://openwebdevelopers.com/wp-content/uploads/OpenWebDevelopers1.png"
+            }
+        },
+        {
+            "slug": "podcast-1-interview-with-christopher-schmitt-httpopenwebdeveloperscomp28",
+            "title": "Podcast #1: Interview with Christopher Schmitt",
+            "description": "<p><img class=\"size-full wp-image-55 alignleft\" style=\"margin: 15px; -moz-box-shadow: 0px 0px 8px #000; -webkit-box-shadow: 0px 0px 8px #000; box-shadow: 0px 0px 8px #000;\" title=\"christopher-schmitt-avatar\" src=\"http://openwebdevelopers.com/wp-content/uploads/christopher-schmitt-avatar.png\" alt=\"\" width=\"235\" height=\"177\" />Our first podcast episode is with <a href=\"http://christopherschmitt.com/\">Christopher Schmitt</a>, the founder of <a href=\"http://heatvision.com/\">Heat Vision</a>, a small new media publishing and design firm, Christopher is an award-winning Web designer who has been working with the Web since 1993.</p>\n<p>As a sought-after speaker and trainer, Christopher regularly demonstrates the use and benefits of practical standards-based designs. He is Co-Lead of the Adobe Task Force for the <a href=\"http://www.webstandards.org/\">Web Standards Project (WaSP)</a> in addition to being a contributing member of its Education Task Force</p>\n<p>Author of numerous Web design and digital imaging books, including <cite>Adapting to Web Standards: CSS and Ajax for Big Sites</cite> and <cite>CSS Cookbook</cite>, Christopher has also written for New Architect Magazine, A List Apart, Digital Web, and Web Reference.</p>\n<p>He is the co-founder of <a href=\"http://environmentsforhumans.com/\">Environments for Humans</a> which puts on the upcoming online conferences CSS Summit and iPhone iPad Summit and other web development related topics.</p>\n<p>Get updates from Chris on twitter <a href=\"http://twitter.com/teleject\">@teleject</a><br />\nInterviewed by <a href=\"http://marcgrabanski.com/\">Marc Grabanski</a>, get updates from him on twitter <a href=\"http://twitter.com/1marc\">@1marc</a></p>\n<p>Also special thanks to <a href=\"http://www.cannonaccess.com/\">Aaron Cannon</a> for post-editing.</p>\n<img src=\"http://feeds.feedburner.com/~r/OpenWebDevs/~4/khmtppgEqZY\" height=\"1\" width=\"1\" alt=\"\"/>",
+            "pubdate": "2010-07-16T00:21:19.000Z",
+            "link": "http://feedproxy.google.com/~r/OpenWebDevs/~3/khmtppgEqZY/",
+            "guid": "http://openwebdevelopers.com/?p=28",
+            "podcast": {
+                "title": "Open Web Developers Podcast – Web Development Inspiration",
+                "description": "Interviews with Developers Who Build Inspiring Things",
+                "image": "http://openwebdevelopers.com/wp-content/uploads/OpenWebDevelopers1.png"
+            }
+        },
+        {
+            "slug": "announcing-open-web-developers-podcast-httpopenwebdeveloperscomp8",
+            "title": "Announcing Open Web Developers Podcast",
+            "description": "<p>Hey! <a href=\"http://marcgrabanski.com\">Marc Grabanski</a> here announcing a new podcast called <strong>Open Web Developers</strong>.</p>\n<p>The reason I&#8217;m creating Open Web Developers is to interview people who are <em>building inspiring things on the web.</em></p>\n<p>We&#8217;ve got a great lineup of guests over the next few weeks including:</p>\n<ul>\n<li><a href=\"http://christopherschmitt.com/\">Christopher Schmitt </a>&#8211; Creator of many online conferences such as CSS Summit, iPhone/iPad Summit and jQuery Summit. Author of CSS Cookbook, Adapting to Web Standards and Professional CSS.</li>\n<li><a href=\"http://blog.nemikor.com/\">Scott Gonzalez</a> &#8211; <a href=\"http://jqueryui.com\">jQuery UI</a> Lead Developer</li>\n<li><a href=\"http://snook.ca/\">Jonathan Snook</a> &#8211; Yahoo! Engineer. Author of Accelerated DOM Scripting with Ajax, APIs, and Libraries, and The Art and Science of CSS.</li>\n<li><a href=\"http://paulirish.com\">Paul Irish</a> &#8211; Google Chrome Developer Relations and jQuery team member. Developer of Modernizr and CSS3 Please,<br />\nand a host on the yayQuery Podcast.</li>\n<li><a href=\"http://twitter.com/nateabele\">Nate Abele</a> &#8211; Creator of the <a href=\"http://lithify.me/\">Lithium PHP Framework</a></li>\n<li><a href=\"http://lithify.me/\"></a><a href=\"http://yehudakatz.com/\">Yehuda Katz</a> &#8211; Rails 3 core developer and jQuery core developer. Author of jQuery in Action.</li>\n</ul>\n<p>If you have any developers you think are doing interesting things in web development and would like me to interview them, please nominate them in the comments. Also if you have any questions or suggestions for the show please leave a comment.</p>\n<img src=\"http://feeds.feedburner.com/~r/OpenWebDevs/~4/DfF7ex0j7Lg\" height=\"1\" width=\"1\" alt=\"\"/>",
+            "pubdate": "2010-07-14T02:15:39.000Z",
+            "link": "http://feedproxy.google.com/~r/OpenWebDevs/~3/DfF7ex0j7Lg/",
+            "guid": "http://openwebdevelopers.com/?p=8",
+            "podcast": {
+                "title": "Open Web Developers Podcast – Web Development Inspiration",
+                "description": "Interviews with Developers Who Build Inspiring Things",
+                "image": "http://openwebdevelopers.com/wp-content/uploads/OpenWebDevelopers1.png"
+            }
+        }
+    ]
+}

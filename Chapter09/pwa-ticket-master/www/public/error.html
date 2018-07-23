@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <base href="/">
+    <!-- Stylesheets -->
+    <link href="css/libs/bootstrap.min.css" rel="stylesheet">
+    <link href="css/libs/fontawesome-all.css" rel="stylesheet">
+    <link href="css/app/site.css" rel="stylesheet">
+    <title>PWA Tickets | Server Error!</title>
+    <meta name="description" content="{{title}}">
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link href="favicon.png" rel="shortcut icon">
+
+    <!-- social networking -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="PWA Tickets">
+    <meta property="og:description" content="Find the Sessions You Want at the 2018 Philly Code Camp">
+    <meta property="og:url" content="Sat, 17 Mar 2018 20:28:34 GMT">
+    <meta property="og:site_name" content="Love2Dev">
+    <meta property="article:publisher" content="https://www.facebook.com/love2dev/">
+    <meta property="article:section" content="main">
+    <meta property="article:published_time" content="Sat, 17 Mar 2018 20:28:34 GMT">
+    <meta property="article:modified_time" content="Sat, 17 Mar 2018 20:28:34 GMT">
+    <meta property="og:updated_time" content="Sat, 17 Mar 2018 20:28:34 GMT">
+    <meta property="og:image" content="meta/Square310x310Logo.scale-100.png">
+    <meta property="og:image:width" content="310">
+    <meta property="og:image:height" content="310">
+    <meta property="twitter:account_id" content="5658652" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="Find the Sessions You Want at the 2018 Philly Code Camp">
+    <meta name="twitter:title" content="PWA Tickets">
+    <meta name="twitter:site" content="@ChrisLove">
+    <meta name="twitter:image" content="meta/Square310x310Logo.scale-100.png">
+    <meta name="twitter:creator" content="@ChrisLove">
+
+    <!-- Web Application Manifest -->
+    <link href="manifest.json" rel="manifest">
+    <link href="humans.txt" rel="author">
+</head>
+
+<body>
+
+    <div class="navbar navbar-expand-lg navbar-light bg-light fixed-top " role="navigation">
+        <div class="navbar-header">
+            <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div>
+            <a class="navbar-brand floar-right" href="/">
+                <img src="img/phillydotnet.png" alt="PWA Tickets" class="navbar-logo">
+            </a>
+        </div>
+    </div>
+
+    <div class="page-content">
+        <h1>Something Blew Up!!!</h1>
+    </div>
+
+    <aside class="navigation-panel">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form class="form-search form-horizontal">
+                        <div class="form-group">
+                            <input type="search" class="search-query" placeholder="Search">
+                            <button type="submit" class="btn">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="facet">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="checkbox" name="cb0830">
+                        <label for="cb0830" value="08:30" class="big-check">8:30</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="checkbox" name="cb1000">
+                        <label for="cb1000" value="10:00" class="big-check">10:00</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="checkbox" name="cb1130">
+                        <label for="cb1130" value="11:30" class="big-check">11:30</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="checkbox" name="cb1200">
+                        <label for="cb1200" value="12:00" class="big-check">12:00</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="checkbox" name="cb1330">
+                        <label for="cb1330" value="13:30" class="big-check">1:30</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="checkbox" name="cb1500">
+                        <label for="cb1500" value="15:00" class="big-check">3:00</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-center">
+                <button class="btn btn-light btn-my-sessions">My Sessions</button>
+            </div>
+        </div>
+    </aside>
+
+    <script type="script-polyfil" id="polyfilassign" src="js/libs/polyfils/object.assign.js"></script>
+    <script type="script-polyfil" id="polyfilpromise" src="js/libs/polyfils/es6-promise.min.js"></script>
+    <script type="script-polyfil" id="polyfilfetch" src="js/libs/polyfils/fetch.js"></script>
+
+    <script>
+
+        //wrap in IIFE to keep out of global scope
+        (function () {
+
+            function toggleScript(id) {
+
+                var target = document.getElementById("polyfil" + id);
+
+                target.setAttribute("type", "text/javascript");
+
+            }
+
+            if (typeof Object.assign != 'function') {
+
+                toggleScript("assign");
+
+            }
+
+            if (typeof Promise === "undefined" || Promise.toString().indexOf("[native code]") === -1) {
+
+                toggleScript("promise");
+
+            }
+
+            if (typeof fetch === "undefined" || fetch.toString().indexOf("[native code]") === -1) {
+
+                toggleScript("fetch");
+
+            }
+
+        }());
+    </script>
+
+    <script src="js/libs/utils.js"></script>
+    <script src="js/libs/localforage.min.js"></script>
+    <script src="js/libs/mustache.min.js"></script>
+    <script src="js/app/sessions.js"></script>
+    <script src="js/app/ui/session-filter.js"></script>
+    <script src="js/app/app.js"></script>
+
+</body>
+
+</html>

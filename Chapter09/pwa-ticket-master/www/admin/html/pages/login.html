@@ -1,0 +1,37 @@
+<div class="login-form">
+    <header class="text-center">
+        <div class="brand-logo">
+            <img src="img/coreauth-key-hole-text-white.png" alt="CoreAuth" />
+        </div>
+        <div class="loader" hidden>
+            <img src="images/smile.gif" alt="CoreAuth" />
+        </div>
+       
+    </header>
+
+    <form class="col s12 loginform" method="post">
+        <div class='row'>
+            <div class='input-field col s12'>
+                <i class="fa fa-user prefix"></i>
+                <input class='validate' type='email' name='Username' autofocus />
+                <label for='Username'>Enter your email</label>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='input-field col s12'>
+                <i class="fa fa-lock prefix"></i>
+
+                <input class='validate' type='password' name='Password' />
+                <label for='Password'>Enter your password</label>
+            </div>
+        </div>
+        <div class="row">
+            <a class="mdl-button" href='login/password/recover/'>Forgot Password</a>
+        </div>
+        <div class='row'>
+            <a href="signup/" class="mdl-button">Create account</a>
+            <button type='submit' name='btn_login' class="btn btn-large btn-login  btn-primary right">Login</button>
+        </div>
+        <div class="row flex-container flex-around auth-providers"></div>
+    </form>
+</div>

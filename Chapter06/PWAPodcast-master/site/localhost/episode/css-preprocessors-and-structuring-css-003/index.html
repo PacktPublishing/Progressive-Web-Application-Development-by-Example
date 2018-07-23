@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <base href="http://localhost:57662/">
+    <!-- Stylesheets -->
+    <link href="css/libs/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/libs/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href="css/app/site.css" rel="stylesheet">
+
+    <title>CSS Preprocessors and Structuring CSS - 003</title>
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="PWA Pdstr">
+    <link rel="icon" sizes="192x192" href="meta/e75c99a5-4362-760a-8519-25dd4b1ae7e7.webPlatform.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Pdstr">
+    <link rel="apple-touch-icon" href="meta/4eb56734-e805-4709-14d3-907549c2db2e.webPlatform.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="meta/4eb56734-e805-4709-14d3-907549c2db2e.webPlatform.png">
+    <meta name="msapplication-TileColor" content="#ED7D31">
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#F6911E">
+    <meta name="description" content="Podstr">
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link href="favicon.png" rel="shortcut icon">
+    <link href="humans.txt" rel="author">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a href="/" class="navbar-brand">
+            <img src="img/pwa-podstr-logo-144x70.png" alt="PWA Pdstr" class="img-responsive">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="podcasts/">Podcasts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="listenlater/">Listen Later</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="config/">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 flex-nowrap">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <main class="main-content container-fluid" role="main">
+        <div class="container">  <div class="row">
+    <div class="card">
+      <img src="http://static.libsyn.com/p/assets/7/9/0/7/790703531a3c8eca/iTunes_Artwork.png" alt="CSS Preprocessors and Structuring CSS - 003" class="card-img-top">
+      <div class="card-body">
+        <h3 class="card-title">CSS Preprocessors and Structuring CSS - 003</h3>
+      </div>
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </div>
+  </div>
+  <div class="row">
+    <audio src="https://api.spreaker.com/download/episode/8734727/ep105_mixdown.mp3" controls="controls"></audio>
+  </div>
+  <div class="row">
+    <p>Show Notes <ul> <li><a href="http://wesbos.com/">WesBos Website</a></li> <li><a href="https://leveluptutorials.com/">Level Up Tutorials</a></li> <li><a href="http://graphql.org/">GraphQL</a></li> <li><a href="https://dinosaurjs.org/">Dinosaur JS Conference</a></li> <li><a href="https://angular.io/">Angular</a></li> <li><a href="https://pugjs.org/api/getting-started.html">Pug / Jade</a></li> <li><a href="http://www.embeddedjs.com/">EJS</a></li> <li><a href="https://en.bem.info/methodology/">BEM Methodology</a></li> <li><a href="http://stylus-lang.com/">Stylus</a></li> <li><a href="http://jescalan.github.io/rupture/">Rupture</a></li> <li><a href="http://lesscss.org/">Less</a></li> <li><a href="http://sass-lang.com/">Sass</a></li> <li><a href="http://postcss.org/">PostCSS</a></li> <li><a href="https://github.com/postcss/autoprefixer">PostCSS Autoprefixer</a></li> <li><a href= "https://simplaio.github.io/rucksack/">RuckSack</a></li> <li><a href="http://cssnext.io/">cssnext</a></li> <li><a href="http://lostgrid.org/">LostGrid</a></li> <li><a href="http://getbootstrap.com/">Bootstrap</a></li> <li><a href="http://haml.info/">Haml</a></li> <li><a href="https://babeljs.io/">Babel</a></li> <li><a href="https://flickity.metafizzy.co/">Flickity Plugin</a></li> <li><a href="https://webpack.js.org/">webpack</a></li> <li><a href="http://compass-style.org/">Compass</a></li> <li><a href="https://facebook.github.io/react/">React</a></li> </ul> <a id="user-content-sick-picks" class="anchor" href= "https://github.com/wesbos/Syntax/blob/master/shows/003%20-%20CSS%20Preprocessors%20and%20Structuring%20CSS.md#sick-picks" name="user-content-sick-picks"></a>Sick Picks <a id="user-content-bartender-2" class="anchor" href= "https://github.com/wesbos/Syntax/blob/master/shows/003%20-%20CSS%20Preprocessors%20and%20Structuring%20CSS.md#bartender-2" name="user-content-bartender-2"></a><a href= "https://www.macbartender.com/">Bartender 2</a> <p>Lets you organize your menu bar apps, by hiding them, rearranging them, or moving them to the Bartender Bar.</p> <a id="user-content-vanilla" class="anchor" href= "https://github.com/wesbos/Syntax/blob/master/shows/003%20-%20CSS%20Preprocessors%20and%20Structuring%20CSS.md#vanilla" name="user-content-vanilla"></a><a href= "http://matthewpalmer.net/vanilla/">Vanilla</a> <p>Hide menu bar icons on your Mac.</p> <a id="user-content-power-blocks" class="anchor" href= "https://github.com/wesbos/Syntax/blob/master/shows/003%20-%20CSS%20Preprocessors%20and%20Structuring%20CSS.md#power-blocks" name="user-content-power-blocks"></a><a href= "http://www.powerblock.com/">Power Blocks</a> <p>One set of Power Block replaces racks of dumbbells</p> <a id="user-content-shameless-plugs" class="anchor" href= "https://github.com/wesbos/Syntax/blob/master/shows/003%20-%20CSS%20Preprocessors%20and%20Structuring%20CSS.md#shameless-plugs" name="user-content-shameless-plugs"></a>Shameless Plugs <a id="user-content-javascript30" class="anchor" href= "https://github.com/wesbos/Syntax/blob/master/shows/003%20-%20CSS%20Preprocessors%20and%20Structuring%20CSS.md#javascript30" name="user-content-javascript30"></a><a href= "https://javascript30.com/">JavaScript30</a> <p>A Free 30 Day Vanilla JS Coding Challenge Course. Build 30 things in 30 days with 30 tutorials. No Frameworks No Compilers No Libraries No Boilerplate. Join 101,746 others.</p> <a id= "user-content-the-sketch-course--ux-prototyping-with-principle-combo" class="anchor" href= "https://github.com/wesbos/Syntax/blob/master/shows/003%20-%20CSS%20Preprocessors%20and%20Structuring%20CSS.md#the-sketch-course--ux-prototyping-with-principle-combo" name= "user-content-the-sketch-course--ux-prototyping-with-principle-combo"> </a><a href= "https://store.leveluptutorials.com/products/tutorials/lut-dd013008">The Sketch Course & UX Prototyping with Principle Combo</a> <p>Limited Sale Price: $39.99 $49.99</p> <p>Learn the new industry standard for web design. Become an expert in the app that is changing how designers work in the modern web and app design world.</p> <p><em>Animate Your Ideas, Design Better Apps</em></p> <p>Principle makes it easy to design animated and interactive user interfaces. Whether you're designing the flow of a multi-screen app, or new interactions and animations, Principle lets you create designs that look and feel amazing.</p> <a id="user-content-twitter" class="anchor" href= "https://github.com/wesbos/Syntax/blob/master/shows/003%20-%20CSS%20Preprocessors%20and%20Structuring%20CSS.md#twitter" name="user-content-twitter"></a>Twitter <ul> <li><a href="https://twitter.com/wesbos">Wes Bos</a></li> <li><a href="https://twitter.com/stolinski">Scott Tolinski</a></li> </ul></p>
+  </div>
+</div>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <!-- edit footer logo here -->
+                    <a href="#" class="logo col-sm-8">
+                        <img src="img/pwa-podstr-logo-144x70.png" class="img-responsive" alt="PWA Pdstr">
+                    </a>
+                    <div class="col-sm-12 text">
+                        <p>
+                            <i class="fa fa-map-pin"></i> 354 MAIN STREET | ANYTOWN USA | 11111</p>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:9192515067">Phone : (919) 251-5067</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i> E-mail :
+                            <a href="mailto:info@love2dev.com">info@love2dev.com</a>
+                        </p>
+                    </div>
+                    <span class="col-sm-12 social-wrapper circle">
+                        <a href="http://twitter.com/chrislove" class="social-icon fa fa-twitter"></a>
+                        <a href="https://www.facebook.com/love2dev/" class="social-icon fa fa-facebook"></a>
+                        <a target="_blank" href="https://plus.google.com/b/110904107389779237581/?pageId=110904107389779237581">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/love2dev">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UC3mfh2MN-5D-zOyiRLp9H6g">
+                            <i class="fa fa-youtube-play"></i>
+                        </a>
+                        <a target="_blank" href="https://www.pinterest.com/docluv/">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="footer-content">
+                        <h2>Links</h2>
+                        <nav>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li>
+                                    <a href="podcasts/">Podcasts</a>
+                                </li>
+                                <li>
+                                    <a href="listenlater/">Listen Later</a>
+                                </li>
+                                <li>
+                                    <a href="search/">Search</a>
+                                </li>
+                                <li>
+                                    <a href="config/">Config</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var scripts = ["js/libs/jquery.small.js",
+            "js/libs/index.js",
+            "js/libs/collapse.js",
+            "js/libs/util.js",
+            "js/app/app.js",
+            "js/app/episode&#x2F;css-preprocessors-and-structuring-css-003.js"
+        ];
+    </script>
+
+    <script src="js/app/app.bootstrap.js"></script>
+</body>
+
+</html>

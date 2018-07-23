@@ -1,0 +1,102 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "PWA Podstr",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "/",
+    "short_name": "Podstr",
+    "theme_color": "transparent",
+    "description": "A PWA Podcast Example App",
+    "orientation": "any",
+    "background_color": "#fff",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/meta/d797f406-9dd4-2d1a-136a-3b3b6293ff3f.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/8a095b89-d30b-6692-8f45-709030e762ef.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/c4c0c845-74e1-7950-e2af-baac08390270.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/68d8a7b9-2baf-b10a-6152-fd2bbf70da61.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/e415ed96-8d34-e0bb-8c94-3ac80c593052.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/fb6ba5f8-b92a-710d-a5df-b6b9540dfe70.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/d79f0f0b-5321-90d8-da5f-353f3e66f267.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/e75c99a5-4362-760a-8519-25dd4b1ae7e7.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/4eb56734-e805-4709-14d3-907549c2db2e.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/3c6e98a7-65cc-6e36-7a24-c5bfdf8e0d20.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/4a3cfbf8-8c6d-3d47-1569-7dd8397ae8ad.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/9b55105d-5e71-f3a7-a392-80c9a43c562c.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/796c93de-7bfe-4688-a485-4cb9b2ba1f50.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/35053605-a0d1-250e-ecbb-828a542ae972.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/abc3522d-1d7c-b3c4-4281-1e272d7c613f.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/1147ada8-9fd1-0ce3-6d58-99a2f5647951.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/meta/15e729f5-5da9-58a2-b18d-ee6b562f2c40.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}

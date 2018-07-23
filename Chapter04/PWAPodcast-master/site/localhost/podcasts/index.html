@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <base href="http://localhost:57662/">
+    <!-- Stylesheets -->
+    <link href="css/libs/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/libs/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href="css/app/site.css" rel="stylesheet">
+
+    <title>Podstr - A PWA Podcast Demonstration App</title>
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="PWA Pdstr">
+    <link rel="icon" sizes="192x192" href="meta/e75c99a5-4362-760a-8519-25dd4b1ae7e7.webPlatform.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Pdstr">
+    <link rel="apple-touch-icon" href="meta/4eb56734-e805-4709-14d3-907549c2db2e.webPlatform.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="meta/4eb56734-e805-4709-14d3-907549c2db2e.webPlatform.png">
+    <meta name="msapplication-TileColor" content="#ED7D31">
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#F6911E">
+    <meta name="description" content="Podstr">
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link href="favicon.png" rel="shortcut icon">
+    <link href="humans.txt" rel="author">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a href="/" class="navbar-brand">
+            <img src="img/pwa-podstr-logo-144x70.png" alt="PWA Pdstr" class="img-responsive">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="podcasts/">Podcasts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="listenlater/">Listen Later</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="config/">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 flex-nowrap">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <main class="main-content container-fluid" role="main">
+        <h1 class="display-6 text-center">Podstr Podcasts</h1>
+        <div class="podcast-list card-group">
+            <div class="card">
+                <a href="podcast/syntax-tasty-web-development-treats">
+                    <img srcset="http://is1.mzstatic.com/image/thumb/Music117/v4/40/e5/ef/40e5ef3c-f5b9-20df-14cc-e5c38d50a8da/source/30x30bb.jpg 30w, http://is1.mzstatic.com/image/thumb/Music117/v4/40/e5/ef/40e5ef3c-f5b9-20df-14cc-e5c38d50a8da/source/60x60bb.jpg 60w, http://is1.mzstatic.com/image/thumb/Music117/v4/40/e5/ef/40e5ef3c-f5b9-20df-14cc-e5c38d50a8da/source/100x100bb.jpg 100w, http://is1.mzstatic.com/image/thumb/Music117/v4/40/e5/ef/40e5ef3c-f5b9-20df-14cc-e5c38d50a8da/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is1.mzstatic.com/image/thumb/Music117/v4/40/e5/ef/40e5ef3c-f5b9-20df-14cc-e5c38d50a8da/source/600x600bb.jpg"
+                        alt="Syntax - Tasty Web Development Treats" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Syntax - Tasty Web Development Treats</h3>
+                        <p class="card-text">Wes Bos & Scott Tolinski - Full Stack JavaScript Web Developers</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/start-here-web-development">
+                    <img srcset="http://is2.mzstatic.com/image/thumb/Music128/v4/f2/04/cc/f204cc38-282f-8089-4b6c-f18f3548f1af/source/30x30bb.jpg 30w, http://is2.mzstatic.com/image/thumb/Music128/v4/f2/04/cc/f204cc38-282f-8089-4b6c-f18f3548f1af/source/60x60bb.jpg 60w, http://is2.mzstatic.com/image/thumb/Music128/v4/f2/04/cc/f204cc38-282f-8089-4b6c-f18f3548f1af/source/100x100bb.jpg 100w, http://is2.mzstatic.com/image/thumb/Music128/v4/f2/04/cc/f204cc38-282f-8089-4b6c-f18f3548f1af/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is2.mzstatic.com/image/thumb/Music128/v4/f2/04/cc/f204cc38-282f-8089-4b6c-f18f3548f1af/source/600x600bb.jpg"
+                        alt="Start Here: Web Development" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Start Here: Web Development</h3>
+                        <p class="card-text">Dain Miller & StartHere.FM</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/codewinds-leading-edge-web-developer-news-and-training-javascript-reactjs-nodejs-html5-web-development-jeff-bar">
+                    <img srcset="http://is2.mzstatic.com/image/thumb/Music62/v4/54/d6/cc/54d6cc46-06cf-d7db-b97c-f8549e3d624c/source/30x30bb.jpg 30w, http://is2.mzstatic.com/image/thumb/Music62/v4/54/d6/cc/54d6cc46-06cf-d7db-b97c-f8549e3d624c/source/60x60bb.jpg 60w, http://is2.mzstatic.com/image/thumb/Music62/v4/54/d6/cc/54d6cc46-06cf-d7db-b97c-f8549e3d624c/source/100x100bb.jpg 100w, http://is2.mzstatic.com/image/thumb/Music62/v4/54/d6/cc/54d6cc46-06cf-d7db-b97c-f8549e3d624c/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is2.mzstatic.com/image/thumb/Music62/v4/54/d6/cc/54d6cc46-06cf-d7db-b97c-f8549e3d624c/source/600x600bb.jpg"
+                        alt="CodeWinds - Leading edge web developer news and training | javascript &#x2F; React.js &#x2F; Node.js &#x2F; HTML5 &#x2F; web development - Jeff Bar"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">CodeWinds - Leading edge web developer news and training | javascript &#x2F; React.js &#x2F; Node.js
+                            &#x2F; HTML5 &#x2F; web development - Jeff Bar</h3>
+                        <p class="card-text">Jeff Barczewski</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/the-back-to-front-show">
+                    <img srcset="http://is1.mzstatic.com/image/thumb/Music127/v4/15/9e/5a/159e5ada-9ea9-0030-2c92-837abaff7b4d/source/30x30bb.jpg 30w, http://is1.mzstatic.com/image/thumb/Music127/v4/15/9e/5a/159e5ada-9ea9-0030-2c92-837abaff7b4d/source/60x60bb.jpg 60w, http://is1.mzstatic.com/image/thumb/Music127/v4/15/9e/5a/159e5ada-9ea9-0030-2c92-837abaff7b4d/source/100x100bb.jpg 100w, http://is1.mzstatic.com/image/thumb/Music127/v4/15/9e/5a/159e5ada-9ea9-0030-2c92-837abaff7b4d/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is1.mzstatic.com/image/thumb/Music127/v4/15/9e/5a/159e5ada-9ea9-0030-2c92-837abaff7b4d/source/600x600bb.jpg"
+                        alt="The Back to Front Show" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">The Back to Front Show</h3>
+                        <p class="card-text">Keir Whitaker and Kieran Masterton discuss web design, web development and startups</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/web-development-fundamentals-soft6007-dcom1">
+                    <img srcset="http://is5.mzstatic.com/image/thumb/Music4/v4/ef/cb/c6/efcbc6fd-49a1-cc83-eee5-55a1fb55dae5/source/30x30bb.jpg 30w, http://is5.mzstatic.com/image/thumb/Music4/v4/ef/cb/c6/efcbc6fd-49a1-cc83-eee5-55a1fb55dae5/source/60x60bb.jpg 60w, http://is5.mzstatic.com/image/thumb/Music4/v4/ef/cb/c6/efcbc6fd-49a1-cc83-eee5-55a1fb55dae5/source/100x100bb.jpg 100w, http://is5.mzstatic.com/image/thumb/Music4/v4/ef/cb/c6/efcbc6fd-49a1-cc83-eee5-55a1fb55dae5/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is5.mzstatic.com/image/thumb/Music4/v4/ef/cb/c6/efcbc6fd-49a1-cc83-eee5-55a1fb55dae5/source/600x600bb.jpg"
+                        alt="Web Development Fundamentals - SOFT6007 Dcom1" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Web Development Fundamentals - SOFT6007 Dcom1</h3>
+                        <p class="card-text">Colin Manning</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/syscast-talking-linux-open-source-web-development-and-system-administration-devops">
+                    <img srcset="http://is3.mzstatic.com/image/thumb/Music62/v4/2f/be/73/2fbe73ce-1ed3-9c52-c3ec-861e376f8e25/source/30x30bb.jpg 30w, http://is3.mzstatic.com/image/thumb/Music62/v4/2f/be/73/2fbe73ce-1ed3-9c52-c3ec-861e376f8e25/source/60x60bb.jpg 60w, http://is3.mzstatic.com/image/thumb/Music62/v4/2f/be/73/2fbe73ce-1ed3-9c52-c3ec-861e376f8e25/source/100x100bb.jpg 100w, http://is3.mzstatic.com/image/thumb/Music62/v4/2f/be/73/2fbe73ce-1ed3-9c52-c3ec-861e376f8e25/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is3.mzstatic.com/image/thumb/Music62/v4/2f/be/73/2fbe73ce-1ed3-9c52-c3ec-861e376f8e25/source/600x600bb.jpg"
+                        alt="Syscast: talking linux, open source, web development and system administration (DevOps)" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Syscast: talking linux, open source, web development and system administration (DevOps)</h3>
+                        <p class="card-text">Mattias Geniar - Sysadmin, Developer, Geek</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/web-development-fundamentals-soft6007-com1">
+                    <img srcset="http://is2.mzstatic.com/image/thumb/Music/v4/b3/84/50/b38450b9-6063-35a6-70e4-d1d2259f96c8/source/30x30bb.jpg 30w, http://is2.mzstatic.com/image/thumb/Music/v4/b3/84/50/b38450b9-6063-35a6-70e4-d1d2259f96c8/source/60x60bb.jpg 60w, http://is2.mzstatic.com/image/thumb/Music/v4/b3/84/50/b38450b9-6063-35a6-70e4-d1d2259f96c8/source/100x100bb.jpg 100w, http://is2.mzstatic.com/image/thumb/Music/v4/b3/84/50/b38450b9-6063-35a6-70e4-d1d2259f96c8/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is2.mzstatic.com/image/thumb/Music/v4/b3/84/50/b38450b9-6063-35a6-70e4-d1d2259f96c8/source/600x600bb.jpg"
+                        alt="Web Development Fundamentals - SOFT6007 Com1" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Web Development Fundamentals - SOFT6007 Com1</h3>
+                        <p class="card-text">Colin Manning</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/ocdevel-web-development-podcast">
+                    <img srcset="http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/30x30bb.jpg 30w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/60x60bb.jpg 60w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/100x100bb.jpg 100w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/600x600bb.jpg"
+                        alt="OCDevel Web Development Podcast" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">OCDevel Web Development Podcast</h3>
+                        <p class="card-text">OCDevel</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/relative-paths-web-development-and-stuff-like-that">
+                    <img srcset="http://is4.mzstatic.com/image/thumb/Music62/v4/b6/d8/b2/b6d8b2d5-4ca0-d8b2-01ac-85dd878fffb9/source/30x30bb.jpg 30w, http://is4.mzstatic.com/image/thumb/Music62/v4/b6/d8/b2/b6d8b2d5-4ca0-d8b2-01ac-85dd878fffb9/source/60x60bb.jpg 60w, http://is4.mzstatic.com/image/thumb/Music62/v4/b6/d8/b2/b6d8b2d5-4ca0-d8b2-01ac-85dd878fffb9/source/100x100bb.jpg 100w, http://is4.mzstatic.com/image/thumb/Music62/v4/b6/d8/b2/b6d8b2d5-4ca0-d8b2-01ac-85dd878fffb9/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is4.mzstatic.com/image/thumb/Music62/v4/b6/d8/b2/b6d8b2d5-4ca0-d8b2-01ac-85dd878fffb9/source/600x600bb.jpg"
+                        alt="Relative Paths | Web Development and stuff like that" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Relative Paths | Web Development and stuff like that</h3>
+                        <p class="card-text">Mark Phoenix and Ben Hutchings</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/joomla-beat-podcast-web-design-development-online-marketing-social-media-website-management">
+                    <img srcset="http://is5.mzstatic.com/image/thumb/Music62/v4/c2/18/17/c21817d9-a1b3-8057-63ac-51410e39dc3c/source/30x30bb.jpg 30w, http://is5.mzstatic.com/image/thumb/Music62/v4/c2/18/17/c21817d9-a1b3-8057-63ac-51410e39dc3c/source/60x60bb.jpg 60w, http://is5.mzstatic.com/image/thumb/Music62/v4/c2/18/17/c21817d9-a1b3-8057-63ac-51410e39dc3c/source/100x100bb.jpg 100w, http://is5.mzstatic.com/image/thumb/Music62/v4/c2/18/17/c21817d9-a1b3-8057-63ac-51410e39dc3c/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is5.mzstatic.com/image/thumb/Music62/v4/c2/18/17/c21817d9-a1b3-8057-63ac-51410e39dc3c/source/600x600bb.jpg"
+                        alt="Joomla Beat Podcast | Web design, development, online marketing, social media & website management"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Joomla Beat Podcast | Web design, development, online marketing, social media & website management</h3>
+                        <p class="card-text">Peter Bui - Joomla consultant</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/interactive-web-development-soft6008">
+                    <img srcset="http://is4.mzstatic.com/image/thumb/Music/v4/2b/fc/15/2bfc1505-7d49-3d4d-31f8-a48e5c52c855/source/30x30bb.jpg 30w, http://is4.mzstatic.com/image/thumb/Music/v4/2b/fc/15/2bfc1505-7d49-3d4d-31f8-a48e5c52c855/source/60x60bb.jpg 60w, http://is4.mzstatic.com/image/thumb/Music/v4/2b/fc/15/2bfc1505-7d49-3d4d-31f8-a48e5c52c855/source/100x100bb.jpg 100w, http://is4.mzstatic.com/image/thumb/Music/v4/2b/fc/15/2bfc1505-7d49-3d4d-31f8-a48e5c52c855/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is4.mzstatic.com/image/thumb/Music/v4/2b/fc/15/2bfc1505-7d49-3d4d-31f8-a48e5c52c855/source/600x600bb.jpg"
+                        alt="Interactive Web Development - SOFT6008" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Interactive Web Development - SOFT6008</h3>
+                        <p class="card-text">Colin Manning</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/open-web-developers-podcast-web-development-inspiration">
+                    <img srcset="http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/30x30bb.jpg 30w, http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/60x60bb.jpg 60w, http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/100x100bb.jpg 100w, http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is4.mzstatic.com/image/thumb/Music/v4/6c/63/16/6c631648-c051-6575-44e8-820f920b9f22/source/600x600bb.jpg"
+                        alt="Open Web Developers Podcast – Web Development Inspiration" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Open Web Developers Podcast – Web Development Inspiration</h3>
+                        <p class="card-text">Marc Grabanski</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/your-money-matters-podcasts">
+                    <img srcset="http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/30x30bb.jpg 30w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/60x60bb.jpg 60w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/100x100bb.jpg 100w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/600x600bb.jpg"
+                        alt="Your Money Matters PodCasts" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Your Money Matters PodCasts</h3>
+                        <p class="card-text">CU Village.com Web Development</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/web-design-therapy">
+                    <img srcset="http://is3.mzstatic.com/image/thumb/Music62/v4/e7/f2/0d/e7f20d70-9d27-c3c5-8274-9b1a29457970/source/30x30bb.jpg 30w, http://is3.mzstatic.com/image/thumb/Music62/v4/e7/f2/0d/e7f20d70-9d27-c3c5-8274-9b1a29457970/source/60x60bb.jpg 60w, http://is3.mzstatic.com/image/thumb/Music62/v4/e7/f2/0d/e7f20d70-9d27-c3c5-8274-9b1a29457970/source/100x100bb.jpg 100w, http://is3.mzstatic.com/image/thumb/Music62/v4/e7/f2/0d/e7f20d70-9d27-c3c5-8274-9b1a29457970/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is3.mzstatic.com/image/thumb/Music62/v4/e7/f2/0d/e7f20d70-9d27-c3c5-8274-9b1a29457970/source/600x600bb.jpg"
+                        alt="Web Design Therapy" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Web Design Therapy</h3>
+                        <p class="card-text">Web Design Development Agency business advice</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/this-week-in-web-development">
+                    <img srcset="http://is5.mzstatic.com/image/thumb/Music/v4/bd/cb/9a/bdcb9a41-64be-1355-e3bd-ff9e77be0c9c/source/30x30bb.jpg 30w, http://is5.mzstatic.com/image/thumb/Music/v4/bd/cb/9a/bdcb9a41-64be-1355-e3bd-ff9e77be0c9c/source/60x60bb.jpg 60w, http://is5.mzstatic.com/image/thumb/Music/v4/bd/cb/9a/bdcb9a41-64be-1355-e3bd-ff9e77be0c9c/source/100x100bb.jpg 100w, http://is5.mzstatic.com/image/thumb/Music/v4/bd/cb/9a/bdcb9a41-64be-1355-e3bd-ff9e77be0c9c/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is5.mzstatic.com/image/thumb/Music/v4/bd/cb/9a/bdcb9a41-64be-1355-e3bd-ff9e77be0c9c/source/600x600bb.jpg"
+                        alt="This Week In Web Development" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">This Week In Web Development</h3>
+                        <p class="card-text">Trevor Tye, Daelan Wood</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/cork-institute-of-technology-computing-soft6007-web-development-fundamentals">
+                    <img srcset="http://is1.mzstatic.com/image/thumb/Music62/v4/b5/de/da/b5deda61-0b77-41e3-04ca-0eb288ab1d7c/source/30x30bb.jpg 30w, http://is1.mzstatic.com/image/thumb/Music62/v4/b5/de/da/b5deda61-0b77-41e3-04ca-0eb288ab1d7c/source/60x60bb.jpg 60w, http://is1.mzstatic.com/image/thumb/Music62/v4/b5/de/da/b5deda61-0b77-41e3-04ca-0eb288ab1d7c/source/100x100bb.jpg 100w, http://is1.mzstatic.com/image/thumb/Music62/v4/b5/de/da/b5deda61-0b77-41e3-04ca-0eb288ab1d7c/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is1.mzstatic.com/image/thumb/Music62/v4/b5/de/da/b5deda61-0b77-41e3-04ca-0eb288ab1d7c/source/600x600bb.jpg"
+                        alt="Cork Institute of Technology: Computing: SOFT6007 Web Development Fundamentals" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Cork Institute of Technology: Computing: SOFT6007 Web Development Fundamentals</h3>
+                        <p class="card-text">Colin Manning</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/the-web-in-plain-english-by-dave-naves-of-daveworks-web-development">
+                    <img srcset="http://is1.mzstatic.com/image/thumb/Music71/v4/6b/ec/53/6bec535b-1407-0b56-b8a1-9466e44f21a7/source/30x30bb.jpg 30w, http://is1.mzstatic.com/image/thumb/Music71/v4/6b/ec/53/6bec535b-1407-0b56-b8a1-9466e44f21a7/source/60x60bb.jpg 60w, http://is1.mzstatic.com/image/thumb/Music71/v4/6b/ec/53/6bec535b-1407-0b56-b8a1-9466e44f21a7/source/100x100bb.jpg 100w, http://is1.mzstatic.com/image/thumb/Music71/v4/6b/ec/53/6bec535b-1407-0b56-b8a1-9466e44f21a7/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is1.mzstatic.com/image/thumb/Music71/v4/6b/ec/53/6bec535b-1407-0b56-b8a1-9466e44f21a7/source/600x600bb.jpg"
+                        alt="The Web in Plain English - by Dave Naves of Daveworks Web Development" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">The Web in Plain English - by Dave Naves of Daveworks Web Development</h3>
+                        <p class="card-text">Dave Naves</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/web-tales-web-design-development-a-small-agency-perspective">
+                    <img srcset="http://is3.mzstatic.com/image/thumb/Music62/v4/09/fd/05/09fd0530-0ea7-3a96-a623-afdee901eb1d/source/30x30bb.jpg 30w, http://is3.mzstatic.com/image/thumb/Music62/v4/09/fd/05/09fd0530-0ea7-3a96-a623-afdee901eb1d/source/60x60bb.jpg 60w, http://is3.mzstatic.com/image/thumb/Music62/v4/09/fd/05/09fd0530-0ea7-3a96-a623-afdee901eb1d/source/100x100bb.jpg 100w, http://is3.mzstatic.com/image/thumb/Music62/v4/09/fd/05/09fd0530-0ea7-3a96-a623-afdee901eb1d/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is3.mzstatic.com/image/thumb/Music62/v4/09/fd/05/09fd0530-0ea7-3a96-a623-afdee901eb1d/source/600x600bb.jpg"
+                        alt="Web Tales: Web Design & Development. A Small Agency perspective." class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Web Tales: Web Design & Development. A Small Agency perspective.</h3>
+                        <p class="card-text">Karmabunny</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/cork-institute-of-technology-computing-soft6008-interactive-web-development">
+                    <img srcset="http://is4.mzstatic.com/image/thumb/Music71/v4/65/dd/5b/65dd5bb5-cf08-6a29-737c-68400507998d/source/30x30bb.jpg 30w, http://is4.mzstatic.com/image/thumb/Music71/v4/65/dd/5b/65dd5bb5-cf08-6a29-737c-68400507998d/source/60x60bb.jpg 60w, http://is4.mzstatic.com/image/thumb/Music71/v4/65/dd/5b/65dd5bb5-cf08-6a29-737c-68400507998d/source/100x100bb.jpg 100w, http://is4.mzstatic.com/image/thumb/Music71/v4/65/dd/5b/65dd5bb5-cf08-6a29-737c-68400507998d/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is4.mzstatic.com/image/thumb/Music71/v4/65/dd/5b/65dd5bb5-cf08-6a29-737c-68400507998d/source/600x600bb.jpg"
+                        alt="Cork Institute of Technology: Computing: SOFT6008 Interactive Web Development" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Cork Institute of Technology: Computing: SOFT6008 Interactive Web Development</h3>
+                        <p class="card-text">Colin Manning</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/meadowbright-web-development-for-nonprofits">
+                    <img srcset="http://is1.mzstatic.com/image/thumb/Music71/v4/97/d3/65/97d36550-9366-760f-d7c3-98b112af0b28/source/30x30bb.jpg 30w, http://is1.mzstatic.com/image/thumb/Music71/v4/97/d3/65/97d36550-9366-760f-d7c3-98b112af0b28/source/60x60bb.jpg 60w, http://is1.mzstatic.com/image/thumb/Music71/v4/97/d3/65/97d36550-9366-760f-d7c3-98b112af0b28/source/100x100bb.jpg 100w, http://is1.mzstatic.com/image/thumb/Music71/v4/97/d3/65/97d36550-9366-760f-d7c3-98b112af0b28/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is1.mzstatic.com/image/thumb/Music71/v4/97/d3/65/97d36550-9366-760f-d7c3-98b112af0b28/source/600x600bb.jpg"
+                        alt="Meadowbright - Web development for nonprofits" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Meadowbright - Web development for nonprofits</h3>
+                        <p class="card-text">Meadowbright</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/the-checkerboard-design-and-marketing-podcast">
+                    <img srcset="http://is2.mzstatic.com/image/thumb/Music111/v4/fe/a2/38/fea2383b-14cd-99d7-9bec-3312b87ce1eb/source/30x30bb.jpg 30w, http://is2.mzstatic.com/image/thumb/Music111/v4/fe/a2/38/fea2383b-14cd-99d7-9bec-3312b87ce1eb/source/60x60bb.jpg 60w, http://is2.mzstatic.com/image/thumb/Music111/v4/fe/a2/38/fea2383b-14cd-99d7-9bec-3312b87ce1eb/source/100x100bb.jpg 100w, http://is2.mzstatic.com/image/thumb/Music111/v4/fe/a2/38/fea2383b-14cd-99d7-9bec-3312b87ce1eb/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is2.mzstatic.com/image/thumb/Music111/v4/fe/a2/38/fea2383b-14cd-99d7-9bec-3312b87ce1eb/source/600x600bb.jpg"
+                        alt="The Checkerboard Design and Marketing Podcast" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">The Checkerboard Design and Marketing Podcast</h3>
+                        <p class="card-text">Checkerboard Strategic Web Development</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/web-development-mobile-app-development">
+                    <img srcset="http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/30x30bb.jpg 30w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/60x60bb.jpg 60w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/100x100bb.jpg 100w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/600x600bb.jpg"
+                        alt="Web Development-Mobile App Development" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Web Development-Mobile App Development</h3>
+                        <p class="card-text">DanteCiolfi</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/web-development-careers-podcast">
+                    <img srcset="http://is2.mzstatic.com/image/thumb/Music117/v4/fe/93/ac/fe93ac49-283d-684a-9ba6-d02115afea96/source/30x30bb.jpg 30w, http://is2.mzstatic.com/image/thumb/Music117/v4/fe/93/ac/fe93ac49-283d-684a-9ba6-d02115afea96/source/60x60bb.jpg 60w, http://is2.mzstatic.com/image/thumb/Music117/v4/fe/93/ac/fe93ac49-283d-684a-9ba6-d02115afea96/source/100x100bb.jpg 100w, http://is2.mzstatic.com/image/thumb/Music117/v4/fe/93/ac/fe93ac49-283d-684a-9ba6-d02115afea96/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is2.mzstatic.com/image/thumb/Music117/v4/fe/93/ac/fe93ac49-283d-684a-9ba6-d02115afea96/source/600x600bb.jpg"
+                        alt="Web Development Careers Podcast" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Web Development Careers Podcast</h3>
+                        <p class="card-text">Owen Gigg</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="podcast/the-world-of-web-development">
+                    <img srcset="http://is3.mzstatic.com/image/thumb/Music128/v4/db/cd/a5/dbcda5bb-39d5-4ebc-46c2-6817fd8ac334/source/30x30bb.jpg 30w, http://is3.mzstatic.com/image/thumb/Music128/v4/db/cd/a5/dbcda5bb-39d5-4ebc-46c2-6817fd8ac334/source/60x60bb.jpg 60w, http://is3.mzstatic.com/image/thumb/Music128/v4/db/cd/a5/dbcda5bb-39d5-4ebc-46c2-6817fd8ac334/source/100x100bb.jpg 100w, http://is3.mzstatic.com/image/thumb/Music128/v4/db/cd/a5/dbcda5bb-39d5-4ebc-46c2-6817fd8ac334/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is3.mzstatic.com/image/thumb/Music128/v4/db/cd/a5/dbcda5bb-39d5-4ebc-46c2-6817fd8ac334/source/600x600bb.jpg"
+                        alt="The World of Web Development" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">The World of Web Development</h3>
+                        <p class="card-text">Robert Dewitt / Anchor</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <!-- edit footer logo here -->
+                    <a href="#" class="logo col-sm-8">
+                        <img src="img/pwa-podstr-logo-144x70.png" class="img-responsive" alt="PWA Pdstr">
+                    </a>
+                    <div class="col-sm-12 text">
+                        <p>
+                            <i class="fa fa-map-pin"></i> 354 MAIN STREET | ANYTOWN USA | 11111</p>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:9192515067">Phone : (919) 251-5067</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i> E-mail :
+                            <a href="mailto:info@love2dev.com">info@love2dev.com</a>
+                        </p>
+                    </div>
+                    <span class="col-sm-12 social-wrapper circle">
+                        <a href="http://twitter.com/chrislove" class="social-icon fa fa-twitter"></a>
+                        <a href="https://www.facebook.com/love2dev/" class="social-icon fa fa-facebook"></a>
+                        <a target="_blank" href="https://plus.google.com/b/110904107389779237581/?pageId=110904107389779237581">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/love2dev">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UC3mfh2MN-5D-zOyiRLp9H6g">
+                            <i class="fa fa-youtube-play"></i>
+                        </a>
+                        <a target="_blank" href="https://www.pinterest.com/docluv/">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="footer-content">
+                        <h2>Links</h2>
+                        <nav>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li>
+                                    <a href="podcasts/">Podcasts</a>
+                                </li>
+                                <li>
+                                    <a href="listenlater/">Listen Later</a>
+                                </li>
+                                <li>
+                                    <a href="search/">Search</a>
+                                </li>
+                                <li>
+                                    <a href="config/">Config</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var scripts = ["js/libs/jquery.small.js",
+            "js/libs/index.js",
+            "js/libs/collapse.js",
+            "js/libs/util.js",
+            "js/app/app.js",
+            "js/app/podcasts.js"
+        ];
+    </script>
+
+    <script src="js/app/app.bootstrap.js"></script>
+</body>
+
+</html>

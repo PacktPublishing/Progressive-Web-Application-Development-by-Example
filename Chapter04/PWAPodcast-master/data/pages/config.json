@@ -1,0 +1,45 @@
+{
+"Name": "Podstr - Configuration",
+"LongName": "Podstr",
+"lowerAppName": "Podstr",
+"slug": "config",
+"title": "Podstr - A PWA Podcast Demonstration App",
+"description": "Podstr is a demonstration Progressive Web Application Podcast App",
+"layout": "default",
+"app-shell": "app",
+"body": "<h1>Podstr Configuration</h1>",
+"author": "Chris Love",
+"facebook-publisher": "https://www.facebook.com/Love2Dev/",
+"twitter": "ChrisLove",
+"google-plus": "https://plus.google.com/b/110904107389779237581/?pageId=110904107389779237581",
+"linkedin": "https://www.linkedin.com/in/Love2Dev/",
+"pinterest": "https://www.pinterest.com/docluv/",
+"youtube": "https://www.youtube.com/channel/UC3mfh2MN-5D-zOyiRLp9H6g",
+"bing-user-key": "7EDAB92AF63E3B35E57195D810D64C57",
+"image": {
+"url": "img/pwa-podstr-logo-600x310.png",
+"width": 600,
+"height": 310
+},
+"cache": {},
+"headers": {
+"Cache-Control": "public, max-age=30240, s-max-age=1200"
+},
+"meta": {
+"type": "article",
+"og:type": "article",
+"section": "progressive web apps",
+"url": "https://podstr.love2dev.com/",
+"route": "/"
+},
+"subtitle": null,
+"featured-image": "img/pwa-podstr-logo-600x310.png",
+"abstract": "<img align='left' src='img/pwa-podstr-logo-600x310.png' style='margin: 18px 18px 18px 6px; float: left; display: inline' lazyload='1' lazyload='1' />Two years, it&#39;s hard to comprehend how fast the time has flown and how much my life has changed. November 2 marked my two year anniversary with Tellago and I thought I would try to express what these past two years have been like today, Thanksgiving. Back in July 2010, after about 8 months after joining Tellago I wrote about my experiences and thankfulness at the time. ",
+"approved": true,
+"published": "2017-10-20",
+"active": true,
+"tags": [],
+"publishedDay": 20,
+"publishedMonth": 10,
+"publishedYear": 2117
+}

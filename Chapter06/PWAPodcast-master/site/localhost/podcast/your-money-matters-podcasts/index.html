@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <base href="http://localhost:57662/">
+    <!-- Stylesheets -->
+    <link href="css/libs/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/libs/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href="css/app/site.css" rel="stylesheet">
+
+    <title>Your Money Matters PodCasts</title>
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="PWA Pdstr">
+    <link rel="icon" sizes="192x192" href="meta/e75c99a5-4362-760a-8519-25dd4b1ae7e7.webPlatform.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Pdstr">
+    <link rel="apple-touch-icon" href="meta/4eb56734-e805-4709-14d3-907549c2db2e.webPlatform.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="meta/4eb56734-e805-4709-14d3-907549c2db2e.webPlatform.png">
+    <meta name="msapplication-TileColor" content="#ED7D31">
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#F6911E">
+    <meta name="description" content="Podstr">
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link href="favicon.png" rel="shortcut icon">
+    <link href="humans.txt" rel="author">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a href="/" class="navbar-brand">
+            <img src="img/pwa-podstr-logo-144x70.png" alt="PWA Pdstr" class="img-responsive">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="podcasts/">Podcasts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="listenlater/">Listen Later</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="config/">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 flex-nowrap">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <main class="main-content container-fluid" role="main">
+        <div class="container">
+            <div class="row podcast-details">
+                <div class="card">
+                    <img srcset="http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/30x30bb.jpg 30w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/60x60bb.jpg 60w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/100x100bb.jpg 100w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/600x600bb.jpg"
+                        alt="Your Money Matters PodCasts" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Your Money Matters PodCasts</h3>
+                        <p class="card-text">CU Village.com Web Development</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="row episode-list">
+                <a href="/episode/10-ways-to-budget-for-the-holidays-now-httppodcastcu-villagecompodfilehonorcu513budget_for_the_holidays_20171001_1507553550mp3"
+                    class="episode-list-item">10 Ways to Budget for the Holidays Now</a>
+                <a href="/episode/college-students-and-identity-theft-httppodcastcu-villagecompodfilehonorcu512college_students_and_identity_theft_20170902_1504624213mp3"
+                    class="episode-list-item">College Students and Identity Theft</a>
+                <a href="/episode/back-to-school-shopping-tips-httppodcastcu-villagecompodfilehonorcu511back_to_school_spending_tips_20170901_1504624091mp3"
+                    class="episode-list-item">Back to School Shopping Tips</a>
+                <a href="/episode/10-things-new-couples-should-do-about-money-httppodcastcu-villagecompodfilehonorcu51010_things_new_couples_should_do_about_money_2017_09_2_1501504718mp3"
+                    class="episode-list-item">10 Things New Couples should do about Money</a>
+                <a href="/episode/dont-pay-for-tuition-with-your-retirement-httppodcastcu-villagecompodfilehonorcu509financing_collge_2017_08_1_1501504495mp3"
+                    class="episode-list-item">Don&#39;t Pay for Tuition with Your Retirement</a>
+                <a href="/episode/7-ways-to-have-an-affordable-family-vacation-httppodcastcu-villagecompodfilehonorcu5087_ways_to_have_an_affordable_family_vacation_july17_2_1501504210mp3"
+                    class="episode-list-item">7 Ways to Have an Affordable Family Vacation</a>
+                <a href="/episode/how-to-protect-your-summer-vacation-httppodcastcu-villagecompodfilehonorcu507protect_your_summer_vacation_july17_1_1501504161mp3"
+                    class="episode-list-item">How to Protect Your Summer Vacation</a>
+                <a href="/episode/financial-tips-from-a-millionaire-httppodcastcu-villagecompodfilehonorcu506what_to_buy_and_not_buy_in_june_2017_1497289477mp3"
+                    class="episode-list-item">Financial Tips from a Millionaire</a>
+                <a href="/episode/having-a-safe-and-secure-summer-vacation-httppodcastcu-villagecompodfilehonorcu505a_safe_and_secure_summer_vacation_20170601_1497289370mp3"
+                    class="episode-list-item">Having A Safe and Secure Summer Vacation</a>
+                <a href="/episode/dont-pay-for-tuition-with-your-retirement-httppodcastcu-villagecompodfilehonorcu504financing_collge_may2017_1493113966mp3"
+                    class="episode-list-item">Don&#39;t Pay for Tuition with Your Retirement</a>
+                <a href="/episode/7-ways-to-have-an-affordable-family-vacation-httppodcastcu-villagecompodfilehonorcu5037_ways_to_have_an_affordable_family_vacation_may2017_1493113768mp3"
+                    class="episode-list-item">7 Ways to Have an Affordable Family Vacation</a>
+                <a href="/episode/home-improvements-httppodcastcu-villagecompodfilehonorcu5025_most_valuable_tfhi_20170415_1490622147mp3"
+                    class="episode-list-item">Home Improvements</a>
+                <a href="/episode/ten-facts-about-amending-your-return-httppodcastcu-villagecompodfilehonorcu501amended_return_final_20170401_1490622057mp3"
+                    class="episode-list-item">Ten Facts about Amending Your Return</a>
+                <a href="/episode/tax-tips-for-newlyweds-httppodcastcu-villagecompodfilehonorcu500tax_tips_newlyweds_20170316_1490620043mp3"
+                    class="episode-list-item">Tax Tips for Newlyweds</a>
+                <a href="/episode/5-spring-cleaning-tips-to-help-you-save-httppodcastcu-villagecompodfilehonorcu4995_spring_cleaning_tips_20170301_1489071526mp3"
+                    class="episode-list-item">5 Spring Cleaning Tips to Help You Save</a>
+                <a href="/episode/getting-organized-at-tax-time-httppodcastcu-villagecompodfilehonorcu498organized_at_tax_time_20170215_1486380559mp3"
+                    class="episode-list-item">Getting Organized at Tax Time</a>
+                <a href="/episode/7-tax-deductions-you-dont-want-to-miss-httppodcastcu-villagecompodfilehonorcu4977_tax_deductions_20170201_1486380453mp3"
+                    class="episode-list-item">7 Tax Deductions You Don&#39;t Want to Miss</a>
+                <a href="/episode/getting-organized-at-tax-time-httppodcastcu-villagecompodfilehonorcu496organized_at_tax_time_20170115_1483445347mp3"
+                    class="episode-list-item">Getting Organized at Tax Time</a>
+                <a href="/episode/10-ways-to-cut-your-debt-now-httppodcastcu-villagecompodfilehonorcu495cut_debt_20170101_1483445173mp3"
+                    class="episode-list-item">10 Ways to Cut Your Debt Now</a>
+                <a href="/episode/planning-your-finances-for-the-new-calendar-year-httppodcastcu-villagecompodfilehonorcu494dec_fin_cal_20161215_1480612048mp3"
+                    class="episode-list-item">Planning Your Finances for the New Calendar Year</a>
+                <a href="/episode/6-ways-to-stay-safe-while-holiday-shopping-online-httppodcastcu-villagecompodfilehonorcu4936_ways_to_stay_safe_while_holiday_shopping_20161201_1480611925mp3"
+                    class="episode-list-item">6 Ways to Stay Safe While Holiday Shopping Online</a>
+                <a href="/episode/to-borrow-or-not-to-borrow-httppodcastcu-villagecompodfilehonorcu49222_borrow_or_no_1478079810mp3"
+                    class="episode-list-item">To Borrow or Not to Borrow?</a>
+                <a href="/episode/workplace-gift-giving-guidelines-httppodcastcu-villagecompodfilehonorcu49121_workplace_gi_1478079654mp3"
+                    class="episode-list-item">Workplace Gift Giving Guidelines</a>
+                <a href="/episode/how-to-reduce-your-utility-bills-during-the-holiday-season-httppodcastcu-villagecompodfilehonorcu490oct_21_final_20161015_1475423004mp3"
+                    class="episode-list-item">How to Reduce Your Utility Bills during the Holiday Season</a>
+                <a href="/episode/tips-for-consumers-about-gift-cards-httppodcastcu-villagecompodfilehonorcu48920_tips_for_con_1475422886mp3"
+                    class="episode-list-item">Tips for Consumers about Gift Cards</a>
+                <a href="/episode/7-tips-for-a-smart-move-httppodcastcu-villagecompodfilehonorcu4887_tips_for_a_smart_move_20160916_1472489108mp3"
+                    class="episode-list-item">7 Tips for a Smart Move</a>
+                <a href="/episode/college-students-and-identity-theft-httppodcastcu-villagecompodfilehonorcu487college_students_and_identity_theft_20160901_1472488971mp3"
+                    class="episode-list-item">College Students and Identity Theft</a>
+                <a href="/episode/tips-to-keep-summer-utility-bills-low-httppodcastcu-villagecompodfilehonorcu486tips_to_keep_your_summer_utilities_bill_low_20160802_1471518419mp3"
+                    class="episode-list-item">Tips to Keep Summer Utility Bills Low</a>
+                <a href="/episode/8-back-to-school-spending-tips-httppodcastcu-villagecompodfilehonorcu4858_back_to_school_spending_tips_20160801_1471518331mp3"
+                    class="episode-list-item">8 Back-to-school Spending Tips</a>
+                <a href="/episode/have-a-stress-free-family-vacation-httppodcastcu-villagecompodfilehonorcu48414_have_stress_free_vacation_july2016_1467640570mp3"
+                    class="episode-list-item">Have a Stress-free Family Vacation</a>
+                <a href="/episode/10-financial-planning-steps-for-college-grads-httppodcastcu-villagecompodfilehonorcu48313_college_grads_fin_plan_july2016_1467640267mp3"
+                    class="episode-list-item">10 Financial Planning Steps for College Grads</a>
+                <a href="/episode/a-safe-and-secure-summer-vacation-httppodcastcu-villagecompodfilehonorcu482a_safe_and_secure_summer_vacation_20160616_1464785937mp3"
+                    class="episode-list-item">A Safe and Secure Summer Vacation</a>
+                <a href="/episode/renting-vs-buying-httppodcastcu-villagecompodfilehonorcu481rent_v_buy20160601_1464785800mp3"
+                    class="episode-list-item">Renting vs. Buying</a>
+                <a href="/episode/planning-an-affordable-family-vacation-httppodcastcu-villagecompodfilehonorcu479planning_vaca_20160516_1462868930mp3"
+                    class="episode-list-item">Planning an Affordable Family Vacation</a>
+                <a href="/episode/top-tips-for-renters-httppodcastcu-villagecompodfilehonorcu478top_tips_for_renters_20160501_1462868706mp3"
+                    class="episode-list-item">Top Tips for Renters</a>
+                <a href="/episode/improve-credit-before-buying-home-httppodcastcu-villagecompodfilehonorcu480improve_credit_before_buying_home_20160415_1462869115mp3"
+                    class="episode-list-item">Improve Credit Before Buying Home</a>
+                <a href="/episode/top-ten-tax-time-tips-httppodcastcu-villagecompodfilehonorcu477toptentaxtimetips_2016041_1459511266mp3"
+                    class="episode-list-item">Top Ten Tax Time Tips</a>
+                <a href="/episode/renting-vs-buying-httppodcastcu-villagecompodfilehonorcu475rent-v-buy_20160415_1456700660mp3"
+                    class="episode-list-item">Renting vs. Buying</a>
+                <a href="/episode/tips-for-teaching-kids-the-value-of-money-httppodcastcu-villagecompodfilehonorcu474ymm_tips_for_teaching_value_money_20160401_1456700494mp3"
+                    class="episode-list-item">Tips for Teaching Kids the Value of Money</a>
+                <a href="/episode/selling-a-life-insurance-death-benefit-for-cash-httppodcastcu-villagecompodfilehonorcu47603_deathbenefitforcash_final_20160215_1456700904mp3"
+                    class="episode-list-item">Selling a Life Insurance Death Benefit for Cash</a>
+                <a href="/episode/legal-documents-you-need-to-have-httppodcastcu-villagecompodfilehonorcu472legal_documents_final_0602_1454514667mp3"
+                    class="episode-list-item">Legal Documents You Need to Have</a>
+                <a href="/episode/when-should-i-borrow-httppodcastcu-villagecompodfilehonorcu471when_should_i_barrow_0116_1452103004mp3"
+                    class="episode-list-item">When Should I Borrow</a>
+                <a href="/episode/six-ways-to-prepare-for-lifes-financial-emergencies-httppodcastcu-villagecompodfilehonorcu470six_ways_prepare_lifes_fin_emer_0116_1452102872mp3"
+                    class="episode-list-item">Six Ways to Prepare for Life&#39;s Financial Emergencies</a>
+                <a href="/episode/nine-ways-you-can-prevent-identity-thef-httppodcastcu-villagecompodfilehonorcu46923_prevent_id_t_1451309589mp3"
+                    class="episode-list-item">Nine Ways You Can Prevent Identity Thef</a>
+                <a href="/episode/keep-holiday-spending-down-httppodcastcu-villagecompodfilehonorcu468holidayspendingdown_1215_1449171838mp3"
+                    class="episode-list-item">Keep Holiday Spending Down</a>
+                <a href="/episode/to-borrow-or-not-to-borrow-httppodcastcu-villagecompodfilehonorcu467borrow_or_not_1449171686mp3"
+                    class="episode-list-item">To Borrow or Not to Borrow?</a>
+                <a href="/episode/tips-to-protect-you-from-hoilday-online-shopping-fraud-httppodcastcu-villagecompodfilehonorcu466online_shopping_tips_holiday_1446471710mp3"
+                    class="episode-list-item">Tips to Protect You from Hoilday Online Shopping Fraud</a>
+                <a href="/episode/finances-for-single-parents-httppodcastcu-villagecompodfilehonorcu465smart_finances_for_single_parents_oct15_1444214686mp3"
+                    class="episode-list-item">Finances for Single Parents</a>
+                <a href="/episode/preventing-and-recovering-from-id-theft-httppodcastcu-villagecompodfilehonorcu464id_theft_oct2015_1444214452mp3"
+                    class="episode-list-item">Preventing and Recovering from ID Theft</a>
+                <a href="/episode/prepare-now-for-winter-httppodcastcu-villagecompodfilehonorcu463winter_final_201509_1443013294mp3"
+                    class="episode-list-item">Prepare Now For Winter</a>
+                <a href="/episode/back-to-school-shopping-tips-httppodcastcu-villagecompodfilehonorcu462back_to_school_spending_tips_201509_1441355902mp3"
+                    class="episode-list-item">Back to School Shopping Tips</a>
+                <a href="/episode/fine-tune-your-finances-now-httppodcastcu-villagecompodfilehonorcu461fine_tune_your_finances_201508_1440004484mp3"
+                    class="episode-list-item">Fine Tune Your Finances Now</a>
+                <a href="/episode/ways-to-save-in-august-httppodcastcu-villagecompodfilehonorcu460ways_to_save_in_august_082015_1438691955mp3"
+                    class="episode-list-item">Ways to Save in August</a>
+                <a href="/episode/10-financial-tips-for-college-grads-httppodcastcu-villagecompodfilehonorcu459financial_tips_for_grads_201507_1438162548mp3"
+                    class="episode-list-item">10 Financial Tips for College Grads</a>
+                <a href="/episode/conserve-energy-this-summer-httppodcastcu-villagecompodfilehonorcu458conserve-energy-this-summer-072015_1435730984mp3"
+                    class="episode-list-item">Conserve Energy this Summer</a>
+                <a href="/episode/financial-tips-from-a-millionaire-httppodcastcu-villagecompodfilehonorcu457june_20150614_1434365065mp3"
+                    class="episode-list-item">Financial Tips from a Millionaire</a>
+                <a href="/episode/what-to-buy-and-not-buy-in-june-httppodcastcu-villagecompodfilehonorcu456what_to_buy_and_not_buy_in_june_20150601_1433194964mp3"
+                    class="episode-list-item">What to Buy and Not Buy in June</a>
+                <a href="/episode/spring-cleaning-tips-to-help-you-save-httppodcastcu-villagecompodfilehonorcu455spring_cleaning_201505_1430859988mp3"
+                    class="episode-list-item">Spring Cleaning Tips to Help You Save</a>
+                <a href="/episode/5-ways-to-save-on-your-summer-vacation-httppodcastcu-villagecompodfilehonorcu454summer_vacation_201505_1430859885mp3"
+                    class="episode-list-item">5 Ways to Save on Your Summer Vacation</a>
+                <a href="/episode/how-to-avoid-tax-fraud-httppodcastcu-villagecompodfilehonorcu453avoid_tax_fraud_42015_1430822016mp3"
+                    class="episode-list-item">How to Avoid Tax Fraud</a>
+                <a href="/episode/5-smart-ways-to-use-your-tax-refund-httppodcastcu-villagecompodfilehonorcu452using_your_tax_refund_20150324_1427226191mp3"
+                    class="episode-list-item">5 Smart Ways to Use Your Tax Refund</a>
+                <a href="/episode/tax-tips-for-newlyweds-httppodcastcu-villagecompodfilehonorcu451tax_tips_newlyweds_20150315_1426519703mp3"
+                    class="episode-list-item">Tax Tips for Newlyweds</a>
+                <a href="/episode/5-spring-cleaning-tips-to-help-you-save-httppodcastcu-villagecompodfilehonorcu4505_spring_cleaning_tips_20150301_1425294376mp3"
+                    class="episode-list-item">5 Spring Cleaning Tips to Help You Save</a>
+                <a href="/episode/7-tax-deductions-you-dont-want-to-miss-httppodcastcu-villagecompodfilehonorcu4497_tax_deductions_20150215_1424276985mp3"
+                    class="episode-list-item">7 Tax Deductions You Don’t Want to Miss</a>
+                <a href="/episode/time-for-an-insurance-inventory-httppodcastcu-villagecompodfilehonorcu448insurance-inventory-20150201_1423493380mp3"
+                    class="episode-list-item">Time for an Insurance Inventory?</a>
+                <a href="/episode/six-reasons-to-file-your-taxes-early-httppodcastcu-villagecompodfilehonorcu447six_reasons_to_file_taxes_early_20150115_1421010035mp3"
+                    class="episode-list-item">Six Reasons to File Your Taxes Early</a>
+                <a href="/episode/tackling-credit-card-debt-httppodcastcu-villagecompodfilehonorcu446tackling_cc_debt_20150101_1421009954mp3"
+                    class="episode-list-item">Tackling Credit Card Debt</a>
+                <a href="/episode/7-tax-tips-for-2015-httppodcastcu-villagecompodfilehonorcu4457_tax_tips_for_2015_20141216_1418788431mp3"
+                    class="episode-list-item">7 Tax Tips for 2015</a>
+                <a href="/episode/6-ways-to-stay-safe-while-holiday-shopping-online-httppodcastcu-villagecompodfilehonorcu4436_ways_to_stay_safe_while_holiday_shopping_20141201_1417432355mp3"
+                    class="episode-list-item">6 Ways to Stay Safe While Holiday Shopping Online</a>
+                <a href="/episode/retirement-saving-setbacks-httppodcastcu-villagecompodfilehonorcu438retirement_savings_setbacks_201411_1415139556mp3"
+                    class="episode-list-item">Retirement Saving Setbacks</a>
+                <a href="/episode/what-to-look-for-on-your-monthly-credit-card-statement-httppodcastcu-villagecompodfilehonorcu437what_2_look_monthly_cc_statement_201411_1415139486mp3"
+                    class="episode-list-item">What to Look For On Your Monthly Credit Card Statement</a>
+                <a href="/episode/10-ways-to-budget-for-the-holidays-now-httppodcastcu-villagecompodfilehonorcu430budget_for_the_holidays_20141003_1412339126mp3"
+                    class="episode-list-item">10 Ways to Budget for the Holidays Now</a>
+                <a href="/episode/5-crucial-things-to-do-to-prepare-for-winter-httppodcastcu-villagecompodfilehonorcu4295_tips_for_winter_prep_201410_1412171089mp3"
+                    class="episode-list-item">5 Crucial Things to do to Prepare for Winter</a>
+                <a href="/episode/top-ten-budgeting-tips-httppodcastcu-villagecompodfilehonorcu427top_ten_budgeting_tips_201409_1411814300mp3"
+                    class="episode-list-item">Top Ten Budgeting Tips</a>
+                <a href="/episode/college-students-and-identity-theft-httppodcastcu-villagecompodfilehonorcu426college_students_and_identity_theft_201409_1411814253mp3"
+                    class="episode-list-item">College Students and Identity Theft</a>
+                <a href="/episode/save-on-back-to-school-shopping-httppodcastcu-villagecompodfilehonorcu418back_to_school_201408_1407170329mp3"
+                    class="episode-list-item">Save on Back-to-school Shopping</a>
+                <a href="/episode/dont-pay-for-tuition-with-your-retirement-httppodcastcu-villagecompodfilehonorcu417financing_collge_201408_1407169574mp3"
+                    class="episode-list-item">Don&#39;t Pay for Tuition with Your Retirement</a>
+                <a href="/episode/how-to-protect-your-summer-vacation-httppodcastcu-villagecompodfilehonorcu413protect_your_summer_vacation_july14_1405002858mp3"
+                    class="episode-list-item">How to Protect Your Summer Vacation</a>
+                <a href="/episode/7-ways-to-have-an-affordable-family-vacation-httppodcastcu-villagecompodfilehonorcu4127_ways_to_have_an_affordable_family_vacation_july14_1405002782mp3"
+                    class="episode-list-item">7 Ways to Have an Affordable Family Vacation</a>
+                <a href="/episode/8-steps-to-take-before-you-go-on-vacation-httppodcastcu-villagecompodfilehonorcu4078stepvacationplanning_201406_1403794003mp3"
+                    class="episode-list-item">8 Steps to Take Before You Go on Vacation</a>
+                <a href="/episode/ten-facts-about-amending-your-return-httppodcastcu-villagecompodfilehonorcu397amended_return_final_20140402_1396444730mp3"
+                    class="episode-list-item">Ten Facts about Amending Your Return</a>
+                <a href="/episode/car-buying-homework-httppodcastcu-villagecompodfilehonorcu396new_car_final_20140402_1396444600mp3"
+                    class="episode-list-item">Car-buying Homework</a>
+                <a href="/episode/questions-to-ask-your-cpa-at-tax-time-httppodcastcu-villagecompodfilehonorcu392cpa_at_tax_time_2014032_1394333700mp3"
+                    class="episode-list-item">Questions to Ask Your CPA at Tax Time</a>
+                <a href="/episode/top-ten-tax-time-tips-httppodcastcu-villagecompodfilehonorcu390top_ten_tax_tips_2014031_1394333543mp3"
+                    class="episode-list-item">Top Ten Tax Time Tips</a>
+                <a href="/episode/8-steps-on-how-to-buy-your-first-house-httppodcastcu-villagecompodfilehonorcu389buyahouse_redo_201402_1393358492mp3"
+                    class="episode-list-item">8 Steps on How to Buy Your First House</a>
+                <a href="/episode/getting-organized-at-tax-time-httppodcastcu-villagecompodfilehonorcu385organized_at_tax_time_2014021_1391941308mp3"
+                    class="episode-list-item">Getting Organized at Tax Time</a>
+                <a href="/episode/10-ways-to-cut-your-debt-now-httppodcastcu-villagecompodfilehonorcu384cut_debt_201401_1388180224mp3"
+                    class="episode-list-item">10 Ways to Cut Your Debt Now</a>
+                <a href="/episode/9-tips-to-prevent-identity-theft-httppodcastcu-villagecompodfilehonorcu383id_theft_201401_1388180172mp3"
+                    class="episode-list-item">9 Tips to Prevent Identity Theft</a>
+                <a href="/episode/10-money-resolutions-to-make-and-keep-httppodcastcu-villagecompodfilehonorcu382dec_money_res_1388180048mp3"
+                    class="episode-list-item">10 Money Resolutions to Make - and Keep</a>
+                <a href="/episode/planning-your-finances-for-the-new-calendar-year-httppodcastcu-villagecompodfilehonorcu381dec_fin_cal_201312a_1387327182mp3"
+                    class="episode-list-item">Planning Your Finances for the New Calendar Year</a>
+                <a href="/episode/get-most-out-of-your-credit-card-httppodcastcu-villagecompodfilehonorcu379get_most_out_of_cc_1383391999mp3"
+                    class="episode-list-item">Get Most Out of Your Credit Card</a>
+                <a href="/episode/when-should-i-borrow-httppodcastcu-villagecompodfilehonorcu378when_should_i_barrow_1383391791mp3"
+                    class="episode-list-item">When Should I Borrow</a>
+                <a href="/episode/plan-ahead-for-debt-free-holidays-httppodcastcu-villagecompodfilehonorcu376plan_ahead_for_debt-free_holidays_201310b_1380559103mp3"
+                    class="episode-list-item">Plan Ahead For Debt-free Holidays</a>
+                <a href="/episode/smart-financial-tips-for-single-parents-httppodcastcu-villagecompodfilehonorcu375financial_tips_for_single_parents_201310a_1380559040mp3"
+                    class="episode-list-item">Smart Financial Tips for Single Parents</a>
+                <a href="/episode/7-tips-for-a-smart-move-httppodcastcu-villagecompodfilehonorcu3737_tips_for_a_smart_move_201309_1378745648mp3"
+                    class="episode-list-item">7 Tips for a Smart Move</a>
+                <a href="/episode/get-ready-for-winter-now-httppodcastcu-villagecompodfilehonorcu372get_ready_for_winter_now_201309_1378745553mp3"
+                    class="episode-list-item">Get Ready for Winter Now</a>
+                <a href="/episode/10-things-new-couples-should-do-about-money-httppodcastcu-villagecompodfilehonorcu36910_things_new_couples_should_do_about_money_2013072_1374243899mp3"
+                    class="episode-list-item">10 Things New Couples should do about Money</a>
+                <a href="/episode/10-financial-tips-for-college-grads-httppodcastcu-villagecompodfilehonorcu36810_financial_tips_for_college_grads_2013071_1374243855mp3"
+                    class="episode-list-item">10 Financial Tips for College Grads</a>
+                <a href="/episode/a-safe-and-secure-summer-vacation-httppodcastcu-villagecompodfilehonorcu363a_safe_and_secure_summer_vacation_201306_1371758514mp3"
+                    class="episode-list-item">A Safe and Secure Summer Vacation</a>
+                <a href="/episode/saving-for-your-summer-vacation-httppodcastcu-villagecompodfilehonorcu362saving_for_your_summer_vacation_201306_1371758367mp3"
+                    class="episode-list-item">Saving For Your Summer Vacation</a>
+                <a href="/episode/home-improvements-httppodcastcu-villagecompodfilehonorcu3545_most_valuable_tfhi_20130520_1369068711mp3"
+                    class="episode-list-item">Home Improvements</a>
+                <a href="/episode/top-7-tips-for-renters-httppodcastcu-villagecompodfilehonorcu3557_tips_for_renters_20130501_1369068889mp3"
+                    class="episode-list-item">Top 7 Tips for Renters</a>
+                <a href="/episode/smart-ways-to-use-your-tax-refund-httppodcastcu-villagecompodfilehonorcu356smart_ways_to_use_your_tax_refund_1369417533mp3"
+                    class="episode-list-item">Smart Ways to Use Your Tax Refund</a>
+                <a href="/episode/choosing-which-tax-form-to-file-httppodcastcu-villagecompodfilehonorcu34506_choosing_which__form__to_file_1362432333mp3"
+                    class="episode-list-item">Choosing which Tax Form to File</a>
+                <a href="/episode/how-to-choose-a-tax-preparer-httppodcastcu-villagecompodfilehonorcu34405_how_to_choose_a_tax_preparer_1362432233mp3"
+                    class="episode-list-item">How to Choose a Tax Preparer</a>
+                <a href="/episode/stay-secure-on-social-networking-sites-httppodcastcu-villagecompodfilehonorcu33904_stay_secure_on_social_network_sites_1359579723mp3"
+                    class="episode-list-item">Stay Secure on Social Networking Sites</a>
+                <a href="/episode/protect-information-when-using-smartphone-httppodcastcu-villagecompodfilehonorcu33803_protect_information_when_using_spartphone_1359579636mp3"
+                    class="episode-list-item">Protect Information When Using Smartphone</a>
+                <a href="/episode/why-use-a-financial-planner-in-your-20s-httppodcastcu-villagecompodfilehonorcu33002_why_use_financial_planner_in_your_20s_jan15_1355866362mp3"
+                    class="episode-list-item">Why Use a Financial Planner in Your 20s</a>
+                <a href="/episode/resolve-to-budget-httppodcastcu-villagecompodfilehonorcu33101_resolve_to_budget_jan01_1355866525mp3"
+                    class="episode-list-item">Resolve to Budget</a>
+                <a href="/episode/stretch-your-retirement-nest-egg-httppodcastcu-villagecompodfilehonorcu32224_stretch_your_1350927436mp3"
+                    class="episode-list-item">Stretch Your Retirement Nest Egg</a>
+                <a href="/episode/keep-good-records-now-to-reduce-tax-time-stress-httppodcastcu-villagecompodfilehonorcu32123_keep_good_re_1349288744mp3"
+                    class="episode-list-item">Keep Good Records Now to Reduce Tax-Time Stress</a>
+                <a href="/episode/keep-a-healthy-credit-score-httppodcastcu-villagecompodfilehonorcu32022_keep_a_healt_1349288638mp3"
+                    class="episode-list-item">Keep a Healthy Credit Score</a>
+                <a href="/episode/workplace-gift-giving-guidelines-httppodcastcu-villagecompodfilehonorcu31921_workplace_gi_1349288557mp3"
+                    class="episode-list-item">Workplace Gift Giving Guidelines</a>
+                <a href="/episode/tips-for-consumers-about-gift-cards-httppodcastcu-villagecompodfilehonorcu31820_tips_for_con_1349288192mp3"
+                    class="episode-list-item">Tips for Consumers about Gift Cards</a>
+                <a href="/episode/plan-now-for-a-debt-free-holiday-season-httppodcastcu-villagecompodfilehonorcu31719_plannow_for_debt_free_holiday_season_1349115064mp3"
+                    class="episode-list-item">Plan Now For a Debt-free Holiday Season</a>
+                <a href="/episode/smart-finances-for-single-parents-httppodcastcu-villagecompodfilehonorcu31618_smart_finances_for_single_parents_1348087180mp3"
+                    class="episode-list-item">Smart Finances for Single Parents</a>
+                <a href="/episode/avoid-card-skimming-at-atms-httppodcastcu-villagecompodfilehonorcu31517_avoid_card_skimming_at_atms_1347890575mp3"
+                    class="episode-list-item">Avoid Card Skimming at ATMs</a>
+                <a href="/episode/quick-start-retirement-savings-tips-httppodcastcu-villagecompodfilehonorcu31416_ouickstart__retirement_savings_tips_aug24_1343400829mp3"
+                    class="episode-list-item">Quick-Start Retirement Savings Tips</a>
+                <a href="/episode/helpful-tips-for-back-to-school-spending-httppodcastcu-villagecompodfilehonorcu31315_back_to_school_spending_tips_aug10_1343400690mp3"
+                    class="episode-list-item">Helpful Tips for Back-to-school Spending</a>
+                <a href="/episode/new-airline-passenger-protections-httppodcastcu-villagecompodfilehonorcu31213_new_airline_passenger_protections_1340385087mp3"
+                    class="episode-list-item">New Airline Passenger Protections</a>
+                <a href="/episode/financial-planning-for-divorce-httppodcastcu-villagecompodfilehonorcu31012_financial_planning_for_divorce_1338916795mp3"
+                    class="episode-list-item">Financial Planning for Divorce</a>
+                <a href="/episode/weddings-on-a-budget-httppodcastcu-villagecompodfilehonorcu30911_weddings_on_a_budget_1338916701mp3"
+                    class="episode-list-item">Weddings on a Budget</a>
+                <a href="/episode/seven-inexpensive-ways-to-rejuvenate-your-living-space-httppodcastcu-villagecompodfilehonorcu30810_inexpensive_ways_to_rejuvenate_home_may_25_1335213660mp3"
+                    class="episode-list-item">Seven Inexpensive Ways to Rejuvenate Your Living Space</a>
+                <a href="/episode/avoiding-mortgage-modification-scams-and-foreclosure-rescue-scams-httppodcastcu-villagecompodfilehonorcu30709_avoid_mortgage_scams_may_11_1335213580mp3"
+                    class="episode-list-item">Avoiding Mortgage Modification Scams and Foreclosure Rescue Scams</a>
+                <a href="/episode/wise-ways-to-use-your-tax-refund-httppodcastcu-villagecompodfilehonorcu30608_wise_ways_to_use_tax_refund_april_27_1334345159mp3"
+                    class="episode-list-item">Wise Ways to Use Your Tax Refund</a>
+                <a href="/episode/what-happens-after-i-file-httppodcastcu-villagecompodfilehonorcu30507_what_happens_after_i_file_april_13_1334261401mp3"
+                    class="episode-list-item">What Happens after I File?</a>
+                <a href="/episode/facts-about-your-appeal-rights-httppodcastcu-villagecompodfilehonorcu30406_appeal_rights_march_23_1330548151mp3"
+                    class="episode-list-item">Facts about Your Appeal Rights</a>
+                <a href="/episode/things-to-know-if-you-receive-an-irs-notice-httppodcastcu-villagecompodfilehonorcu30305_irs_notice_march_09_1330547975mp3"
+                    class="episode-list-item">Things to Know if You Receive an IRS Notice</a>
+                <a href="/episode/time-to-review-your-homeowners-insurance-policy-httppodcastcu-villagecompodfilehonorcu30204_homeowners_insurance_feb_24_1325776197mp3"
+                    class="episode-list-item">Time to Review Your Homeowner’s Insurance Policy</a>
+                <a href="/episode/is-it-time-to-take-an-insurance-inventory-httppodcastcu-villagecompodfilehonorcu30103_insurance_inventory_feb_10_1325775896mp3"
+                    class="episode-list-item">Is it Time to Take an Insurance Inventory?</a>
+                <a href="/episode/research-before-buying-fitness-gear-httppodcastcu-villagecompodfilehonorcu30002_fitness_gear_jan_27_1325775735mp3"
+                    class="episode-list-item">Research before Buying Fitness Gear</a>
+                <a href="/episode/review-budgeting-basics-httppodcastcu-villagecompodfilehonorcu29901_budgeting_basics_jan_13_1325775464mp3"
+                    class="episode-list-item">Review Budgeting Basics</a>
+                <a href="/episode/10-ways-to-cut-your-debt-now-httppodcastcu-villagecompodfilehonorcu29824_cut_debt_now_1317230814mp3"
+                    class="episode-list-item">10 Ways to Cut Your Debt Now</a>
+                <a href="/episode/nine-ways-you-can-prevent-identity-theft-httppodcastcu-villagecompodfilehonorcu29723_prevent_id_t_1317230751mp3"
+                    class="episode-list-item">Nine Ways You Can Prevent Identity Theft</a>
+                <a href="/episode/to-borrow-or-not-to-borrow-httppodcastcu-villagecompodfilehonorcu29622_borrow_or_no_1317230681mp3"
+                    class="episode-list-item">To Borrow or Not to Borrow?</a>
+                <a href="/episode/five-tips-for-getting-the-most-from-your-credit-card-httppodcastcu-villagecompodfilehonorcu29521_getmostfromc_1317230619mp3"
+                    class="episode-list-item">Five Tips for Getting the Most from Your Credit Card</a>
+                <a href="/episode/how-to-reduce-your-utility-bills-during-the-holiday-season-httppodcastcu-villagecompodfilehonorcu294oct_21_final_1315579323mp3"
+                    class="episode-list-item">How to Reduce Your Utility Bills during the Holiday Season</a>
+                <a href="/episode/economize-and-be-safe-when-using-holiday-lights-httppodcastcu-villagecompodfilehonorcu293oct_7_final_1315579253mp3"
+                    class="episode-list-item">Economize and Be Safe When Using Holiday Lights</a>
+                <a href="/episode/prepare-now-for-winter-httppodcastcu-villagecompodfilehonorcu290winter_final_1313092472mp3"
+                    class="episode-list-item">Prepare Now For Winter</a>
+                <a href="/episode/make-your-move-a-financially-smart-one-httppodcastcu-villagecompodfilehonorcu289moving_final_1313092390mp3"
+                    class="episode-list-item">Make Your Move a Financially Smart One</a>
+                <a href="/episode/inspect-the-exterior-of-your-house-httppodcastcu-villagecompodfilehonorcu28616_inspect_home_for_maintenance_problems_1308673101mp3"
+                    class="episode-list-item">Inspect the Exterior of Your House</a>
+                <a href="/episode/keep-summer-utility-bills-low-httppodcastcu-villagecompodfilehonorcu28515_keep_summer_utility_bills_low_1308673059mp3"
+                    class="episode-list-item">Keep Summer Utility Bills Low</a>
+                <a href="/episode/10-things-new-couples-should-do-about-money-httppodcastcu-villagecompodfilehonorcu28414_couples_financial_plan_1308673023mp3"
+                    class="episode-list-item">10 Things New Couples should do about Money</a>
+                <a href="/episode/get-the-right-travel-insurance-httppodcastcu-villagecompodfilehonorcu27812_get_the_right_travel_insurance_1303849650mp3"
+                    class="episode-list-item">Get the Right Travel Insurance</a>
+                <a href="/episode/plan-a-vacation-without-ignoring-your-financial-goals-httppodcastcu-villagecompodfilehonorcu27711_planvacation_and_keepfinancgoals_1303849576mp3"
+                    class="episode-list-item">Plan a Vacation without Ignoring Your Financial Goals</a>
+                <a href="/episode/improve-credit-before-buying-or-renting-a-home-httppodcastcu-villagecompodfilehonorcu27310_icbeforerentbuy_1297285752mp3"
+                    class="episode-list-item">Improve Credit before Buying or Renting a Home</a>
+                <a href="/episode/economics-of-renting-vs-buying-httppodcastcu-villagecompodfilehonorcu27209_rentvbuy_1297285484mp3"
+                    class="episode-list-item">Economics of Renting vs. Buying</a>
+                <a href="/episode/car-buying-homework-httppodcastcu-villagecompodfilehonorcu27108_carbuyinghw_1295890460mp3"
+                    class="episode-list-item">Car-buying Homework</a>
+                <a href="/episode/ten-facts-about-amended-returns-httppodcastcu-villagecompodfilehonorcu27007_amendedreturns_1295890388mp3"
+                    class="episode-list-item">Ten Facts about Amended Returns</a>
+                <a href="/episode/top-ten-tax-time-tips-httppodcastcu-villagecompodfilehonorcu26906_toptentaxtimetips_1295890322mp3"
+                    class="episode-list-item">Top Ten Tax Time Tips</a>
+                <a href="/episode/questions-to-ask-your-cpa-at-tax-time-httppodcastcu-villagecompodfilehonorcu26805_quests4cpa_1295889712mp3"
+                    class="episode-list-item">Questions to Ask Your CPA at Tax Time</a>
+                <a href="/episode/getting-organized-at-tax-time-httppodcastcu-villagecompodfilehonorcu26504_organizedattaxtime_final_1294868568mp3"
+                    class="episode-list-item">Getting Organized at Tax Time</a>
+                <a href="/episode/dates-and-tasks-for-your-financial-calendar-httppodcastcu-villagecompodfilehonorcu26402_financial_cal_final_1294868310mp3"
+                    class="episode-list-item">Dates and Tasks for Your Financial Calendar</a>
+                <a href="/episode/money-resolutions-httppodcastcu-villagecompodfilehonorcu26301_money_resolutions_final_1294263962mp3"
+                    class="episode-list-item">Money Resolutions</a>
+                <a href="/episode/avoid-credit-card-debt-this-holiday-season-httppodcastcu-villagecompodfilehonorcu261keepccdebtlow_1289226422mp3"
+                    class="episode-list-item">Avoid Credit Card Debt this Holiday Season</a>
+                <a href="/episode/keep-holiday-spending-down-httppodcastcu-villagecompodfilehonorcu260holidayspendingdown_1289226323mp3"
+                    class="episode-list-item">Keep Holiday Spending Down</a>
+                <a href="/episode/bringing-healthcare-issues-into-financial-planning-httppodcastcu-villagecompodfilehonorcu259healthcareissues_1284993785mp3"
+                    class="episode-list-item">Bringing Healthcare Issues into Financial Planning</a>
+                <a href="/episode/financial-considerations-when-disaster-strikes-httppodcastcu-villagecompodfilehonorcu258whendiasterstrikes_1284993702mp3"
+                    class="episode-list-item">Financial Considerations When Disaster Strikes</a>
+                <a href="/episode/affording-graduate-school-while-youre-still-working-httppodcastcu-villagecompodfilehonorcu257gradschool_1284752602mp3"
+                    class="episode-list-item">Affording Graduate School While You&#39;re Still Working</a>
+                <a href="/episode/prepare-for-open-enrollment-httppodcastcu-villagecompodfilehonorcu256openenrollment_final_1283532736mp3"
+                    class="episode-list-item">Prepare for Open Enrollment</a>
+                <a href="/episode/talk-about-budgeting-and-saving-with-kids-httppodcastcu-villagecompodfilehonorcu255budgetingforkids_final_1281452692mp3"
+                    class="episode-list-item">Talk about Budgeting and Saving with Kids</a>
+                <a href="/episode/affording-your-pets-illness-httppodcastcu-villagecompodfilehonorcu254petcare_final_1281452542mp3"
+                    class="episode-list-item">Affording Your Pet&#39;s Illness</a>
+                <a href="/episode/protecting-your-summer-vacation-httppodcastcu-villagecompodfilehonorcu253protecting_vaca_1277486041mp3"
+                    class="episode-list-item">Protecting Your Summer Vacation</a>
+                <a href="/episode/planning-an-affordable-family-vacation-httppodcastcu-villagecompodfilehonorcu252planning_vaca_1277485558mp3"
+                    class="episode-list-item">Planning an Affordable Family Vacation</a>
+                <a href="/episode/how-to-screen-a-prospective-financial-planner-httppodcastcu-villagecompodfilehonorcu248scrnprspctvcfp_1274197203mp3"
+                    class="episode-list-item">How to Screen a Prospective Financial Planner</a>
+                <a href="/episode/do-you-need-professional-financial-advice-httppodcastcu-villagecompodfilehonorcu247proffinadvice_1274197100mp3"
+                    class="episode-list-item">Do You Need Professional Financial Advice?</a>
+                <a href="/episode/planning-for-eldercare-httppodcastcu-villagecompodfilehonorcu245eldercare_final_1271427692mp3"
+                    class="episode-list-item">Planning for Eldercare</a>
+                <a href="/episode/long-term-care-strategy-httppodcastcu-villagecompodfilehonorcu244longtermcaresolutions_1271427533mp3"
+                    class="episode-list-item">Long-term Care Strategy</a>
+                <a href="/episode/nine-reasons-to-visit-an-irs-taxpayer-assistance-center-httppodcastcu-villagecompodfilehonorcu240tac_1269530679mp3"
+                    class="episode-list-item">Nine Reasons to Visit an IRS Taxpayer Assistance Center</a>
+                <a href="/episode/what-you-should-know-about-e-filing-your-taxes-httppodcastcu-villagecompodfilehonorcu239electronic_tax_return_1269530518mp3"
+                    class="episode-list-item">What You Should Know about E-filing Your Taxes</a>
+                <a href="/episode/dont-let-a-loan-ruin-a-relationship-httppodcastcu-villagecompodfilehonorcu238loanruinrelationship_final_1269011104mp3"
+                    class="episode-list-item">Don&#39;t Let a Loan Ruin a Relationship</a>
+                <a href="/episode/helping-family-members-during-tough-times-httppodcastcu-villagecompodfilehonorcu237helping_family_final_1267817425mp3"
+                    class="episode-list-item">Helping Family Members during Tough Times</a>
+                <a href="/episode/make-sure-living-trust-offers-are-trustworthy-httppodcastcu-villagecompodfilehonorcu236living_trust_final_1265035276mp3"
+                    class="episode-list-item">Make Sure Living Trust Offers Are Trustworthy</a>
+                <a href="/episode/legal-documents-you-need-to-have-httppodcastcu-villagecompodfilehonorcu235legal_documents_final_1265034989mp3"
+                    class="episode-list-item">Legal Documents You Need to Have</a>
+                <a href="/episode/post-recession-financial-habits-httppodcastcu-villagecompodfilehonorcu234post_recession_1265033672mp3"
+                    class="episode-list-item">Post-recession Financial Habits</a>
+                <a href="/episode/five-quick-steps-to-keep-more-money-in-your-pocket-httppodcastcu-villagecompodfilehonorcu233keep_more_money_1263305961mp3"
+                    class="episode-list-item">Five Quick Steps to Keep More Money in Your Pocket</a>
+                <a href="/episode/preparing-for-tax-season-httppodcastcu-villagecompodfilehonorcu230tax_season_1260309379mp3"
+                    class="episode-list-item">Preparing for Tax Season</a>
+                <a href="/episode/online-holiday-shopping-httppodcastcu-villagecompodfilehonorcu229online_shopping_1260305095mp3"
+                    class="episode-list-item">Online Holiday Shopping</a>
+                <a href="/episode/smart-tips-for-managing-your-debt-httppodcastcu-villagecompodfilehonorcu228managing_debt_1259182130mp3"
+                    class="episode-list-item">Smart Tips for Managing Your Debt</a>
+                <a href="/episode/10-rules-for-managing-credit-cards-httppodcastcu-villagecompodfilehonorcu224rules4credit_cards_1257370456mp3"
+                    class="episode-list-item">10 Rules for Managing Credit Cards</a>
+                <a href="/episode/avoid-scholarship-scams-httppodcastcu-villagecompodfilehonorcu218scholarships_final_1253192833mp3"
+                    class="episode-list-item">Avoid Scholarship Scams</a>
+                <a href="/episode/id-theft-prevention-and-recovery-httppodcastcu-villagecompodfilehonorcu217id_theft_final_1253192755mp3"
+                    class="episode-list-item">ID Theft: Prevention and Recovery</a>
+                <a href="/episode/household-budgeting-tips-httppodcastcu-villagecompodfilehonorcu216household_budgeting_final_1253192658mp3"
+                    class="episode-list-item">Household Budgeting Tips</a>
+                <a href="/episode/review-your-financial-habits-httppodcastcu-villagecompodfilehonorcu215reviewfinancialhabits_1252699826mp3"
+                    class="episode-list-item">Review Your Financial Habits</a>
+                <a href="/episode/do-your-research-before-taking-the-corporate-buyout-httppodcastcu-villagecompodfilehonorcu214corporate_buyout_pensions_1251831189mp3"
+                    class="episode-list-item">Do Your Research before Taking the Corporate Buyout</a>
+                <a href="/episode/dont-spend-retirement-on-tuition-httppodcastcu-villagecompodfilehonorcu211college_costs_1250708391mp3"
+                    class="episode-list-item">Don&#39;t Spend Retirement on Tuition</a>
+                <a href="/episode/interviewing-a-remodeler-httppodcastcu-villagecompodfilehonorcu166interviewing_a_remodeler_20090602mp3"
+                    class="episode-list-item">Interviewing a Remodeler</a>
+                <a href="/episode/renting-good-idea-httppodcastcu-villagecompodfilehonorcu165renting_good_idea_20090602mp3"
+                    class="episode-list-item">Renting, Good Idea?</a>
+                <a href="/episode/what-is-your-financial-compatibility-httppodcastcu-villagecompodfilehonorcu164whats_your_financial_compatibility_20090602mp3"
+                    class="episode-list-item">What is Your Financial Compatibility?</a>
+                <a href="/episode/consider-a-prenup-when-it-is-time-to-remarry-httppodcastcu-villagecompodfilehonorcu163consider_a_prenup_when_time_remarry_20090602mp3"
+                    class="episode-list-item">Consider a Prenup When it is Time to Remarry</a>
+                <a href="/episode/debt-management-plans-httppodcastcu-villagecompodfilehonorcu147debt_management_plan_20090303mp3"
+                    class="episode-list-item">Debt Management Plans</a>
+                <a href="/episode/choosing-a-credit-counselor-httppodcastcu-villagecompodfilehonorcu146choosing_a_credit_counselor_20090303mp3"
+                    class="episode-list-item">Choosing a Credit Counselor</a>
+                <a href="/episode/six-ways-to-prepare-for-lifes-financial-emergencies-httppodcastcu-villagecompodfilehonorcu136six_ways_prepare_lifes_fin_emer_20090103mp3"
+                    class="episode-list-item">Six Ways to Prepare for Life’s Financial Emergencies</a>
+                <a href="/episode/discussing-money-issues-with-older-relatives-httppodcastcu-villagecompodfilehonorcu135discussing_money_older_relatives_20090103mp3"
+                    class="episode-list-item">Discussing Money Issues with Older Relatives</a>
+                <a href="/episode/great-ideas-for-cutting-your-heating-bills-httppodcastcu-villagecompodfilehonorcu132heating_bills_20081201mp3"
+                    class="episode-list-item">Great Ideas for Cutting Your Heating Bills</a>
+                <a href="/episode/cut-debt-during-the-holiday-season-httppodcastcu-villagecompodfilehonorcu131holiday_debt_20081201mp3"
+                    class="episode-list-item">Cut Debt During the Holiday Season</a>
+                <a href="/episode/do-you-know-your-risk-tolerance-httppodcastcu-villagecompodfilehonorcu118risk_tolerance_20081017mp3"
+                    class="episode-list-item">Do You Know Your Risk Tolerance?</a>
+                <a href="/episode/teach-your-kids-financial-skills-httppodcastcu-villagecompodfilehonorcu112teach_your_kids_financial_skills_20080901mp3"
+                    class="episode-list-item">Teach Your Kids Financial Skills</a>
+                <a href="/episode/educate-your-college-student-about-identity-theft-httppodcastcu-villagecompodfilehonorcu111educate_your_college_student_identity_theft_20080901mp3"
+                    class="episode-list-item">Educate Your College Student about Identity Theft</a>
+                <a href="/episode/how-to-fix-credit-report-errors-httppodcastcu-villagecompodfilehonorcu108how_to_fixcreports_20080808mp3"
+                    class="episode-list-item">How to Fix Credit Report Errors</a>
+                <a href="/episode/6-things-you-can-do-to-raise-your-credit-score-httppodcastcu-villagecompodfilehonorcu1076_things_credit_score_20080808mp3"
+                    class="episode-list-item">6 Things You Can Do to Raise Your Credit Score</a>
+                <a href="/episode/protect-yourself-at-the-atm-httppodcastcu-villagecompodfilehonorcu102protect_yourself_at_the_atm_20080711mp3"
+                    class="episode-list-item">Protect Yourself at the ATM</a>
+                <a href="/episode/8-ways-to-sabotage-your-household-finances-httppodcastcu-villagecompodfilehonorcu1018_ways_to_sabotage_your_household_finances_20080711mp3"
+                    class="episode-list-item">8 Ways to Sabotage Your Household Finances</a>
+                <a href="/episode/how-to-afford-your-bundle-of-joy-httppodcastcu-villagecompodfilehonorcu97ymm_bundle_of_joy_5_min-_7_sec_20080616mp3"
+                    class="episode-list-item">How to Afford Your Bundle of Joy</a>
+                <a href="/episode/10-financial-questions-to-ask-before-you-get-married-httppodcastcu-villagecompodfilehonorcu96ymm_marraige_debt_4_min_36_sec_20080616mp3"
+                    class="episode-list-item">10 Financial Questions to Ask before You Get Married</a>
+                <a href="/episode/eight-steps-on-how-to-buy-your-first-house-httppodcastcu-villagecompodfilehonorcu91eight_steps_how_buy_your_first_house20080516mp3"
+                    class="episode-list-item">Eight Steps on How to Buy Your First House</a>
+                <a href="/episode/developing-a-realistic-remodeling-budget-httppodcastcu-villagecompodfilehonorcu90developing_a_realistic_remodeling_budget20080516mp3"
+                    class="episode-list-item">Developing a Realistic Remodeling Budget</a>
+                <a href="/episode/amending-your-tax-return-httppodcastcu-villagecompodfilehonorcu82ymm_amending_your_tax_return_20080411mp3"
+                    class="episode-list-item">Amending Your Tax Return</a>
+                <a href="/episode/faqs-about-tax-audits-httppodcastcu-villagecompodfilehonorcu85ymm_tax_audits_20080324mp3"
+                    class="episode-list-item">FAQs about Tax Audits</a>
+                <a href="/episode/get-a-jump-start-on-your-taxes-and-avoid-common-errors-httppodcastcu-villagecompodfilehonorcu84ymm_file_your_taxes_20080314mp3"
+                    class="episode-list-item">Get a Jump Start on Your Taxes - and Avoid Common Errors</a>
+                <a href="/episode/your-money-matters-retirement-savings-tips-httppodcastcu-villagecompodfilehonorcu70ymm_retirement_savings_tips_20080229mp3"
+                    class="episode-list-item">Your Money Matters: Retirement Savings Tips</a>
+                <a href="/episode/your-money-matters-budgeting-can-put-you-in-control-httppodcastcu-villagecompodfilehonorcu69ymm_budgeting_can_put_you_in_control_20080215mp3"
+                    class="episode-list-item">Your Money Matters: Budgeting Can Put You in Control</a>
+                <a href="/episode/your-money-matters-guidelines-for-improved-spending-httppodcastcu-villagecompodfilehonorcu68ymm_guidelines_for_improved_spending_20080201mp3"
+                    class="episode-list-item">Your Money Matters: Guidelines for Improved Spending</a>
+                <a href="/episode/your-money-matters-financial-records-what-to-keep-what-to-toss-httppodcastcu-villagecompodfilehonorcu64financial_records_what_to_keep_20080118mp3"
+                    class="episode-list-item">Your Money Matters: Financial Records - What to Keep, What to Toss</a>
+                <a href="/episode/your-money-matters-keeping-good-records-httppodcastcu-villagecompodfilehonorcu62keeping-good-records_20071221mp3"
+                    class="episode-list-item">Your Money Matters: Keeping Good Records</a>
+                <a href="/episode/your-money-matters-holiday-shopping-tips-httppodcastcu-villagecompodfilehonorcu56ymm_holidayshopping_20071120mp3"
+                    class="episode-list-item">Your Money Matters: Holiday Shopping Tips</a>
+                <a href="/episode/your-money-matters-recovering-from-bankruptcy-httppodcastcu-villagecompodfilehonorcu53ymm_after_bankruptcy_20071109mp3"
+                    class="episode-list-item">Your Money Matters: Recovering from Bankruptcy</a>
+                <a href="/episode/your-money-matters-getting-started-in-the-stock-market-httppodcastcu-villagecompodfilehonorcu48ymm_startingstockmarket_20071006mp3"
+                    class="episode-list-item">Your Money Matters: Getting Started in the Stock Market</a>
+                <a href="/episode/your-money-matters-financing-a-new-car-httppodcastcu-villagecompodfilehonorcu43ymm_financingnewcar_20070921mp3"
+                    class="episode-list-item">Your Money Matters: Financing a New Car</a>
+                <a href="/episode/your-money-matters-manage-your-way-out-of-debt-httppodcastcu-villagecompodfilehonorcu41ymm_getoutofdebt_20070907mp3"
+                    class="episode-list-item">Your Money Matters: Manage Your Way Out of Debt</a>
+                <a href="/episode/your-money-matters-using-a-credit-limit-record-httppodcastcu-villagecompodfilehonorcu38ymm_creditlimitrecord_20070824mp3"
+                    class="episode-list-item">Your Money Matters: Using a Credit Limit Record</a>
+                <a href="/episode/your-money-matters-identity-theft-protection-httppodcastcu-villagecompodfilehonorcu34ymm_idtheft_20070822mp3"
+                    class="episode-list-item">Your Money Matters: Identity Theft Protection</a>
+                <a href="/episode/your-money-matters-managing-credit-card-debt-httppodcastcu-villagecompodfilehonorcu35ymm_managecreditcards_20070822mp3"
+                    class="episode-list-item">Your Money Matters: Managing Credit Card Debt</a>
+                <a href="/episode/your-money-matters-seven-step-financial-fitness-formula-httppodcastcu-villagecompodfilehonorcu17ymm_finanfitness_20070620mp3"
+                    class="episode-list-item">Your Money Matters: Seven Step Financial Fitness Formula</a>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <!-- edit footer logo here -->
+                    <a href="#" class="logo col-sm-8">
+                        <img src="img/pwa-podstr-logo-144x70.png" class="img-responsive" alt="PWA Pdstr">
+                    </a>
+                    <div class="col-sm-12 text">
+                        <p>
+                            <i class="fa fa-map-pin"></i> 354 MAIN STREET | ANYTOWN USA | 11111</p>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:9192515067">Phone : (919) 251-5067</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i> E-mail :
+                            <a href="mailto:info@love2dev.com">info@love2dev.com</a>
+                        </p>
+                    </div>
+                    <span class="col-sm-12 social-wrapper circle">
+                        <a href="http://twitter.com/chrislove" class="social-icon fa fa-twitter"></a>
+                        <a href="https://www.facebook.com/love2dev/" class="social-icon fa fa-facebook"></a>
+                        <a target="_blank" href="https://plus.google.com/b/110904107389779237581/?pageId=110904107389779237581">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/love2dev">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UC3mfh2MN-5D-zOyiRLp9H6g">
+                            <i class="fa fa-youtube-play"></i>
+                        </a>
+                        <a target="_blank" href="https://www.pinterest.com/docluv/">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="footer-content">
+                        <h2>Links</h2>
+                        <nav>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li>
+                                    <a href="podcasts/">Podcasts</a>
+                                </li>
+                                <li>
+                                    <a href="listenlater/">Listen Later</a>
+                                </li>
+                                <li>
+                                    <a href="search/">Search</a>
+                                </li>
+                                <li>
+                                    <a href="config/">Config</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var scripts = ["js/libs/jquery.small.js",
+            "js/libs/index.js",
+            "js/libs/collapse.js",
+            "js/libs/util.js",
+            "js/app/app.js",
+            "js/app/podcast&#x2F;your-money-matters-podcasts.js"
+        ];
+    </script>
+
+    <script src="js/app/app.bootstrap.js"></script>
+</body>
+
+</html>

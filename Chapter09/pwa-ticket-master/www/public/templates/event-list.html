@@ -1,0 +1,14 @@
+{{#events}}
+<div class="card event-list-card" id="{{id}}">
+    <div class="card-header">
+        <h5 class="card-title">{{title}}</h5>
+    </div>
+    <img class="card-img-top ticket-barcode" src="img/venues/{{image}}" alt="{{title}}" />
+
+    <div class="card-body">
+        <p class="card-text">{{venue}}</p>
+        <p class="card-text">{{date}} - {{city}} {{state}}</p>
+        <a href="event?id={{id}}" class="card-link btn btn-primary float-right">Details</a>
+    </div>
+</div>
+{{/events}}

@@ -1,0 +1,172 @@
+{
+    "Name": "OCDevel Web Development Podcast",
+    "LongName": "OCDevel Web Development Podcast",
+    "lowerAppName": "OCDevel Web Development Podcast",
+    "slug": "ocdevel-web-development-podcast",
+    "title": "OCDevel Web Development Podcast",
+    "description": "OCDevel",
+    "layout": "default",
+    "app-shell": "app",
+    "body": "<div class=\"container\">    <div class=\"row\">        <div class=\"card\">            <img srcset=\"http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/30x30bb.jpg 30w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/60x60bb.jpg 60w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/100x100bb.jpg 100w, http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/600x600bb.jpg 600w\" sizes=\"(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw\"                src=\"http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/600x600bb.jpg\" alt=\"OCDevel Web Development Podcast\" class=\"card-img-top\">            <div class=\"card-body\">                <h3 class=\"card-title\">OCDevel Web Development Podcast</h3>                <p class=\"card-text\">OCDevel</p>            </div>            <i class=\"fa fa-plus\" aria-hidden=\"true\"></i>        </div>    </div>    <div class=\"row episode-list\">        <a href=\"/episode/podcast-8-linux-6c6e80f9-a105-4adc-83ca-53e7ed46f402\" class=\"episode-list-item\">Podcast 8: Linux</a>        <a href=\"/episode/podcast-7-internet-marketing-e5fc6d42-a6be-4fd3-80a5-c9f35ee89785\" class=\"episode-list-item\">Podcast 7: Internet Marketing</a>        <a href=\"/episode/podcast-6-cms-frameworks-bd5bb5f1-d54a-467a-b371-74fac60991dc\" class=\"episode-list-item\">Podcast 6: CMS &amp; Frameworks</a>        <a href=\"/episode/podcast-5-tools-b9494d40-7a44-4503-8d21-ad026fbff60b\" class=\"episode-list-item\">Podcast 5: Tools</a>        <a href=\"/episode/podcast-4-your-first-site-7d63b52b-0da4-4de4-b6bf-43cfe7ec025c\" class=\"episode-list-item\">Podcast 4: Your First Site</a>        <a href=\"/episode/podcast-3-client-161c6d75-a70b-4e0c-b1a9-c5c74ec9c588\" class=\"episode-list-item\">Podcast 3: Client</a>        <a href=\"/episode/podcast-2-server-c9410e32-59c3-4292-9557-d6df2720647b\" class=\"episode-list-item\">Podcast 2: Server</a>        <a href=\"/episode/podcast-1-introduction-51ba2a8a-d0cc-4ead-8cb2-ba8e4fe0ecdd\" class=\"episode-list-item\">Podcast 1: Introduction</a>    </div></div>",
+    "author": "Chris Love",
+    "facebook-publisher": "https://www.facebook.com/Love2Dev/",
+    "twitter": "ChrisLove",
+    "google-plus": "https://plus.google.com/b/110904107389779237581/?pageId=110904107389779237581",
+    "linkedin": "https://www.linkedin.com/in/Love2Dev/",
+    "pinterest": "https://www.pinterest.com/docluv/",
+    "youtube": "https://www.youtube.com/channel/UC3mfh2MN-5D-zOyiRLp9H6g",
+    "bing-user-key": "7EDAB92AF63E3B35E57195D810D64C57",
+    "image": {
+        "url": "http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/600x600bb.jpg",
+        "width": 600,
+        "height": 600
+    },
+    "cache": {},
+    "headers": {
+        "Cache-Control": "public, max-age=30240, s-max-age=1200"
+    },
+    "meta": {
+        "type": "article",
+        "og:type": "article",
+        "section": "progressive web apps",
+        "url": "https://podstr.love2dev.com/",
+        "route": "/"
+    },
+    "subtitle": null,
+    "featured-image": "img/pwa-podstr-logo-600x310.png",
+    "abstract": "OCDevel",
+    "approved": true,
+    "published": 1509053417879,
+    "active": true,
+    "tags": [],
+    "publishedDay": 20,
+    "publishedMonth": 10,
+    "publishedYear": 2117,
+    "collectionId": 269893594,
+    "feedUrl": "http://feeds.feedburner.com/WebDevelomentPodcastOcdevel",
+    "artwork": {
+        "30": "http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/30x30bb.jpg",
+        "60": "http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/60x60bb.jpg",
+        "100": "http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/100x100bb.jpg",
+        "600": "http://is4.mzstatic.com/image/thumb/Music6/v4/00/83/44/008344f6-7d9f-2031-39c1-107020839411/source/600x600bb.jpg"
+    },
+    "genres": [
+        "Software How-To",
+        "Podcasts",
+        "Technology"
+    ],
+    "episodes": [
+        {
+            "slug": "podcast-8-linux-6c6e80f9-a105-4adc-83ca-53e7ed46f402",
+            "title": "Podcast 8: Linux",
+            "description": "Linux, BSD, Solaris, Windows Server 2008, Server Operating Systems",
+            "pubdate": "2008-02-27T03:14:40.000Z",
+            "link": "http://ocdevel.com/files/podcasts/web-development/Episode_8_Linux.mp3",
+            "guid": "6c6e80f9-a105-4adc-83ca-53e7ed46f402",
+            "image": "http://ocdevel.com/files/podcasts/web-development/art.png",
+            "podcast": {
+                "title": "OCDevel Web Development Podcast",
+                "description": "How To: Web Development, Web Design, Content Management Systems, and more.",
+                "image": "http://ocdevel.com/files/podcasts/web-development/art.png"
+            }
+        },
+        {
+            "slug": "podcast-7-internet-marketing-e5fc6d42-a6be-4fd3-80a5-c9f35ee89785",
+            "title": "Podcast 7: Internet Marketing",
+            "description": "SEO (search engine optimization), Internet Marketing, Monetization, Accessibility.",
+            "pubdate": "2008-01-25T22:18:37.000Z",
+            "link": "http://ocdevel.com/files/podcasts/web-development/Episode_7_Internet_Marketing.mp3",
+            "guid": "e5fc6d42-a6be-4fd3-80a5-c9f35ee89785",
+            "image": "http://ocdevel.com/files/podcasts/web-development/art.png",
+            "podcast": {
+                "title": "OCDevel Web Development Podcast",
+                "description": "How To: Web Development, Web Design, Content Management Systems, and more.",
+                "image": "http://ocdevel.com/files/podcasts/web-development/art.png"
+            }
+        },
+        {
+            "slug": "podcast-6-cms-frameworks-bd5bb5f1-d54a-467a-b371-74fac60991dc",
+            "title": "Podcast 6: CMS & Frameworks",
+            "description": "CMS (content management systems), Web frameworks, Ruby on Rails, Drupal, etc.",
+            "pubdate": "2008-01-25T00:04:17.000Z",
+            "link": "http://ocdevel.com/files/podcasts/web-development/Episode_6_Frameworks.mp3",
+            "guid": "bd5bb5f1-d54a-467a-b371-74fac60991dc",
+            "image": "http://ocdevel.com/files/podcasts/web-development/art.png",
+            "podcast": {
+                "title": "OCDevel Web Development Podcast",
+                "description": "How To: Web Development, Web Design, Content Management Systems, and more.",
+                "image": "http://ocdevel.com/files/podcasts/web-development/art.png"
+            }
+        },
+        {
+            "slug": "podcast-5-tools-b9494d40-7a44-4503-8d21-ad026fbff60b",
+            "title": "Podcast 5: Tools",
+            "description": "Web design & development tools & IDE's, Eclipse, Firefox plugins, Firebug, etc.",
+            "pubdate": "2008-01-24T21:49:34.000Z",
+            "link": "http://ocdevel.com/files/podcasts/web-development/Episode_5_Tools.mp3",
+            "guid": "b9494d40-7a44-4503-8d21-ad026fbff60b",
+            "image": "http://ocdevel.com/files/podcasts/web-development/art.png",
+            "podcast": {
+                "title": "OCDevel Web Development Podcast",
+                "description": "How To: Web Development, Web Design, Content Management Systems, and more.",
+                "image": "http://ocdevel.com/files/podcasts/web-development/art.png"
+            }
+        },
+        {
+            "slug": "podcast-4-your-first-site-7d63b52b-0da4-4de4-b6bf-43cfe7ec025c",
+            "title": "Podcast 4: Your First Site",
+            "description": "Installing your first site on a WAMP server (windows, apache, mysql, php). Making your site publically accessible.",
+            "pubdate": "2008-01-24T00:25:31.000Z",
+            "link": "http://ocdevel.com/files/podcasts/web-development/Episode_4_Server.mp3",
+            "guid": "7d63b52b-0da4-4de4-b6bf-43cfe7ec025c",
+            "image": "http://ocdevel.com/files/podcasts/web-development/art.png",
+            "podcast": {
+                "title": "OCDevel Web Development Podcast",
+                "description": "How To: Web Development, Web Design, Content Management Systems, and more.",
+                "image": "http://ocdevel.com/files/podcasts/web-development/art.png"
+            }
+        },
+        {
+            "slug": "podcast-3-client-161c6d75-a70b-4e0c-b1a9-c5c74ec9c588",
+            "title": "Podcast 3: Client",
+            "description": "Client Side Technology includes\r\n  - DHTML\r\n  - Flash, Silverlight, Applets\r\n  - RIA\r\n  \r\nFlash, Silverlight, Applets\r\n\r\nDefine DHTML\r\n\r\nCode execution: Browser vs. Server\r\n\r\nDHTML\r\n  - css\r\n  - javascript and VBScript\r\n  - embedded vs external\r\n  - toolkits: Dojo, Moshikit, Scriptaculous, YUI, Prototype, JQuery, GWT...\r\n  \r\nclient-side vs server-side\r\n  - speed: client way faster\r\n  - Security: can view source (vs server-side scripting), ctrl+u\r\n  - Compatibility: server-side produces same output no matter what, client-side has compatibility issues\r\n  \r\nRIA (Flex, OpenLaszlo)\r\n\r\nAJAX!!!",
+            "pubdate": "2007-12-20T04:15:06.000Z",
+            "link": "http://ocdevel.com/files/podcasts/web-development/Episode_3_Client.mp3",
+            "guid": "161c6d75-a70b-4e0c-b1a9-c5c74ec9c588",
+            "image": "http://ocdevel.com/files/podcasts/web-development/art.png",
+            "podcast": {
+                "title": "OCDevel Web Development Podcast",
+                "description": "How To: Web Development, Web Design, Content Management Systems, and more.",
+                "image": "http://ocdevel.com/files/podcasts/web-development/art.png"
+            }
+        },
+        {
+            "slug": "podcast-2-server-c9410e32-59c3-4292-9557-d6df2720647b",
+            "title": "Podcast 2: Server",
+            "description": "Systems (sys admin)\r\n  - Linux, Windows Server 2003, BSD\r\n  \r\nServer Software (services)\r\n  - web servers\r\n  - database servers\r\n  - mail servers\r\n  - revision\r\n  - control servers\r\n  - *ports\r\n  \r\nWeb Server Configuration\r\n  - apache, IIS\r\n  \r\nDatabase (dba)\r\n  - MySql, SQL Server, Oracle, Postgres\r\n  \r\nServer-side Scripting\r\n  - Script runs on web server, generates dynamic web page\r\n  - (vs client-side, which generates dynamic content in the browser)\r\n  - CGI\r\n  \r\nWeb server extension modules\r\n  - CGI Languages: *Perl, Python, Ruby\r\n  - Web server extension modules: *PHP, ASP, ASP.NET\r\n  - Java servlets",
+            "pubdate": "2007-12-07T22:13:27.000Z",
+            "link": "http://ocdevel.com/files/podcasts/web-development/Episode_2_Server.mp3",
+            "guid": "c9410e32-59c3-4292-9557-d6df2720647b",
+            "image": "http://ocdevel.com/files/podcasts/web-development/art.png",
+            "podcast": {
+                "title": "OCDevel Web Development Podcast",
+                "description": "How To: Web Development, Web Design, Content Management Systems, and more.",
+                "image": "http://ocdevel.com/files/podcasts/web-development/art.png"
+            }
+        },
+        {
+            "slug": "podcast-1-introduction-51ba2a8a-d0cc-4ead-8cb2-ba8e4fe0ecdd",
+            "title": "Podcast 1: Introduction",
+            "description": "- Client: Web design ( HTML, CSS, Images ), Interactivity / Browser Objects ( Flash, Flex, Laszlo, Silverlight, Java Applets / Webstart), Client-side scripting ( JavaScript, AJAX)\r\n- Server: Server-side scripting( PHP, ASP, ASP.NET, J2EE, CGI, Python, Perl, Ruby), Database, Systems Administration\r\n- Internet marketing: SEO, Accessibility, Marketing, Monitization\r\n- Extras: WYSIWYG tools, Web Frameworks ( Django, Rails ), Blogging & CMS ( WordPress, Joomla!, Drupal)",
+            "pubdate": "2007-12-05T21:44:01.000Z",
+            "link": "http://ocdevel.com/files/podcasts/web-development/Episode_1_Introduction.mp3",
+            "guid": "51ba2a8a-d0cc-4ead-8cb2-ba8e4fe0ecdd",
+            "image": "http://ocdevel.com/files/podcasts/web-development/art.png",
+            "podcast": {
+                "title": "OCDevel Web Development Podcast",
+                "description": "How To: Web Development, Web Design, Content Management Systems, and more.",
+                "image": "http://ocdevel.com/files/podcasts/web-development/art.png"
+            }
+        }
+    ]
+}

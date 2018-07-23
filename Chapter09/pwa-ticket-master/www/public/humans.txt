@@ -1,0 +1,23 @@
+
+    /* TEAM */
+
+    Author: Chris Love
+
+	Company: Philly .NET | Love2Dev
+
+    Site: https://phillycc.love2dev.com
+
+    Twitter: 
+
+    Location: Malvern, PA
+	
+		
+    /* SITE */
+
+    Last update: 03/17/2018
+
+    Standards: HTML5, CSS3, ECMAScript 5
+
+    Components: 
+
+    Description: PWA Tickets Progressive Web App

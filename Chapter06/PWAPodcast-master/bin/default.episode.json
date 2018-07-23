@@ -1,0 +1,13 @@
+{
+"title": "Episode Title",
+"description": "<p>Episode description goes here.</p>",
+"pubdate": "2017-08-09T15:30:00.000Z",
+"link": "https://podstr.love2dev.com",
+"guid": "c47fbf6911463017dbc81fc2a90e5ebc",
+"image": "img/pwa-podstr-logo-310x310.png",
+"podcast": {
+"title": "Podcast Title",
+"description": "podcast description.",
+"image": "img/pwa-podstr-logo-310x310.png"
+}
+}

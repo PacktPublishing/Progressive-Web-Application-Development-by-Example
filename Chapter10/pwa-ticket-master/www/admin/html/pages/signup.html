@@ -1,0 +1,31 @@
+<div class="card horizontal grey lighten-4 detail-views">
+
+    <form>
+        <input type="hidden" name="UserID" value="{{UserID}}" />
+        <div class="row">
+            <div class="input-field col s12">
+                <input name="Email" type="email" class="validate" value="{{Email}}">
+                <label for="Email" data-error="[Place Custom Error Message Here]">Email</label>
+            </div>
+            <div class="input-field col s12">
+                <input name="Password" type="password" class="validate" value="{{Password}}">
+                <label for="Password" data-error="[Place Custom Error Message Here]">Password</label>
+            </div>
+            <div class="input-field col s12">
+                <input name="RepeatPassword" type="password" class="validate" value="{{RepeatPassword}}">
+                <label for="RepeatPassword" data-error="[Place Custom Error Message Here]">Repeat Password</label>
+            </div>
+        </div>
+        <div class="row right-align">
+            <button class="btn waves-effect waves-light red btn-cancel" type="button" name="Cancel">
+                Cancel
+                <i class="fa fa-times right"></i>
+            </button>
+            <button class="btn waves-effect waves-light btn-save teal darken-1" type="submit" name="Submit">
+                Save
+                <i class="fa fa-arrow-circle-right right"></i>
+            </button>
+        </div>
+    </form>
+
+</div>

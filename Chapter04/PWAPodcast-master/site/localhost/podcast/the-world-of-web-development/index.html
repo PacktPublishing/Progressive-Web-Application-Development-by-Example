@@ -1,0 +1,1585 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <base href="http://localhost:57662/">
+    <!-- Stylesheets -->
+    <link href="css/libs/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/libs/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href="css/app/site.css" rel="stylesheet">
+
+    <title>The World of Web Development</title>
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="PWA Pdstr">
+    <link rel="icon" sizes="192x192" href="meta/e75c99a5-4362-760a-8519-25dd4b1ae7e7.webPlatform.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Pdstr">
+    <link rel="apple-touch-icon" href="meta/4eb56734-e805-4709-14d3-907549c2db2e.webPlatform.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="meta/4eb56734-e805-4709-14d3-907549c2db2e.webPlatform.png">
+    <meta name="msapplication-TileColor" content="#ED7D31">
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#F6911E">
+    <meta name="description" content="Podstr">
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link href="favicon.png" rel="shortcut icon">
+    <link href="humans.txt" rel="author">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a href="/" class="navbar-brand">
+            <img src="img/pwa-podstr-logo-144x70.png" alt="PWA Pdstr" class="img-responsive">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="podcasts/">Podcasts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="listenlater/">Listen Later</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="config/">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 flex-nowrap">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <main class="main-content container-fluid" role="main">
+        <div class="container">
+            <div class="row podcast-details">
+                <div class="card">
+                    <img srcset="http://is3.mzstatic.com/image/thumb/Music128/v4/db/cd/a5/dbcda5bb-39d5-4ebc-46c2-6817fd8ac334/source/30x30bb.jpg 30w, http://is3.mzstatic.com/image/thumb/Music128/v4/db/cd/a5/dbcda5bb-39d5-4ebc-46c2-6817fd8ac334/source/60x60bb.jpg 60w, http://is3.mzstatic.com/image/thumb/Music128/v4/db/cd/a5/dbcda5bb-39d5-4ebc-46c2-6817fd8ac334/source/100x100bb.jpg 100w, http://is3.mzstatic.com/image/thumb/Music128/v4/db/cd/a5/dbcda5bb-39d5-4ebc-46c2-6817fd8ac334/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is3.mzstatic.com/image/thumb/Music128/v4/db/cd/a5/dbcda5bb-39d5-4ebc-46c2-6817fd8ac334/source/600x600bb.jpg"
+                        alt="The World of Web Development" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">The World of Web Development</h3>
+                        <p class="card-text">Robert Dewitt / Anchor</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="row episode-list">
+                <a href="/episode/episode-3-hiring-being-busy-and-how-to-raise-prices-1136" class="episode-list-item">Episode 3 - Hiring, being busy and how to raise prices</a>
+                <a href="/episode/episode-2-project-workflow-coding-standards-and-cats-1129"
+                    class="episode-list-item">Episode 2 - Project workflow, coding standards and cats</a>
+                <a href="/episode/episode-1-being-a-salesperson-late-payments-and-mcvities-biscuits-1125"
+                    class="episode-list-item">Episode 1 - Being a salesperson, late payments and Mcvities biscuits</a>
+                <a href="/episode/podcast-3-interview-with-nate-abele-of-lithium-php-framework-httpopenwebdeveloperscomp75"
+                    class="episode-list-item">Podcast #3: Interview with Nate Abele of Lithium PHP Framework</a>
+                <a href="/episode/podcast-2-interview-with-scott-gonzlez-of-jquery-ui-httpopenwebdeveloperscomp38"
+                    class="episode-list-item">Podcast #2: Interview with Scott González of jQuery UI</a>
+                <a href="/episode/ep105-joomla-beat-update-httpsapispreakercomepisode8734727"
+                    class="episode-list-item">Ep105 - Joomla Beat Update</a>
+                <a href="/episode/ep104-what-and-why-you-should-use-personas-for-your-website-httpsapispreakercomepisode7371609"
+                    class="episode-list-item">Ep104 - What and Why You Should Use Personas for Your Website</a>
+                <a href="/episode/podcast-8-linux-6c6e80f9-a105-4adc-83ca-53e7ed46f402"
+                    class="episode-list-item">Podcast 8: Linux</a>
+                <a href="/episode/podcast-7-internet-marketing-e5fc6d42-a6be-4fd3-80a5-c9f35ee89785"
+                    class="episode-list-item">Podcast 7: Internet Marketing</a>
+                <a href="/episode/podcast-6-cms-frameworks-bd5bb5f1-d54a-467a-b371-74fac60991dc"
+                    class="episode-list-item">Podcast 6: CMS &amp; Frameworks</a>
+                <a href="/episode/podcast-5-tools-b9494d40-7a44-4503-8d21-ad026fbff60b"
+                    class="episode-list-item">Podcast 5: Tools</a>
+                <a href="/episode/podcast-4-your-first-site-7d63b52b-0da4-4de4-b6bf-43cfe7ec025c" class="episode-list-item">Podcast 4: Your First Site</a>
+                <a href="/episode/podcast-3-client-161c6d75-a70b-4e0c-b1a9-c5c74ec9c588" class="episode-list-item">Podcast 3: Client</a>
+                <a href="/episode/podcast-2-server-c9410e32-59c3-4292-9557-d6df2720647b" class="episode-list-item">Podcast 2: Server</a>
+                <a href="/episode/015-michael-jackson-and-ryan-florence-explain-that-reactjs-really-changes-how-we-think-about-building-web-and-mobile-apps-httpcodewindscompodcast015html"
+                    class="episode-list-item">015 Michael Jackson and Ryan Florence explain that React.js really changes how we think about building web
+                    and mobile apps</a>
+                <a href="/episode/014-successful-launch-and-im-back-codewinds-content-plans-for-2015-provide-your-input-httpcodewindscompodcast014html"
+                    class="episode-list-item">014 Successful launch and I&#39;m back, CodeWinds content plans for 2015, provide your input</a>
+                <a href="/episode/013-reflections-of-jsconf-2014-part-2-httpcodewindscompodcast013html"
+                    class="episode-list-item">013 Reflections of JSConf 2014 - Part 2</a>
+                <a href="/episode/012-reflections-of-jsconf-2014-part-1-httpcodewindscompodcast012html"
+                    class="episode-list-item">012 Reflections of JSConf 2014 - Part 1</a>
+                <a href="/episode/ep103-matt-hayden-talking-about-conversion-rate-optimisation-httpsapispreakercomepisode7148354"
+                    class="episode-list-item">Ep103 - Matt Hayden talking about Conversion Rate Optimisation</a>
+                <a href="/episode/ep102-creating-a-sales-funnels-driving-traffic-with-eden-brownlee-httpsapispreakercomepisode7040827"
+                    class="episode-list-item">Ep102 - Creating a Sales Funnels &amp; Driving Traffic with Eden Brownlee</a>
+                <a href="/episode/ep101-inbound-marketing-to-grow-your-customers-with-ryan-ozimek-httpsapispreakercomepisode6980799"
+                    class="episode-list-item">Ep101 - Inbound Marketing to Grow Your Customers with Ryan Ozimek</a>
+                <a href="/episode/ep100-celebrating-100-episodes-of-the-podcast-3-hours-httpsapispreakercomepisode6883026"
+                    class="episode-list-item">Ep100 - Celebrating 100 Episodes of the Podcast (3 hours)</a>
+                <a href="/episode/ep99-steve-burge-from-ostraining-shares-membership-website-secrets-httpsapispreakercomepisode6845485"
+                    class="episode-list-item">Ep99 - Steve Burge from OSTraining Shares Membership Website Secrets</a>
+                <a href="/episode/ep98-john-pitchers-chats-about-productivity-business-growth-tips-httpsapispreakercomepisode6751651"
+                    class="episode-list-item">Ep98 - John Pitchers Chats About Productivity &amp; Business Growth Tips</a>
+                <a href="/episode/ep97-customer-journey-mapping-with-magda-cortez-laying-what-a-user-experiences-as-they-journey-through-a-website-httpsapispreakercomepisode6707021"
+                    class="episode-list-item">Ep97 - Customer Journey Mapping with Magda Cortez, Laying What a User Experiences as They Journey Through
+                    a Website</a>
+                <a href="/episode/ep96-extensions-for-performance-speed-tweaks-httpsapispreakercomepisode6700843"
+                    class="episode-list-item">Ep96 - Extensions for Performance &amp; Speed Tweaks</a>
+                <a href="/episode/ep95-happy-10th-birthday-joomla-httpsapispreakercomepisode6531415"
+                    class="episode-list-item">Ep95 - Happy 10th Birthday Joomla!</a>
+                <a href="/episode/ep94-top-10-extensions-august-2015-httpsapispreakercomepisode6453632"
+                    class="episode-list-item">Ep94 - Top 10 Extensions August 2015</a>
+                <a href="/episode/ep93-sren-beck-jensen-from-component-creator-neno-translate-httpsapispreakercomepisode6412461"
+                    class="episode-list-item">Ep93 - Søren Beck Jensen from Component Creator &amp; Neno Translate</a>
+                <a href="/episode/ep92-simon-kloostra-joomla-seo-httpsapispreakercomepisode6382158"
+                    class="episode-list-item">Ep92 - Simon Kloostra &amp; Joomla SEO</a>
+                <a href="/episode/ep91-promoting-selling-yourself-httpsapispreakercomepisode6354719"
+                    class="episode-list-item">Ep91 - Promoting &amp; Selling Yourself</a>
+                <a href="/episode/ep90-interview-lorna-jane-mitchell-httpsapispreakercomepisode6319794"
+                    class="episode-list-item">EP90 - Interview Lorna Jane Mitchell</a>
+                <a href="/episode/ep89-j-news-responsive-vs-mobile-ux-httpsapispreakercomepisode6293589"
+                    class="episode-list-item">Ep89 - J! News, Responsive vs Mobile UX</a>
+                <a href="/episode/ep88-top-10-extensions-june-2015-httpsapispreakercomepisode6257727"
+                    class="episode-list-item">Ep88 - Top 10 Extensions June 2015</a>
+                <a href="/episode/ep87-back-on-track-httptrafficlibsyncomjoomlabeatep87_mixdownmp3"
+                    class="episode-list-item">Ep87 - Back on Track</a>
+                <a href="/episode/ep86-robbie-adair-from-houston-texas-httptrafficlibsyncomjoomlabeatep86-robbie-adiar_mixdownmp3"
+                    class="episode-list-item">Ep86 - Robbie Adair from Houston Texas</a>
+                <a href="/episode/ep85-ana-barcellos-cashflow-httpsapispreakercomepisode5820271"
+                    class="episode-list-item">Ep85 - Ana Barcellos &amp; Cashflow</a>
+                <a href="/episode/ep84-start-run-grow-your-web-agency-httpsapispreakercomepisode5754342"
+                    class="episode-list-item">Ep84 - Start, Run &amp; Grow Your Web Agency</a>
+                <a href="/episode/ep83-interview-with-the-flexicontent-team-cck-for-joomla-httpsapispreakercomepisode5727444"
+                    class="episode-list-item">Ep83 - Interview with the FLEXIContent Team CCK for Joomla</a>
+                <a href="/episode/ep82-top-10-new-extensions-feb-2015-httpsapispreakercomepisode5692351"
+                    class="episode-list-item">Ep82 - Top 10 New Extensions - Feb 2015</a>
+                <a href="/episode/ep81-catching-up-on-whats-been-happening-httpsapispreakercomepisode5663592"
+                    class="episode-list-item">Ep81 - Catching Up on What&#39;s Been Happening</a>
+                <a href="/episode/ep80-interview-with-the-team-behind-the-new-extension-directory-httpsapispreakercomepisode5663598"
+                    class="episode-list-item">Ep80 - Interview with the team behind the new Extension Directory</a>
+                <a href="/episode/ep79-interview-with-jisse-reitsma-joomla-plugin-development-httpsapispreakercomepisode5479896"
+                    class="episode-list-item">Ep79 - Interview with Jisse Reitsma, Joomla Plugin Development</a>
+                <a href="/episode/ep78-interview-with-peter-martin-and-password-tips-to-help-keep-your-website-s-httpsapispreakercomepisode5446172"
+                    class="episode-list-item">Ep78 - Interview with Peter Martin and Password Tips to Help Keep Your Website S</a>
+                <a href="/episode/ep77-interview-with-chad-windnagle-gsoc-and-joomla-34-httpsapispreakercomepisode5254515"
+                    class="episode-list-item">Ep77 - Interview with Chad Windnagle, GSoC and Joomla 3.4</a>
+                <a href="/episode/ep76-roland-dalmulder-interview-httpsapispreakercomepisode5223165"
+                    class="episode-list-item">Ep76 - Roland Dalmulder Interview</a>
+                <a href="/episode/ep75-matt-thomas-production-leadership-team-and-direction-of-joomla-httpsapispreakercomepisode5158042"
+                    class="episode-list-item">Ep75 - Matt Thomas, Production Leadership Team and Direction of Joomla</a>
+                <a href="/episode/ep74-steve-cooper-braintree-iot-httpsapispreakercomepisode5137228"
+                    class="episode-list-item">Ep74 - Steve Cooper, BrainTree &amp; IoT</a>
+                <a href="/episode/ep73-top-10-new-extensions-for-october-2014-httpsapispreakercomepisode5107523"
+                    class="episode-list-item">Ep73 - Top 10 New Extensions for October 2014</a>
+                <a href="/episode/ep72-pizza-bugs-and-fun-event-with-nick-savov-and-my-new-co-host-httpsapispreakercomepisode5087276"
+                    class="episode-list-item">Ep72 - Pizza, Bugs and Fun Event with Nick Savov and My New Co-Host</a>
+                <a href="/episode/ep71-joomla-world-conference-2014-is-coming-httpsapispreakercomepisode5050984"
+                    class="episode-list-item">Ep71 - Joomla World Conference 2014 is Coming</a>
+                <a href="/episode/ep70-joomla-dev-conf-joomla-ignite-httpsapispreakercomepisode5012243"
+                    class="episode-list-item">Ep70 - Joomla Dev Conf, Joomla Ignite</a>
+                <a href="/episode/ep69-importance-of-multilingual-documentation-for-joomla-with-helvecio-da-sil-httpsapispreakercomepisode4944734"
+                    class="episode-list-item">Ep69 - Importance of Multilingual Documentation for Joomla with Helvecio da Sil</a>
+                <a href="/episode/ep68-security-authentication-interview-with-chris-drake-httpsapispreakercomepisode4922537"
+                    class="episode-list-item">Ep68 - Security Authentication Interview with Chris Drake</a>
+                <a href="/episode/ep67-multisites-with-joomla-interview-with-edwin-from-jms2win-httpsapispreakercomepisode4869840"
+                    class="episode-list-item">Ep67 - Multisites with Joomla, interview with Edwin from JMS2Win</a>
+                <a href="/episode/ep66-interview-with-phil-locke-from-joostrap-httpsapispreakercomepisode4841894"
+                    class="episode-list-item">Ep66 - Interview with Phil Locke from Joostrap</a>
+                <a href="/episode/ep65-inbound-marketing-with-luke-and-gabe-from-savvy-panda-httpsapispreakercomepisode4739460"
+                    class="episode-list-item">Ep65 - Inbound Marketing with Luke and Gabe from Savvy Panda</a>
+                <a href="/episode/ep64-interview-the-creators-of-sobipro-httpsapispreakercomepisode4680313"
+                    class="episode-list-item">Ep64 - Interview the Creators of SobiPro</a>
+                <a href="/episode/ep63-interview-with-optimumtheme-httpsapispreakercomepisode4626537"
+                    class="episode-list-item">Ep63 - Interview with OptimumTheme</a>
+                <a href="/episode/ep62-interview-with-ronni-christiansen-httpsapispreakercomepisode4602275"
+                    class="episode-list-item">Ep62 - Interview with Ronni Christiansen</a>
+                <a href="/episode/ep61-understanding-joomla-cck-seblod-with-james-morrell-httpsapispreakercomepisode4465816"
+                    class="episode-list-item">Ep61 - Understanding Joomla CCK Seblod with James Morrell</a>
+                <a href="/episode/ep60-top-10-new-extensions-for-april-2014-httpsapispreakercomepisode4433604"
+                    class="episode-list-item">Ep60 - Top 10 New Extensions for April 2014</a>
+                <a href="/episode/ep59-interview-with-sarah-watz-httpsapispreakercomepisode4370986"
+                    class="episode-list-item">Ep59 - Interview with Sarah Watz</a>
+                <a href="/episode/ep58-setting-up-joomla-on-windows-servers-httpsapispreakercomepisode4341305"
+                    class="episode-list-item">Ep58 - Setting up Joomla on Windows Servers</a>
+                <a href="/episode/ep57-new-joomla-33-features-httpsapispreakercomepisode4298598"
+                    class="episode-list-item">Ep57 - New Joomla 3.3 Features</a>
+                <a href="/episode/ep56-interview-nic-from-akeebabackup-httpsapispreakercomepisode4239449"
+                    class="episode-list-item">Ep56 - Interview Nic from AkeebaBackup</a>
+                <a href="/episode/ep55-top-10-new-joomla-extensions-review-for-march-2014-httpsapispreakercomepisode4202525"
+                    class="episode-list-item">Ep55 - Top 10 New Joomla Extensions Review for March 2014</a>
+                <a href="/episode/ep54-dawn-russell-joomla-consultant-and-services-interview-httpsapispreakercomepisode4175392"
+                    class="episode-list-item">Ep54 - Dawn Russell, Joomla Consultant and Services Interview</a>
+                <a href="/episode/ep53-gary-brooks-ceo-of-cloudaccess-tells-us-his-story-httpsapispreakercomepisode4141736"
+                    class="episode-list-item">Ep53 - Gary Brooks, CEO of CloudAccess tells us his story</a>
+                <a href="/episode/ep52-joomla-framework-licensing-lgpl-or-gpl-httpsapispreakercomepisode4112288"
+                    class="episode-list-item">Ep52 - Joomla Framework Licensing, LGPL or GPL</a>
+                <a href="/episode/ep51-organising-joomla-conferences-with-robert-deutz-httpsapispreakercomepisode4072027"
+                    class="episode-list-item">Ep51 - Organising Joomla conferences with Robert Deutz</a>
+                <a href="/episode/ep50-google-hangout-talking-about-joomla-eco-system-httpsapispreakercomepisode4034253"
+                    class="episode-list-item">Ep50 - Google Hangout talking about Joomla Eco System</a>
+                <a href="/episode/ep49-joomla-extension-directory-and-making-money-with-extensions-httpsapispreakercomepisode4001042"
+                    class="episode-list-item">Ep49 - Joomla! Extension Directory and Making Money with Extensions</a>
+                <a href="/episode/ep48-joomlas-new-marketing-team-and-news-updates-httpsapispreakercomepisode3924798"
+                    class="episode-list-item">Ep48 - Joomla&#39;s New Marketing Team and News Updates</a>
+                <a href="/episode/ep47-top-10-joomla-extensions-jan-2014-httpsapispreakercomepisode3888976"
+                    class="episode-list-item">Ep47 - Top 10 Joomla Extensions Jan 2014</a>
+                <a href="/episode/ep46-changing-updating-and-testing-httpsapispreakercomepisode3872742"
+                    class="episode-list-item">Ep46 - Changing, Updating and Testing</a>
+                <a href="/episode/ep45-cross-pollinating-cms-ideas-joomla-vs-wordpress-httpsapispreakercomepisode3872740"
+                    class="episode-list-item">Ep45 - Cross Pollinating CMS Ideas: Joomla Vs WordPress</a>
+                <a href="/episode/ep44-writing-a-book-about-joomla-with-tim-plummer-httpsapispreakercomepisode3872741"
+                    class="episode-list-item">Ep44 - Writing a Book About Joomla! with Tim Plummer</a>
+                <a href="/episode/ep43-interview-with-president-of-open-source-matters-paul-orwig-httpsapispreakercomepisode3872745"
+                    class="episode-list-item">Ep43 - Interview with President of Open Source Matters Paul Orwig</a>
+                <a href="/episode/ep42-jwc13-review-and-chat-with-andrew-eddie-about-distributions-httpsapispreakercomepisode3872739"
+                    class="episode-list-item">Ep42 - JWC13 Review and Chat with Andrew Eddie about Distributions</a>
+                <a href="/episode/ep41-email-campaign-acymailing-interview-with-adrien-baborier-httpsapispreakercomepisode3872738"
+                    class="episode-list-item">Ep41 - Email Campaign AcyMailing Interview with Adrien Baborier</a>
+                <a href="/episode/ep40-joomla-ignite-and-interview-with-nicolas-from-hikashop-httpsapispreakercomepisode3872761"
+                    class="episode-list-item">Ep40 - Joomla Ignite and Interview with Nicolas from Hikashop</a>
+                <a href="/episode/ep39-joomladay-sydney-recap-and-interview-with-norm-douglas-httpsapispreakercomepisode3872744"
+                    class="episode-list-item">Ep39 - JoomlaDay Sydney Recap and Interview with Norm Douglas</a>
+                <a href="/episode/ep38-joomla-site-performance-with-tenko-from-siteground-httpsapispreakercomepisode3872749"
+                    class="episode-list-item">EP38 - Joomla Site Performance with Tenko from SiteGround</a>
+                <a href="/episode/ep37-interview-with-the-joomla-world-conference-team-2013-httpsapispreakercomepisode3872748"
+                    class="episode-list-item">Ep37 - Interview with the Joomla World Conference team 2013</a>
+                <a href="/episode/ep36-interview-with-shayne-bartlett-joomla-co-founder-httpsapispreakercomepisode3872747"
+                    class="episode-list-item">Ep36 - Interview with Shayne Bartlett, Joomla co-founder</a>
+                <a href="/episode/ep35-andrew-eddie-co-founder-of-joomla-future-and-more-httpsapispreakercomepisode3872750"
+                    class="episode-list-item">Ep35 - Andrew Eddie, Co-founder of Joomla, Future and more</a>
+                <a href="/episode/ep34-interview-with-max-lynam-about-long-term-client-relationships-httpsapispreakercomepisode3872751"
+                    class="episode-list-item">Ep34 - Interview with Max Lynam about Long Term Client Relationships</a>
+                <a href="/episode/ep33-whats-new-in-joomla-32-httpsapispreakercomepisode3888983"
+                    class="episode-list-item">Ep33 - What&#39;s New in Joomla 3.2</a>
+                <a href="/episode/ep32-interview-with-scott-greenwald-from-joomla-direct-httpsapispreakercomepisode3888984"
+                    class="episode-list-item">Ep32 - Interview with Scott Greenwald from Joomla Direct</a>
+                <a href="/episode/ep31-content-construction-kits-cck-for-joomla-httpsapispreakercomepisode3872764"
+                    class="episode-list-item">Ep31 - Content Construction Kits (CCK) for Joomla</a>
+                <a href="/episode/ep30-5-easy-steps-to-help-plan-and-build-your-website-httpsapispreakercomepisode3872762"
+                    class="episode-list-item">Ep30 - 5 Easy Steps to Help Plan and Build Your Website</a>
+                <a href="/episode/ep29-joomla-install-tips-and-crm-interview-with-david-hurley-httpsapispreakercomepisode3872757"
+                    class="episode-list-item">Ep29 - Joomla Install Tips and CRM Interview with David Hurley</a>
+                <a href="/episode/ep28-why-and-how-to-migrate-from-joomla-15-httpsapispreakercomepisode3888986"
+                    class="episode-list-item">Ep28 - Why and How to Migrate from Joomla 1.5</a>
+                <a href="/episode/podcast-1-introduction-51ba2a8a-d0cc-4ead-8cb2-ba8e4fe0ecdd"
+                    class="episode-list-item">Podcast 1: Introduction</a>
+                <a href="/episode/011-kassandra-perch-modular-javascript-application-architectures-and-insights-from-teaching-httpcodewindscompodcast011html"
+                    class="episode-list-item">011 Kassandra Perch - Modular JavaScript application architectures and insights from teaching</a>
+                <a href="/episode/010-nico-bevacqua-js-build-tooling-development-workflow-and-his-new-book-javascript-application-design-httpcodewindscompodcast010html"
+                    class="episode-list-item">010 Nico Bevacqua - JS build tooling, development workflow, and his new book JavaScript Application Design</a>
+                <a href="/episode/009-spike-brehm-sharing-javascript-in-browser-and-server-building-isomorphic-apps-httpcodewindscompodcast009html"
+                    class="episode-list-item">009 Spike Brehm - Sharing javascript in browser and server - building isomorphic apps</a>
+                <a href="/episode/008-guy-bedford-jspm-systemjs-unity-and-simplicity-in-loading-commonjs-amd-and-es6-js-packages-httpcodewindscompodcast008html"
+                    class="episode-list-item">008 Guy Bedford - jspm &amp; SystemJS - Unity and simplicity in loading CommonJS, AMD, and ES6 JS packages</a>
+                <a href="/episode/007-forrest-norvell-on-es6-and-our-communitys-role-at-jsconf-2014-httpcodewindscompodcast007html"
+                    class="episode-list-item">007 Forrest Norvell on ES6 and our community&#39;s role at JSConf 2014</a>
+                <a href="/episode/006-daniel-shaw-dshaw-introduces-nodesource-at-jsconf-2014-httpcodewindscompodcast006html"
+                    class="episode-list-item">006 Daniel Shaw (@dshaw) introduces NodeSource at JSConf 2014</a>
+                <a href="/episode/005-saul-maddox-software-engineer-at-pros-shares-insights-about-his-hapi-ninja-boilerplate-and-its-technology-nodejs-hapijs-web-framework-swig-gulp-httpcodewindscompodcast005html"
+                    class="episode-list-item">005 Saul Maddox, Software Engineer at PROS, shares insights about his Hapi-Ninja boilerplate and its technology
+                    (Node.js, Hapijs web framework, Swig, Gulp)</a>
+                <a href="/episode/004-pete-hunt-software-engineer-for-facebook-discussing-facebooks-open-source-js-ui-framework-react-httpcodewindscompodcast004html"
+                    class="episode-list-item">004 Pete Hunt, Software Engineer for Facebook, discussing Facebook&#39;s open source js UI framework, React</a>
+                <a href="/episode/003-sqlbits-lightweight-sql-builder-for-nodejs-for-use-with-postgres-or-other-ansi-sql-databases-httpcodewindscompodcast003html"
+                    class="episode-list-item">003 SQLBits - lightweight SQL builder for Node.js for use with Postgres or other ANSI SQL databases</a>
+                <a
+                    href="/episode/002-first-look-at-hapijs-20-the-nodejs-web-framework-from-walmart-labs-httpcodewindscompodcast002html"
+                    class="episode-list-item">002 First look at Hapijs 2.0, the Node.js web framework from Walmart Labs</a>
+                    <a href="/episode/001-daniel-shaw-interview-discussing-the-node-firms-public-nodejs-training-courses-httpcodewindscompodcast001html"
+                        class="episode-list-item">001 Daniel Shaw interview discussing The Node Firm&#39;s public Node.js training courses</a>
+                    <a href="/episode/podcast-1-interview-with-christopher-schmitt-httpopenwebdeveloperscomp28"
+                        class="episode-list-item">Podcast #1: Interview with Christopher Schmitt</a>
+                    <a href="/episode/announcing-open-web-developers-podcast-httpopenwebdeveloperscomp8"
+                        class="episode-list-item">Announcing Open Web Developers Podcast</a>
+                    <a href="/episode/ep27-interview-with-jessica-dunbar-social-media-part-2-httpsapispreakercomepisode3872755"
+                        class="episode-list-item">Ep27 - Interview with Jessica Dunbar - Social Media - Part 2</a>
+                    <a href="/episode/ep26-interview-with-online-marketer-jessica-dunbar-part-1-httpsapispreakercomepisode3872754"
+                        class="episode-list-item">Ep26 - Interview with Online Marketer Jessica Dunbar Part 1</a>
+                    <a href="/episode/ep25-designing-for-joomla-and-inspiration-with-chiara-aliotta-httpsapispreakercomepisode3888991"
+                        class="episode-list-item">Ep25 - Designing for Joomla and Inspiration with Chiara Aliotta</a>
+                    <a href="/episode/ep24-joomladay-kenya-update-and-rebranding-your-website-httpsapispreakercomepisode3888988"
+                        class="episode-list-item">Ep24 - JoomlaDay Kenya Update and Rebranding Your Website</a>
+                    <a href="/episode/ep23-interview-with-richard-pearce-from-build-a-joomla-website-httpsapispreakercomepisode3888987"
+                        class="episode-list-item">Ep23 - Interview with Richard Pearce from Build A Joomla Website</a>
+                    <a href="/episode/ep22-events-pizza-bugs-and-fun-interview-with-pete-nurse-httpsapispreakercomepisode3872759"
+                        class="episode-list-item">Ep22 - Events, Pizza, Bugs and Fun, Interview with Pete Nurse</a>
+                    <a href="/episode/ep21-joomle-extension-directory-news-seo-tips-3-metadata-httpsapispreakercomepisode3888989"
+                        class="episode-list-item">Ep21 - Joomle Extension Directory News, SEO Tips 3: Metadata</a>
+                    <a href="/episode/ep20-google-cant-crawl-and-interview-with-david-hurley-httpsapispreakercomepisode3888994"
+                        class="episode-list-item">Ep20 - Google Can&#39;t Crawl and Interview with David Hurley</a>
+                    <a href="/episode/ep19-seo-tip-title-tags-interview-vic-drover-anything-digital-httpsapispreakercomepisode3888990"
+                        class="episode-list-item">Ep19 - SEO Tip Title Tags, Interview Vic Drover, Anything Digital</a>
+                    <a href="/episode/ep18-seo-tip-domain-names-and-interview-with-victor-drover-httpsapispreakercomepisode3888992"
+                        class="episode-list-item">Ep18 - SEO Tip Domain Names and Interview with Victor Drover</a>
+                    <a href="/episode/ep17-accessibility-and-global-accessibility-awareness-day-httpsapispreakercomepisode3889005"
+                        class="episode-list-item">Ep17 - Accessibility and Global Accessibility Awareness Day</a>
+                    <a href="/episode/episode-16-j-and-beyond-sander-potjer-httpsapispreakercomepisode2610955"
+                        class="episode-list-item">Episode 16 - J and Beyond, Sander Potjer</a>
+                    <a href="/episode/ep16-j-and-beyond-news-update-interview-with-sander-potjer-httpsapispreakercomepisode3889000"
+                        class="episode-list-item">Ep16 - J and Beyond News Update, Interview with Sander Potjer</a>
+                    <a href="/episode/ep15-storify-and-interview-with-gev-balyan-from-bang2joom-httpsapispreakercomepisode3888996"
+                        class="episode-list-item">Ep15 - Storify and Interview with Gev Balyan from Bang2Joom</a>
+                    <a href="/episode/ep14-joomla-news-new-music-and-interview-with-tenko-nikolov-httpsapispreakercomepisode3888993"
+                        class="episode-list-item">Ep14 - Joomla News, New Music and Interview with Tenko Nikolov</a>
+                    <a href="/episode/ep13-big-news-updates-with-joomla-beat-news-from-around-the-web-big-joomla-e-httpsapispreakercomepisode3888997"
+                        class="episode-list-item">Ep13 - Big news updates with Joomla Beat, News from around the web, big Joomla E</a>
+                    <a href="/episode/ep12-joomla-news-google-author-rank-and-kyle-ledbetter-httpsapispreakercomepisode3889003"
+                        class="episode-list-item">Ep12 - Joomla News, Google Author Rank and Kyle Ledbetter</a>
+                    <a href="/episode/ep11-picking-a-good-joomla-extension-and-joomla-crm-httpsapispreakercomepisode3872763"
+                        class="episode-list-item">Ep11 - Picking a Good Joomla Extension and Joomla CRM</a>
+                    <a href="/episode/ep10-extension-and-service-review-and-interview-with-thang-from-joomlashine-httpsapispreakercomepisode3888995"
+                        class="episode-list-item">Ep10 - Extension and Service Review and Interview with Thang from JoomlaShine</a>
+                    <a href="/episode/ep9-joomla-facebook-milestone-15-extensions-archived-and-interview-with-dian-httpsapispreakercomepisode3888999"
+                        class="episode-list-item">Ep9 - Joomla Facebook Milestone, 1.5 Extensions Archived and Interview with Dian</a>
+                    <a href="/episode/ep8-joomladay-boston-helping-grow-the-community-and-brian-teeman-httpsapispreakercomepisode3889010"
+                        class="episode-list-item">Ep8 - JoomlaDay Boston, Helping Grow the Community and Brian Teeman</a>
+                    <a href="/episode/ep7-interview-with-max-lynam-talking-about-mijoshop-httpsapispreakercomepisode3889008"
+                        class="episode-list-item">Ep7 - Interview with Max Lynam talking about MijoShop</a>
+                    <a href="/episode/ep6-freelancing-with-joomla-and-interview-with-jennifer-gregory-httpsapispreakercomepisode3889014"
+                        class="episode-list-item">Ep6 - Freelancing with Joomla and Interview with Jennifer Gregory</a>
+                    <a href="/episode/ep5-updating-joomla-facebook-graph-search-cory-webb-and-themepraise-httpsapispreakercomepisode3888998"
+                        class="episode-list-item">Ep5 - Updating Joomla, Facebook Graph Search, Cory Webb and ThemePraise</a>
+                    <a href="/episode/ep4-social-sharing-joomla-templates-and-interview-with-peter-van-westen-from-httpsapispreakercomepisode3889004"
+                        class="episode-list-item">Ep4 - Social sharing, Joomla templates and interview with Peter van Westen from</a>
+                    <a href="/episode/ep3-myspace-and-anthony-olsen-interview-from-joomlabamboo-httpsapispreakercomepisode3889011"
+                        class="episode-list-item">Ep3 - MySpace and Anthony Olsen Interview from JoomlaBamboo</a>
+                    <a href="/episode/ep2-joomla-backups-security-updates-and-watchfulli-httpsapispreakercomepisode3889001"
+                        class="episode-list-item">Ep2 - Joomla backups, security, updates and Watchful.li</a>
+                    <a href="/episode/ep1-has-joomla-lost-its-popularity-httpsapispreakercomepisode3889006"
+                        class="episode-list-item">Ep1 - Has Joomla Lost Its Popularity</a>
+                    <a href="/episode/50-jukebox-special-tagsoundcloud2010tracks337977500"
+                        class="episode-list-item">50: Jukebox Special</a>
+                    <a href="/episode/49-web-security-with-tim-nash-tagsoundcloud2010tracks324065287"
+                        class="episode-list-item">49: Web Security | With Tim Nash</a>
+                    <a href="/episode/48-progressive-enhancement-with-aaron-gustafson-tagsoundcloud2010tracks317326313"
+                        class="episode-list-item">48: Progressive Enhancement | With Aaron Gustafson</a>
+                    <a href="/episode/47-dogmatism-with-chris-coyier-tagsoundcloud2010tracks314224279"
+                        class="episode-list-item">47: Dogmatism | With Chris Coyier</a>
+                    <a href="/episode/46-css-grid-layout-an-interview-with-rachel-andrew-tagsoundcloud2010tracks310147153"
+                        class="episode-list-item">46: CSS Grid Layout | An interview with Rachel Andrew</a>
+                    <a href="/episode/45-a-chat-about-seo-with-elliott-richmond-tagsoundcloud2010tracks299289456"
+                        class="episode-list-item">45: A chat about SEO | with Elliott Richmond</a>
+                    <a href="/episode/44-looking-back-at-2016-they-ran-screaming-tagsoundcloud2010tracks304763861"
+                        class="episode-list-item">44: Looking back at 2016 | They ran screaming</a>
+                    <a href="/episode/43-perch-cms-an-interview-with-clive-walker-tagsoundcloud2010tracks294443834"
+                        class="episode-list-item">43: Perch CMS | An interview with Clive Walker</a>
+                    <a href="/episode/42-pc-versus-mac-apple-comes-down-the-mountain-tagsoundcloud2010tracks292283041"
+                        class="episode-list-item">42: PC versus Mac | Apple comes down the mountain</a>
+                    <a href="/episode/41-working-with-designers-do-you-etch-a-sketch-tagsoundcloud2010tracks290200214"
+                        class="episode-list-item">41: Working with Designers | Do you Etch-a-Sketch?</a>
+                    <a href="/episode/bootcamps-are-a-scam-how-to-get-a-job-without-going-to-a-bootcamp-tagsoundcloud2010tracks330483576"
+                        class="episode-list-item">BOOTCAMPS ARE A SCAM - How To Get A Job WITHOUT Going To A Bootcamp</a>
+                    <a href="/episode/freelancers-pay-attention-how-to-avoid-being-ripped-off-tagsoundcloud2010tracks329055684"
+                        class="episode-list-item">FREELANCERS PAY ATTENTION - How To Avoid Being Ripped Off</a>
+                    <a href="/episode/twitter-is-your-web-dev-career-secret-weapon-personal-branding-how-to-do-it-tagsoundcloud2010tracks323943725"
+                        class="episode-list-item">Twitter Is Your WEB DEV CAREER SECRET Weapon (+ Personal Branding &amp; How to Do It)</a>
+                    <a href="/episode/freelancing-101-the-web-dev-freelancing-high-level-overview-business-setup-tagsoundcloud2010tracks321517445"
+                        class="episode-list-item">Freelancing 101: The WEB DEV Freelancing High-Level Overview &amp; Business Setup</a>
+                    <a href="/episode/how-to-improve-as-a-programmer-dont-write-more-code-read-more-tagsoundcloud2010tracks320415640"
+                        class="episode-list-item">How To Improve As A Programmer - DONT WRITE MORE CODE, READ MORE</a>
+                    <a href="/episode/the-web-dev-roadmap-how-to-get-a-job-as-a-developer-jrmid-efficiently-tagsoundcloud2010tracks316791706"
+                        class="episode-list-item">The Web Dev ROADMAP: How to Get a Job as a Developer (Jr&#x2F;Mid) EFFICIENTLY</a>
+                    <a href="/episode/qa-freelancing-upgrading-your-career-how-to-solve-your-own-problems-wthe-edge-effect-tagsoundcloud2010tracks315958338"
+                        class="episode-list-item">Q&amp;A - Freelancing, Upgrading Your Career, &amp; How to Solve Your Own Problems w&#x2F;The Edge Effect</a>
+                    <a href="/episode/32-how-to-build-a-portfolio-with-no-work-experience-nothing-to-put-there-step-by-step-formula-tagsoundcloud2010tracks314477770"
+                        class="episode-list-item">32. How to Build a Portfolio with NO Work Experience &amp; &quot;Nothing to Put There&quot; - Step by
+                        Step Formula</a>
+                    <a href="/episode/the-2017-linkedin-formula-for-developers-focusing-on-the-gist-tagsoundcloud2010tracks311043580"
+                        class="episode-list-item">The 2017 LinkedIn FORMULA For Developers &amp; Focusing on &quot;The Gist&quot;</a>
+                    <a href="/episode/what-programming-languages-should-you-learn-in-2017-not-what-you-expect-tagsoundcloud2010tracks308085352"
+                        class="episode-list-item">What Programming Languages Should YOU Learn in 2017?! (NOT WHAT YOU EXPECT)</a>
+                    <a href="/episode/how-to-build-your-first-web-app-without-knowing-anything-tagsoundcloud2010tracks306185865"
+                        class="episode-list-item">How To Build Your FIRST Web App (Without Knowing Anything)</a>
+                    <a href="/episode/how-to-set-goals-as-a-web-developer-the-secret-power-of-job-titles-tagsoundcloud2010tracks305889689"
+                        class="episode-list-item">How to Set Goals as a Web Developer (&amp; The Secret Power of Job Titles)</a>
+                    <a href="/episode/31-all-qa-all-day-javascript-freelancing-clients-how-to-handle-challenges-as-a-developer-tagsoundcloud2010tracks303523704"
+                        class="episode-list-item">31. All Q&amp;A, All Day! JavaScript, Freelancing, Clients, &amp; How to Handle Challenges as a Developer</a>
+                    <a href="/episode/learn-a-framework-not-a-language-tagsoundcloud2010tracks302399183" class="episode-list-item">Learn A Framework, Not A Language</a>
+                    <a href="/episode/10-ways-to-budget-for-the-holidays-now-httppodcastcu-villagecompodfilehonorcu513budget_for_the_holidays_20171001_1507553550mp3"
+                        class="episode-list-item">10 Ways to Budget for the Holidays Now</a>
+                    <a href="/episode/college-students-and-identity-theft-httppodcastcu-villagecompodfilehonorcu512college_students_and_identity_theft_20170902_1504624213mp3"
+                        class="episode-list-item">College Students and Identity Theft</a>
+                    <a href="/episode/back-to-school-shopping-tips-httppodcastcu-villagecompodfilehonorcu511back_to_school_spending_tips_20170901_1504624091mp3"
+                        class="episode-list-item">Back to School Shopping Tips</a>
+                    <a href="/episode/10-things-new-couples-should-do-about-money-httppodcastcu-villagecompodfilehonorcu51010_things_new_couples_should_do_about_money_2017_09_2_1501504718mp3"
+                        class="episode-list-item">10 Things New Couples should do about Money</a>
+                    <a href="/episode/dont-pay-for-tuition-with-your-retirement-httppodcastcu-villagecompodfilehonorcu509financing_collge_2017_08_1_1501504495mp3"
+                        class="episode-list-item">Don&#39;t Pay for Tuition with Your Retirement</a>
+                    <a href="/episode/7-ways-to-have-an-affordable-family-vacation-httppodcastcu-villagecompodfilehonorcu5087_ways_to_have_an_affordable_family_vacation_july17_2_1501504210mp3"
+                        class="episode-list-item">7 Ways to Have an Affordable Family Vacation</a>
+                    <a href="/episode/how-to-protect-your-summer-vacation-httppodcastcu-villagecompodfilehonorcu507protect_your_summer_vacation_july17_1_1501504161mp3"
+                        class="episode-list-item">How to Protect Your Summer Vacation</a>
+                    <a href="/episode/financial-tips-from-a-millionaire-httppodcastcu-villagecompodfilehonorcu506what_to_buy_and_not_buy_in_june_2017_1497289477mp3"
+                        class="episode-list-item">Financial Tips from a Millionaire</a>
+                    <a href="/episode/having-a-safe-and-secure-summer-vacation-httppodcastcu-villagecompodfilehonorcu505a_safe_and_secure_summer_vacation_20170601_1497289370mp3"
+                        class="episode-list-item">Having A Safe and Secure Summer Vacation</a>
+                    <a href="/episode/dont-pay-for-tuition-with-your-retirement-httppodcastcu-villagecompodfilehonorcu504financing_collge_may2017_1493113966mp3"
+                        class="episode-list-item">Don&#39;t Pay for Tuition with Your Retirement</a>
+                    <a href="/episode/7-ways-to-have-an-affordable-family-vacation-httppodcastcu-villagecompodfilehonorcu5037_ways_to_have_an_affordable_family_vacation_may2017_1493113768mp3"
+                        class="episode-list-item">7 Ways to Have an Affordable Family Vacation</a>
+                    <a href="/episode/home-improvements-httppodcastcu-villagecompodfilehonorcu5025_most_valuable_tfhi_20170415_1490622147mp3"
+                        class="episode-list-item">Home Improvements</a>
+                    <a href="/episode/ten-facts-about-amending-your-return-httppodcastcu-villagecompodfilehonorcu501amended_return_final_20170401_1490622057mp3"
+                        class="episode-list-item">Ten Facts about Amending Your Return</a>
+                    <a href="/episode/tax-tips-for-newlyweds-httppodcastcu-villagecompodfilehonorcu500tax_tips_newlyweds_20170316_1490620043mp3"
+                        class="episode-list-item">Tax Tips for Newlyweds</a>
+                    <a href="/episode/5-spring-cleaning-tips-to-help-you-save-httppodcastcu-villagecompodfilehonorcu4995_spring_cleaning_tips_20170301_1489071526mp3"
+                        class="episode-list-item">5 Spring Cleaning Tips to Help You Save</a>
+                    <a href="/episode/getting-organized-at-tax-time-httppodcastcu-villagecompodfilehonorcu498organized_at_tax_time_20170215_1486380559mp3"
+                        class="episode-list-item">Getting Organized at Tax Time</a>
+                    <a href="/episode/7-tax-deductions-you-dont-want-to-miss-httppodcastcu-villagecompodfilehonorcu4977_tax_deductions_20170201_1486380453mp3"
+                        class="episode-list-item">7 Tax Deductions You Don&#39;t Want to Miss</a>
+                    <a href="/episode/getting-organized-at-tax-time-httppodcastcu-villagecompodfilehonorcu496organized_at_tax_time_20170115_1483445347mp3"
+                        class="episode-list-item">Getting Organized at Tax Time</a>
+                    <a href="/episode/10-ways-to-cut-your-debt-now-httppodcastcu-villagecompodfilehonorcu495cut_debt_20170101_1483445173mp3"
+                        class="episode-list-item">10 Ways to Cut Your Debt Now</a>
+                    <a href="/episode/planning-your-finances-for-the-new-calendar-year-httppodcastcu-villagecompodfilehonorcu494dec_fin_cal_20161215_1480612048mp3"
+                        class="episode-list-item">Planning Your Finances for the New Calendar Year</a>
+                    <a href="/episode/6-ways-to-stay-safe-while-holiday-shopping-online-httppodcastcu-villagecompodfilehonorcu4936_ways_to_stay_safe_while_holiday_shopping_20161201_1480611925mp3"
+                        class="episode-list-item">6 Ways to Stay Safe While Holiday Shopping Online</a>
+                    <a href="/episode/to-borrow-or-not-to-borrow-httppodcastcu-villagecompodfilehonorcu49222_borrow_or_no_1478079810mp3"
+                        class="episode-list-item">To Borrow or Not to Borrow?</a>
+                    <a href="/episode/workplace-gift-giving-guidelines-httppodcastcu-villagecompodfilehonorcu49121_workplace_gi_1478079654mp3"
+                        class="episode-list-item">Workplace Gift Giving Guidelines</a>
+                    <a href="/episode/how-to-reduce-your-utility-bills-during-the-holiday-season-httppodcastcu-villagecompodfilehonorcu490oct_21_final_20161015_1475423004mp3"
+                        class="episode-list-item">How to Reduce Your Utility Bills during the Holiday Season</a>
+                    <a href="/episode/tips-for-consumers-about-gift-cards-httppodcastcu-villagecompodfilehonorcu48920_tips_for_con_1475422886mp3"
+                        class="episode-list-item">Tips for Consumers about Gift Cards</a>
+                    <a href="/episode/7-tips-for-a-smart-move-httppodcastcu-villagecompodfilehonorcu4887_tips_for_a_smart_move_20160916_1472489108mp3"
+                        class="episode-list-item">7 Tips for a Smart Move</a>
+                    <a href="/episode/college-students-and-identity-theft-httppodcastcu-villagecompodfilehonorcu487college_students_and_identity_theft_20160901_1472488971mp3"
+                        class="episode-list-item">College Students and Identity Theft</a>
+                    <a href="/episode/tips-to-keep-summer-utility-bills-low-httppodcastcu-villagecompodfilehonorcu486tips_to_keep_your_summer_utilities_bill_low_20160802_1471518419mp3"
+                        class="episode-list-item">Tips to Keep Summer Utility Bills Low</a>
+                    <a href="/episode/8-back-to-school-spending-tips-httppodcastcu-villagecompodfilehonorcu4858_back_to_school_spending_tips_20160801_1471518331mp3"
+                        class="episode-list-item">8 Back-to-school Spending Tips</a>
+                    <a href="/episode/have-a-stress-free-family-vacation-httppodcastcu-villagecompodfilehonorcu48414_have_stress_free_vacation_july2016_1467640570mp3"
+                        class="episode-list-item">Have a Stress-free Family Vacation</a>
+                    <a href="/episode/10-financial-planning-steps-for-college-grads-httppodcastcu-villagecompodfilehonorcu48313_college_grads_fin_plan_july2016_1467640267mp3"
+                        class="episode-list-item">10 Financial Planning Steps for College Grads</a>
+                    <a href="/episode/a-safe-and-secure-summer-vacation-httppodcastcu-villagecompodfilehonorcu482a_safe_and_secure_summer_vacation_20160616_1464785937mp3"
+                        class="episode-list-item">A Safe and Secure Summer Vacation</a>
+                    <a href="/episode/renting-vs-buying-httppodcastcu-villagecompodfilehonorcu481rent_v_buy20160601_1464785800mp3"
+                        class="episode-list-item">Renting vs. Buying</a>
+                    <a href="/episode/planning-an-affordable-family-vacation-httppodcastcu-villagecompodfilehonorcu479planning_vaca_20160516_1462868930mp3"
+                        class="episode-list-item">Planning an Affordable Family Vacation</a>
+                    <a href="/episode/top-tips-for-renters-httppodcastcu-villagecompodfilehonorcu478top_tips_for_renters_20160501_1462868706mp3"
+                        class="episode-list-item">Top Tips for Renters</a>
+                    <a href="/episode/improve-credit-before-buying-home-httppodcastcu-villagecompodfilehonorcu480improve_credit_before_buying_home_20160415_1462869115mp3"
+                        class="episode-list-item">Improve Credit Before Buying Home</a>
+                    <a href="/episode/top-ten-tax-time-tips-httppodcastcu-villagecompodfilehonorcu477toptentaxtimetips_2016041_1459511266mp3"
+                        class="episode-list-item">Top Ten Tax Time Tips</a>
+                    <a href="/episode/40-going-limited-daft-bunk-tagsoundcloud2010tracks287379497"
+                        class="episode-list-item">40: Going Limited | Daft Bunk</a>
+                    <a href="/episode/39-https-deliver-some-dog-justice-tagsoundcloud2010tracks281806631"
+                        class="episode-list-item">39: HTTPS | Deliver some dog justice</a>
+                    <a href="/episode/38-mistakes-x-2-its-a-bit-like-mousetrap-tagsoundcloud2010tracks276773704"
+                        class="episode-list-item">38: Mistakes x 2 | It&#39;s a bit like mousetrap</a>
+                    <a href="/episode/37-personal-sites-disappointment-will-spur-them-on-tagsoundcloud2010tracks273441477"
+                        class="episode-list-item">37: Personal Sites | &quot;Disappointment will spur them on&quot;</a>
+                    <a href="/episode/36-details-billy-the-whippet-tagsoundcloud2010tracks261523851"
+                        class="episode-list-item">36: Details | &quot;Billy the Whippet&quot;</a>
+                    <a href="/episode/35-pc-versus-mac-versus-sandals-tagsoundcloud2010tracks253181649"
+                        class="episode-list-item">35: PC versus Mac | &quot;versus Sandals&quot;</a>
+                    <a href="/episode/34-just-chat-really-no-real-plan-tagsoundcloud2010tracks249801314"
+                        class="episode-list-item">34: &quot;Just chat really&quot; | No real plan</a>
+                    <a href="/episode/33-longshot-photo-a-follow-up-interview-with-ken-long-tagsoundcloud2010tracks237140182"
+                        class="episode-list-item">33: Longshot Photo | A follow-up interview with Ken Long</a>
+                    <a href="/episode/32-wow-plugins-an-interview-with-kimb-jones-tagsoundcloud2010tracks230457502"
+                        class="episode-list-item">32: WOW Plugins | An interview with Kimb Jones</a>
+                    <a href="/episode/31-dealing-with-mistakes-the-whole-kitten-caboodle-tagsoundcloud2010tracks227299846"
+                        class="episode-list-item">31: Dealing with mistakes | The whole kitten caboodle</a>
+                    <a href="/episode/30-designers-shouldnt-code-an-interview-with-ben-brignell-tagsoundcloud2010tracks225332703"
+                        class="episode-list-item">30: Designers should(n&#39;t) code | An interview with Ben Brignell</a>
+                    <a href="/episode/29-interview-wordpress-plugin-development-with-mark-wilkinson-tagsoundcloud2010tracks222921320"
+                        class="episode-list-item">29: Interview | Wordpress Plugin Development with Mark Wilkinson</a>
+                    <a href="/episode/28-going-live-build-a-website-on-an-etch-a-sketch-tagsoundcloud2010tracks221126436"
+                        class="episode-list-item">28: Going Live | Build a website on an Etch-a-Sketch</a>
+                    <a href="/episode/27-customer-education-like-people-in-music-shops-tagsoundcloud2010tracks218770463"
+                        class="episode-list-item">27: Customer Education | Like people in music shops</a>
+                    <a href="/episode/26-customer-care-hug-their-heart-tagsoundcloud2010tracks213455600"
+                        class="episode-list-item">26: Customer Care | Hug their heart</a>
+                    <a href="/episode/renting-vs-buying-httppodcastcu-villagecompodfilehonorcu475rent-v-buy_20160415_1456700660mp3"
+                        class="episode-list-item">Renting vs. Buying</a>
+                    <a href="/episode/tips-for-teaching-kids-the-value-of-money-httppodcastcu-villagecompodfilehonorcu474ymm_tips_for_teaching_value_money_20160401_1456700494mp3"
+                        class="episode-list-item">Tips for Teaching Kids the Value of Money</a>
+                    <a href="/episode/selling-a-life-insurance-death-benefit-for-cash-httppodcastcu-villagecompodfilehonorcu47603_deathbenefitforcash_final_20160215_1456700904mp3"
+                        class="episode-list-item">Selling a Life Insurance Death Benefit for Cash</a>
+                    <a href="/episode/legal-documents-you-need-to-have-httppodcastcu-villagecompodfilehonorcu472legal_documents_final_0602_1454514667mp3"
+                        class="episode-list-item">Legal Documents You Need to Have</a>
+                    <a href="/episode/when-should-i-borrow-httppodcastcu-villagecompodfilehonorcu471when_should_i_barrow_0116_1452103004mp3"
+                        class="episode-list-item">When Should I Borrow</a>
+                    <a href="/episode/six-ways-to-prepare-for-lifes-financial-emergencies-httppodcastcu-villagecompodfilehonorcu470six_ways_prepare_lifes_fin_emer_0116_1452102872mp3"
+                        class="episode-list-item">Six Ways to Prepare for Life&#39;s Financial Emergencies</a>
+                    <a href="/episode/nine-ways-you-can-prevent-identity-thef-httppodcastcu-villagecompodfilehonorcu46923_prevent_id_t_1451309589mp3"
+                        class="episode-list-item">Nine Ways You Can Prevent Identity Thef</a>
+                    <a href="/episode/keep-holiday-spending-down-httppodcastcu-villagecompodfilehonorcu468holidayspendingdown_1215_1449171838mp3"
+                        class="episode-list-item">Keep Holiday Spending Down</a>
+                    <a href="/episode/to-borrow-or-not-to-borrow-httppodcastcu-villagecompodfilehonorcu467borrow_or_not_1449171686mp3"
+                        class="episode-list-item">To Borrow or Not to Borrow?</a>
+                    <a href="/episode/tips-to-protect-you-from-hoilday-online-shopping-fraud-httppodcastcu-villagecompodfilehonorcu466online_shopping_tips_holiday_1446471710mp3"
+                        class="episode-list-item">Tips to Protect You from Hoilday Online Shopping Fraud</a>
+                    <a href="/episode/finances-for-single-parents-httppodcastcu-villagecompodfilehonorcu465smart_finances_for_single_parents_oct15_1444214686mp3"
+                        class="episode-list-item">Finances for Single Parents</a>
+                    <a href="/episode/preventing-and-recovering-from-id-theft-httppodcastcu-villagecompodfilehonorcu464id_theft_oct2015_1444214452mp3"
+                        class="episode-list-item">Preventing and Recovering from ID Theft</a>
+                    <a href="/episode/prepare-now-for-winter-httppodcastcu-villagecompodfilehonorcu463winter_final_201509_1443013294mp3"
+                        class="episode-list-item">Prepare Now For Winter</a>
+                    <a href="/episode/back-to-school-shopping-tips-httppodcastcu-villagecompodfilehonorcu462back_to_school_spending_tips_201509_1441355902mp3"
+                        class="episode-list-item">Back to School Shopping Tips</a>
+                    <a href="/episode/fine-tune-your-finances-now-httppodcastcu-villagecompodfilehonorcu461fine_tune_your_finances_201508_1440004484mp3"
+                        class="episode-list-item">Fine Tune Your Finances Now</a>
+                    <a href="/episode/ways-to-save-in-august-httppodcastcu-villagecompodfilehonorcu460ways_to_save_in_august_082015_1438691955mp3"
+                        class="episode-list-item">Ways to Save in August</a>
+                    <a href="/episode/10-financial-tips-for-college-grads-httppodcastcu-villagecompodfilehonorcu459financial_tips_for_grads_201507_1438162548mp3"
+                        class="episode-list-item">10 Financial Tips for College Grads</a>
+                    <a href="/episode/conserve-energy-this-summer-httppodcastcu-villagecompodfilehonorcu458conserve-energy-this-summer-072015_1435730984mp3"
+                        class="episode-list-item">Conserve Energy this Summer</a>
+                    <a href="/episode/financial-tips-from-a-millionaire-httppodcastcu-villagecompodfilehonorcu457june_20150614_1434365065mp3"
+                        class="episode-list-item">Financial Tips from a Millionaire</a>
+                    <a href="/episode/what-to-buy-and-not-buy-in-june-httppodcastcu-villagecompodfilehonorcu456what_to_buy_and_not_buy_in_june_20150601_1433194964mp3"
+                        class="episode-list-item">What to Buy and Not Buy in June</a>
+                    <a href="/episode/spring-cleaning-tips-to-help-you-save-httppodcastcu-villagecompodfilehonorcu455spring_cleaning_201505_1430859988mp3"
+                        class="episode-list-item">Spring Cleaning Tips to Help You Save</a>
+                    <a href="/episode/5-ways-to-save-on-your-summer-vacation-httppodcastcu-villagecompodfilehonorcu454summer_vacation_201505_1430859885mp3"
+                        class="episode-list-item">5 Ways to Save on Your Summer Vacation</a>
+                    <a href="/episode/how-to-avoid-tax-fraud-httppodcastcu-villagecompodfilehonorcu453avoid_tax_fraud_42015_1430822016mp3"
+                        class="episode-list-item">How to Avoid Tax Fraud</a>
+                    <a href="/episode/5-smart-ways-to-use-your-tax-refund-httppodcastcu-villagecompodfilehonorcu452using_your_tax_refund_20150324_1427226191mp3"
+                        class="episode-list-item">5 Smart Ways to Use Your Tax Refund</a>
+                    <a href="/episode/tax-tips-for-newlyweds-httppodcastcu-villagecompodfilehonorcu451tax_tips_newlyweds_20150315_1426519703mp3"
+                        class="episode-list-item">Tax Tips for Newlyweds</a>
+                    <a href="/episode/5-spring-cleaning-tips-to-help-you-save-httppodcastcu-villagecompodfilehonorcu4505_spring_cleaning_tips_20150301_1425294376mp3"
+                        class="episode-list-item">5 Spring Cleaning Tips to Help You Save</a>
+                    <a href="/episode/7-tax-deductions-you-dont-want-to-miss-httppodcastcu-villagecompodfilehonorcu4497_tax_deductions_20150215_1424276985mp3"
+                        class="episode-list-item">7 Tax Deductions You Don’t Want to Miss</a>
+                    <a href="/episode/time-for-an-insurance-inventory-httppodcastcu-villagecompodfilehonorcu448insurance-inventory-20150201_1423493380mp3"
+                        class="episode-list-item">Time for an Insurance Inventory?</a>
+                    <a href="/episode/six-reasons-to-file-your-taxes-early-httppodcastcu-villagecompodfilehonorcu447six_reasons_to_file_taxes_early_20150115_1421010035mp3"
+                        class="episode-list-item">Six Reasons to File Your Taxes Early</a>
+                    <a href="/episode/tackling-credit-card-debt-httppodcastcu-villagecompodfilehonorcu446tackling_cc_debt_20150101_1421009954mp3"
+                        class="episode-list-item">Tackling Credit Card Debt</a>
+                    <a href="/episode/7-tax-tips-for-2015-httppodcastcu-villagecompodfilehonorcu4457_tax_tips_for_2015_20141216_1418788431mp3"
+                        class="episode-list-item">7 Tax Tips for 2015</a>
+                    <a href="/episode/6-ways-to-stay-safe-while-holiday-shopping-online-httppodcastcu-villagecompodfilehonorcu4436_ways_to_stay_safe_while_holiday_shopping_20141201_1417432355mp3"
+                        class="episode-list-item">6 Ways to Stay Safe While Holiday Shopping Online</a>
+                    <a href="/episode/retirement-saving-setbacks-httppodcastcu-villagecompodfilehonorcu438retirement_savings_setbacks_201411_1415139556mp3"
+                        class="episode-list-item">Retirement Saving Setbacks</a>
+                    <a href="/episode/what-to-look-for-on-your-monthly-credit-card-statement-httppodcastcu-villagecompodfilehonorcu437what_2_look_monthly_cc_statement_201411_1415139486mp3"
+                        class="episode-list-item">What to Look For On Your Monthly Credit Card Statement</a>
+                    <a href="/episode/10-ways-to-budget-for-the-holidays-now-httppodcastcu-villagecompodfilehonorcu430budget_for_the_holidays_20141003_1412339126mp3"
+                        class="episode-list-item">10 Ways to Budget for the Holidays Now</a>
+                    <a href="/episode/5-crucial-things-to-do-to-prepare-for-winter-httppodcastcu-villagecompodfilehonorcu4295_tips_for_winter_prep_201410_1412171089mp3"
+                        class="episode-list-item">5 Crucial Things to do to Prepare for Winter</a>
+                    <a href="/episode/top-ten-budgeting-tips-httppodcastcu-villagecompodfilehonorcu427top_ten_budgeting_tips_201409_1411814300mp3"
+                        class="episode-list-item">Top Ten Budgeting Tips</a>
+                    <a href="/episode/college-students-and-identity-theft-httppodcastcu-villagecompodfilehonorcu426college_students_and_identity_theft_201409_1411814253mp3"
+                        class="episode-list-item">College Students and Identity Theft</a>
+                    <a href="/episode/save-on-back-to-school-shopping-httppodcastcu-villagecompodfilehonorcu418back_to_school_201408_1407170329mp3"
+                        class="episode-list-item">Save on Back-to-school Shopping</a>
+                    <a href="/episode/dont-pay-for-tuition-with-your-retirement-httppodcastcu-villagecompodfilehonorcu417financing_collge_201408_1407169574mp3"
+                        class="episode-list-item">Don&#39;t Pay for Tuition with Your Retirement</a>
+                    <a href="/episode/how-to-protect-your-summer-vacation-httppodcastcu-villagecompodfilehonorcu413protect_your_summer_vacation_july14_1405002858mp3"
+                        class="episode-list-item">How to Protect Your Summer Vacation</a>
+                    <a href="/episode/how-to-stop-getting-stuck-as-a-developer-tagsoundcloud2010tracks299065717"
+                        class="episode-list-item">How to Stop Getting Stuck As a Developer</a>
+                    <a href="/episode/30-the-advanced-beginner-formula-everything-you-need-to-know-about-becoming-an-advanced-beginner-tagsoundcloud2010tracks292780792"
+                        class="episode-list-item">30. The Advanced Beginner Formula: Everything You Need to Know About Becoming an Advanced Beginner</a>
+                    <a href="/episode/29-how-to-eat-and-exercise-for-better-programming-my-latest-experiments-tagsoundcloud2010tracks284047138"
+                        class="episode-list-item">29. How to Eat and Exercise for Better Programming (&amp; My Latest Experiments)</a>
+                    <a href="/episode/28-how-to-network-and-stay-in-your-comfort-zone-step-by-step-guide-to-networking-for-introverts-tagsoundcloud2010tracks266132661"
+                        class="episode-list-item">28. How to Network and Stay In Your Comfort Zone (Step by Step Guide to Networking for Introverts)</a>
+                    <a href="/episode/27-how-to-get-a-better-job-whigher-salary-interviewing-series-salary-negotiation-masterclass-tagsoundcloud2010tracks265729918"
+                        class="episode-list-item">27. How to Get a Better Job w&#x2F;Higher Salary (Interviewing Series Salary Negotiation Masterclass)</a>
+                    <a href="/episode/26-mastering-the-interview-process-linkedin-for-developers-tagsoundcloud2010tracks264305502"
+                        class="episode-list-item">26. MASTERING The Interview Process &amp; LinkedIn for Developers</a>
+                    <a href="/episode/25-the-secret-to-project-management-finding-a-client-and-learning-comp-sci-as-a-self-educator-tagsoundcloud2010tracks263334917"
+                        class="episode-list-item">25. The Secret to Project Management, Finding a Client, and Learning Comp-Sci as a Self Educator</a>
+                    <a href="/episode/how-to-be-a-successful-developer-how-to-overcome-the-advanced-beginner-syndrome-xpost-tagsoundcloud2010tracks263210232"
+                        class="episode-list-item">How to Be A Successful Developer &amp; How to Overcome The Advanced Beginner Syndrome [x&#x2F;post]</a>
+                    <a href="/episode/24-qa-click-here-to-level-up-cognitive-biases-of-the-brain-and-how-to-sell-yourself-tagsoundcloud2010tracks262234257"
+                        class="episode-list-item">24. Q&amp;A - Click Here to Level Up: Cognitive Biases of the Brain, and How to Sell Yourself</a>
+                    <a
+                        href="/episode/23-the-motivation-episode-and-becoming-a-programming-super-learner-tagsoundcloud2010tracks260758677"
+                        class="episode-list-item">23. The Motivation Episode and Becoming a Programming Super Learner</a>
+                        <a href="/episode/22-communication-leadership-for-developers-managing-relationships-with-partners-tagsoundcloud2010tracks260056927"
+                            class="episode-list-item">22. Communication &amp; Leadership for Developers, Managing Relationships with Partners</a>
+                        <a href="/episode/21-getting-into-web-dev-learning-how-to-learn-tagsoundcloud2010tracks236510651"
+                            class="episode-list-item">21. Getting Into Web Dev &amp; Learning How to Learn</a>
+                        <a href="/episode/20-introduction-to-testing-and-qa-tagsoundcloud2010tracks234716732"
+                            class="episode-list-item">20. Introduction to Testing and QA</a>
+                        <a href="/episode/19-a-new-show-start-here-ruby-on-rails-tagsoundcloud2010tracks234716649"
+                            class="episode-list-item">19. A New Show! Start Here: Ruby on Rails</a>
+                        <a href="/episode/18-the-freelance-playbook-how-to-start-prototyping-in-the-browser-tagsoundcloud2010tracks234716737"
+                            class="episode-list-item">18. The Freelance Playbook: How to Start Prototyping in the Browser</a>
+                        <a href="/episode/17-the-freelance-playbook-ux-wireframe-fundamentals-tagsoundcloud2010tracks234716357"
+                            class="episode-list-item">17. The Freelance Playbook: UX &amp; Wireframe Fundamentals</a>
+                        <a href="/episode/16-the-freelance-playbook-project-proposal-and-2nd-conversation-tagsoundcloud2010tracks234716403"
+                            class="episode-list-item">16. The Freelance Playbook: Project Proposal and 2nd Conversation</a>
+                        <a href="/episode/15-the-freelance-playbook-your-first-client-conversation-tagsoundcloud2010tracks234716254"
+                            class="episode-list-item">15. The Freelance Playbook: Your First Client Conversation</a>
+                        <a href="/episode/14-introduction-to-javascript-tagsoundcloud2010tracks234716021"
+                            class="episode-list-item">14. Introduction to JavaScript</a>
+                        <a href="/episode/13-when-do-you-know-enough-to-start-looking-for-work-tagsoundcloud2010tracks234715743"
+                            class="episode-list-item">13. When Do You Know Enough to Start Looking for Work?</a>
+                        <a href="/episode/12-nodejs-getting-back-to-the-future-tagsoundcloud2010tracks234715727"
+                            class="episode-list-item">12. Nodejs &amp; Getting Back to the Future</a>
+                        <a href="/episode/11-building-mobile-apps-the-future-of-web-dev-tagsoundcloud2010tracks234715732"
+                            class="episode-list-item">11. Building Mobile Apps &amp; The Future of Web Dev</a>
+                        <a href="/episode/10-introduction-to-php-laravel-tagsoundcloud2010tracks234715403"
+                            class="episode-list-item">10. Introduction to PHP &amp; Laravel</a>
+                        <a href="/episode/9-introduction-to-ruby-on-rails-tagsoundcloud2010tracks234715410"
+                            class="episode-list-item">9. Introduction to Ruby on Rails</a>
+                        <a href="/episode/8-building-your-portfolio-and-getting-your-first-project-tagsoundcloud2010tracks234715276"
+                            class="episode-list-item">8. Building Your Portfolio and Getting Your First Project</a>
+                        <a href="/episode/7-introduction-to-a-career-in-web-development-tagsoundcloud2010tracks234715252"
+                            class="episode-list-item">7. Introduction to a Career in Web Development</a>
+                        <a href="/episode/6-introduction-to-the-back-end-tagsoundcloud2010tracks234715084"
+                            class="episode-list-item">6. Introduction to the Back-End</a>
+                        <a href="/episode/5-launching-your-first-website-tagsoundcloud2010tracks234715061"
+                            class="episode-list-item">5. Launching Your First Website</a>
+                        <a href="/episode/4-web-dev-toolbelt-tagsoundcloud2010tracks234714862"
+                            class="episode-list-item">4. Web Dev Toolbelt</a>
+                        <a href="/episode/3-introduction-to-css-tagsoundcloud2010tracks234714701"
+                            class="episode-list-item">3. Introduction to CSS</a>
+                        <a href="/episode/2-introduction-to-html-tagsoundcloud2010tracks234714641"
+                            class="episode-list-item">2. Introduction to HTML</a>
+                        <a href="/episode/1-start-here-to-build-a-career-in-web-development-tagsoundcloud2010tracks234714498"
+                            class="episode-list-item">1. Start Here to Build a Career in Web Development</a>
+                        <a href="/episode/7-ways-to-have-an-affordable-family-vacation-httppodcastcu-villagecompodfilehonorcu4127_ways_to_have_an_affordable_family_vacation_july14_1405002782mp3"
+                            class="episode-list-item">7 Ways to Have an Affordable Family Vacation</a>
+                        <a href="/episode/8-steps-to-take-before-you-go-on-vacation-httppodcastcu-villagecompodfilehonorcu4078stepvacationplanning_201406_1403794003mp3"
+                            class="episode-list-item">8 Steps to Take Before You Go on Vacation</a>
+                        <a href="/episode/ten-facts-about-amending-your-return-httppodcastcu-villagecompodfilehonorcu397amended_return_final_20140402_1396444730mp3"
+                            class="episode-list-item">Ten Facts about Amending Your Return</a>
+                        <a href="/episode/car-buying-homework-httppodcastcu-villagecompodfilehonorcu396new_car_final_20140402_1396444600mp3"
+                            class="episode-list-item">Car-buying Homework</a>
+                        <a href="/episode/questions-to-ask-your-cpa-at-tax-time-httppodcastcu-villagecompodfilehonorcu392cpa_at_tax_time_2014032_1394333700mp3"
+                            class="episode-list-item">Questions to Ask Your CPA at Tax Time</a>
+                        <a href="/episode/top-ten-tax-time-tips-httppodcastcu-villagecompodfilehonorcu390top_ten_tax_tips_2014031_1394333543mp3"
+                            class="episode-list-item">Top Ten Tax Time Tips</a>
+                        <a href="/episode/8-steps-on-how-to-buy-your-first-house-httppodcastcu-villagecompodfilehonorcu389buyahouse_redo_201402_1393358492mp3"
+                            class="episode-list-item">8 Steps on How to Buy Your First House</a>
+                        <a href="/episode/getting-organized-at-tax-time-httppodcastcu-villagecompodfilehonorcu385organized_at_tax_time_2014021_1391941308mp3"
+                            class="episode-list-item">Getting Organized at Tax Time</a>
+                        <a href="/episode/10-ways-to-cut-your-debt-now-httppodcastcu-villagecompodfilehonorcu384cut_debt_201401_1388180224mp3"
+                            class="episode-list-item">10 Ways to Cut Your Debt Now</a>
+                        <a href="/episode/9-tips-to-prevent-identity-theft-httppodcastcu-villagecompodfilehonorcu383id_theft_201401_1388180172mp3"
+                            class="episode-list-item">9 Tips to Prevent Identity Theft</a>
+                        <a href="/episode/10-money-resolutions-to-make-and-keep-httppodcastcu-villagecompodfilehonorcu382dec_money_res_1388180048mp3"
+                            class="episode-list-item">10 Money Resolutions to Make - and Keep</a>
+                        <a href="/episode/planning-your-finances-for-the-new-calendar-year-httppodcastcu-villagecompodfilehonorcu381dec_fin_cal_201312a_1387327182mp3"
+                            class="episode-list-item">Planning Your Finances for the New Calendar Year</a>
+                        <a href="/episode/get-most-out-of-your-credit-card-httppodcastcu-villagecompodfilehonorcu379get_most_out_of_cc_1383391999mp3"
+                            class="episode-list-item">Get Most Out of Your Credit Card</a>
+                        <a href="/episode/when-should-i-borrow-httppodcastcu-villagecompodfilehonorcu378when_should_i_barrow_1383391791mp3"
+                            class="episode-list-item">When Should I Borrow</a>
+                        <a href="/episode/plan-ahead-for-debt-free-holidays-httppodcastcu-villagecompodfilehonorcu376plan_ahead_for_debt-free_holidays_201310b_1380559103mp3"
+                            class="episode-list-item">Plan Ahead For Debt-free Holidays</a>
+                        <a href="/episode/smart-financial-tips-for-single-parents-httppodcastcu-villagecompodfilehonorcu375financial_tips_for_single_parents_201310a_1380559040mp3"
+                            class="episode-list-item">Smart Financial Tips for Single Parents</a>
+                        <a href="/episode/7-tips-for-a-smart-move-httppodcastcu-villagecompodfilehonorcu3737_tips_for_a_smart_move_201309_1378745648mp3"
+                            class="episode-list-item">7 Tips for a Smart Move</a>
+                        <a href="/episode/get-ready-for-winter-now-httppodcastcu-villagecompodfilehonorcu372get_ready_for_winter_now_201309_1378745553mp3"
+                            class="episode-list-item">Get Ready for Winter Now</a>
+                        <a href="/episode/10-things-new-couples-should-do-about-money-httppodcastcu-villagecompodfilehonorcu36910_things_new_couples_should_do_about_money_2013072_1374243899mp3"
+                            class="episode-list-item">10 Things New Couples should do about Money</a>
+                        <a href="/episode/10-financial-tips-for-college-grads-httppodcastcu-villagecompodfilehonorcu36810_financial_tips_for_college_grads_2013071_1374243855mp3"
+                            class="episode-list-item">10 Financial Tips for College Grads</a>
+                        <a href="/episode/a-safe-and-secure-summer-vacation-httppodcastcu-villagecompodfilehonorcu363a_safe_and_secure_summer_vacation_201306_1371758514mp3"
+                            class="episode-list-item">A Safe and Secure Summer Vacation</a>
+                        <a href="/episode/saving-for-your-summer-vacation-httppodcastcu-villagecompodfilehonorcu362saving_for_your_summer_vacation_201306_1371758367mp3"
+                            class="episode-list-item">Saving For Your Summer Vacation</a>
+                        <a href="/episode/home-improvements-httppodcastcu-villagecompodfilehonorcu3545_most_valuable_tfhi_20130520_1369068711mp3"
+                            class="episode-list-item">Home Improvements</a>
+                        <a href="/episode/top-7-tips-for-renters-httppodcastcu-villagecompodfilehonorcu3557_tips_for_renters_20130501_1369068889mp3"
+                            class="episode-list-item">Top 7 Tips for Renters</a>
+                        <a href="/episode/smart-ways-to-use-your-tax-refund-httppodcastcu-villagecompodfilehonorcu356smart_ways_to_use_your_tax_refund_1369417533mp3"
+                            class="episode-list-item">Smart Ways to Use Your Tax Refund</a>
+                        <a href="/episode/choosing-which-tax-form-to-file-httppodcastcu-villagecompodfilehonorcu34506_choosing_which__form__to_file_1362432333mp3"
+                            class="episode-list-item">Choosing which Tax Form to File</a>
+                        <a href="/episode/how-to-choose-a-tax-preparer-httppodcastcu-villagecompodfilehonorcu34405_how_to_choose_a_tax_preparer_1362432233mp3"
+                            class="episode-list-item">How to Choose a Tax Preparer</a>
+                        <a href="/episode/stay-secure-on-social-networking-sites-httppodcastcu-villagecompodfilehonorcu33904_stay_secure_on_social_network_sites_1359579723mp3"
+                            class="episode-list-item">Stay Secure on Social Networking Sites</a>
+                        <a href="/episode/protect-information-when-using-smartphone-httppodcastcu-villagecompodfilehonorcu33803_protect_information_when_using_spartphone_1359579636mp3"
+                            class="episode-list-item">Protect Information When Using Smartphone</a>
+                        <a href="/episode/why-use-a-financial-planner-in-your-20s-httppodcastcu-villagecompodfilehonorcu33002_why_use_financial_planner_in_your_20s_jan15_1355866362mp3"
+                            class="episode-list-item">Why Use a Financial Planner in Your 20s</a>
+                        <a href="/episode/resolve-to-budget-httppodcastcu-villagecompodfilehonorcu33101_resolve_to_budget_jan01_1355866525mp3"
+                            class="episode-list-item">Resolve to Budget</a>
+                        <a href="/episode/stretch-your-retirement-nest-egg-httppodcastcu-villagecompodfilehonorcu32224_stretch_your_1350927436mp3"
+                            class="episode-list-item">Stretch Your Retirement Nest Egg</a>
+                        <a href="/episode/this-week-in-web-development-httpwwwoptionkeycawebcaststwiwdtwiwd_20101019mp3"
+                            class="episode-list-item">This Week In Web Development</a>
+                        <a href="/episode/this-week-in-web-development-httpwwwoptionkeycawebcaststwiwdtwiwd_20101027mp3"
+                            class="episode-list-item">This Week In Web Development</a>
+                        <a href="/episode/25-interview-beyond-wordpress-with-emily-lewis-and-lea-alcantara-tagsoundcloud2010tracks208500938"
+                            class="episode-list-item">25: Interview | Beyond WordPress with Emily Lewis and Lea Alcantara.</a>
+                        <a href="/episode/245-relatively-short-a-picosode-tagsoundcloud2010tracks207093338"
+                            class="episode-list-item">24.5: Relatively Short | A Picosode</a>
+                        <a href="/episode/24-my-best-job-getting-cardboard-from-a-skip-tagsoundcloud2010tracks203416458"
+                            class="episode-list-item">24: My Best Job! | Getting Cardboard From a Skip</a>
+                        <a href="/episode/23-interview-theme-frameworks-with-jonny-allbut-tagsoundcloud2010tracks200902277"
+                            class="episode-list-item">23: Interview | Theme Frameworks with Jonny Allbut</a>
+                        <a href="/episode/22-interview-commercial-plugin-development-with-jonathan-davis-tagsoundcloud2010tracks198716111"
+                            class="episode-list-item">22: Interview | Commercial Plugin Development with Jonathan Davis</a>
+                        <a href="/episode/21-setting-up-tabs-or-spaces-tagsoundcloud2010tracks196456489"
+                            class="episode-list-item">21: Setting Up | Tabs or Spaces?</a>
+                        <a href="/episode/20-interview-wordcamp-birmingham-with-rachel-mccollin-tagsoundcloud2010tracks194151716"
+                            class="episode-list-item">20: Interview | WordCamp Birmingham with Rachel McCollin</a>
+                        <a href="/episode/195-relatively-short-the-unpesode-tagsoundcloud2010tracks192098702"
+                            class="episode-list-item">19.5: Relatively Short | &quot;The Unpesode!&quot;</a>
+                        <a href="/episode/19-stress-shouldve-auditioned-that-whale-tagsoundcloud2010tracks189773571"
+                            class="episode-list-item">19: Stress | Should&#39;ve auditioned that whale!</a>
+                        <a href="/episode/18-back-to-basics-spaghetti-kitten-tagsoundcloud2010tracks187467100"
+                            class="episode-list-item">18: Back to Basics | Spaghetti Kitten</a>
+                        <a href="/episode/17-looking-back-looking-forward-a-stool-to-oil-tagsoundcloud2010tracks185998196"
+                            class="episode-list-item">17: Looking Back Looking Forward | A Stool to Oil</a>
+                        <a href="/episode/16-interview-a-live-client-meeting-with-ken-from-longshot-photo-tagsoundcloud2010tracks184873880"
+                            class="episode-list-item">16: Interview | A Live Client meeting with Ken from Longshot Photo.</a>
+                        <a href="/episode/15-time-management-panic-develop-till-its-done-tagsoundcloud2010tracks182953910"
+                            class="episode-list-item">15: Time Management | Panic Develop Till it&#39;s Done</a>
+                        <a href="/episode/14-hosting-its-like-tyres-tagsoundcloud2010tracks182115867"
+                            class="episode-list-item">14: Hosting | It&#39;s like tyres!</a>
+                        <a href="/episode/13-design-for-developers-too-many-biscuits-tagsoundcloud2010tracks179435913"
+                            class="episode-list-item">13: Design for Developers | Too Many Biscuits</a>
+                        <a href="/episode/12-project-x-part-1-very-respectful-to-begonias-tagsoundcloud2010tracks178405900"
+                            class="episode-list-item">12: Project X part 1 | Very respectful to Begonias</a>
+                        <a href="/episode/11-interview-malc-from-fluid2-tagsoundcloud2010tracks177673036"
+                            class="episode-list-item">11: Interview | Malc from Fluid2</a>
+                        <a href="/episode/10-pricing-mr-furtwangler-i-presume-tagsoundcloud2010tracks176886207"
+                            class="episode-list-item">10: Pricing | Mr Furtwangler I presume</a>
+                        <a href="/episode/9-deployment-eating-out-of-a-bin-tagsoundcloud2010tracks176882030"
+                            class="episode-list-item">9: Deployment | Eating out of a bin</a>
+                        <a href="/episode/8-geek-mental-help-week-dont-push-over-a-cow-tagsoundcloud2010tracks176879906"
+                            class="episode-list-item">8: Geek mental help week | Don&#39;t push over a cow!</a>
+                        <a href="/episode/episode-4-2014-our-year-in-review-68382590218917f3a185b1929f2b7604"
+                            class="episode-list-item">Episode 4: 2014 our year in review</a>
+                        <a href="/episode/episode-3-decision-time-on-our-cms-content-management-system-9b6f8d29a04d6c9d6697c0e801865c47"
+                            class="episode-list-item">Episode 3: decision time on our CMS (content management system)</a>
+                        <a href="/episode/episode-2-profile-of-a-small-web-agency-31c44961f918d85f227668bba0f5a63b"
+                            class="episode-list-item">Episode 2: profile of a small web agency</a>
+                        <a href="/episode/keep-good-records-now-to-reduce-tax-time-stress-httppodcastcu-villagecompodfilehonorcu32123_keep_good_re_1349288744mp3"
+                            class="episode-list-item">Keep Good Records Now to Reduce Tax-Time Stress</a>
+                        <a href="/episode/keep-a-healthy-credit-score-httppodcastcu-villagecompodfilehonorcu32022_keep_a_healt_1349288638mp3"
+                            class="episode-list-item">Keep a Healthy Credit Score</a>
+                        <a href="/episode/workplace-gift-giving-guidelines-httppodcastcu-villagecompodfilehonorcu31921_workplace_gi_1349288557mp3"
+                            class="episode-list-item">Workplace Gift Giving Guidelines</a>
+                        <a href="/episode/tips-for-consumers-about-gift-cards-httppodcastcu-villagecompodfilehonorcu31820_tips_for_con_1349288192mp3"
+                            class="episode-list-item">Tips for Consumers about Gift Cards</a>
+                        <a href="/episode/plan-now-for-a-debt-free-holiday-season-httppodcastcu-villagecompodfilehonorcu31719_plannow_for_debt_free_holiday_season_1349115064mp3"
+                            class="episode-list-item">Plan Now For a Debt-free Holiday Season</a>
+                        <a href="/episode/smart-finances-for-single-parents-httppodcastcu-villagecompodfilehonorcu31618_smart_finances_for_single_parents_1348087180mp3"
+                            class="episode-list-item">Smart Finances for Single Parents</a>
+                        <a href="/episode/avoid-card-skimming-at-atms-httppodcastcu-villagecompodfilehonorcu31517_avoid_card_skimming_at_atms_1347890575mp3"
+                            class="episode-list-item">Avoid Card Skimming at ATMs</a>
+                        <a href="/episode/quick-start-retirement-savings-tips-httppodcastcu-villagecompodfilehonorcu31416_ouickstart__retirement_savings_tips_aug24_1343400829mp3"
+                            class="episode-list-item">Quick-Start Retirement Savings Tips</a>
+                        <a href="/episode/helpful-tips-for-back-to-school-spending-httppodcastcu-villagecompodfilehonorcu31315_back_to_school_spending_tips_aug10_1343400690mp3"
+                            class="episode-list-item">Helpful Tips for Back-to-school Spending</a>
+                        <a href="/episode/new-airline-passenger-protections-httppodcastcu-villagecompodfilehonorcu31213_new_airline_passenger_protections_1340385087mp3"
+                            class="episode-list-item">New Airline Passenger Protections</a>
+                        <a href="/episode/financial-planning-for-divorce-httppodcastcu-villagecompodfilehonorcu31012_financial_planning_for_divorce_1338916795mp3"
+                            class="episode-list-item">Financial Planning for Divorce</a>
+                        <a href="/episode/weddings-on-a-budget-httppodcastcu-villagecompodfilehonorcu30911_weddings_on_a_budget_1338916701mp3"
+                            class="episode-list-item">Weddings on a Budget</a>
+                        <a href="/episode/seven-inexpensive-ways-to-rejuvenate-your-living-space-httppodcastcu-villagecompodfilehonorcu30810_inexpensive_ways_to_rejuvenate_home_may_25_1335213660mp3"
+                            class="episode-list-item">Seven Inexpensive Ways to Rejuvenate Your Living Space</a>
+                        <a href="/episode/avoiding-mortgage-modification-scams-and-foreclosure-rescue-scams-httppodcastcu-villagecompodfilehonorcu30709_avoid_mortgage_scams_may_11_1335213580mp3"
+                            class="episode-list-item">Avoiding Mortgage Modification Scams and Foreclosure Rescue Scams</a>
+                        <a href="/episode/wise-ways-to-use-your-tax-refund-httppodcastcu-villagecompodfilehonorcu30608_wise_ways_to_use_tax_refund_april_27_1334345159mp3"
+                            class="episode-list-item">Wise Ways to Use Your Tax Refund</a>
+                        <a href="/episode/what-happens-after-i-file-httppodcastcu-villagecompodfilehonorcu30507_what_happens_after_i_file_april_13_1334261401mp3"
+                            class="episode-list-item">What Happens after I File?</a>
+                        <a href="/episode/facts-about-your-appeal-rights-httppodcastcu-villagecompodfilehonorcu30406_appeal_rights_march_23_1330548151mp3"
+                            class="episode-list-item">Facts about Your Appeal Rights</a>
+                        <a href="/episode/things-to-know-if-you-receive-an-irs-notice-httppodcastcu-villagecompodfilehonorcu30305_irs_notice_march_09_1330547975mp3"
+                            class="episode-list-item">Things to Know if You Receive an IRS Notice</a>
+                        <a href="/episode/time-to-review-your-homeowners-insurance-policy-httppodcastcu-villagecompodfilehonorcu30204_homeowners_insurance_feb_24_1325776197mp3"
+                            class="episode-list-item">Time to Review Your Homeowner’s Insurance Policy</a>
+                        <a href="/episode/is-it-time-to-take-an-insurance-inventory-httppodcastcu-villagecompodfilehonorcu30103_insurance_inventory_feb_10_1325775896mp3"
+                            class="episode-list-item">Is it Time to Take an Insurance Inventory?</a>
+                        <a href="/episode/research-before-buying-fitness-gear-httppodcastcu-villagecompodfilehonorcu30002_fitness_gear_jan_27_1325775735mp3"
+                            class="episode-list-item">Research before Buying Fitness Gear</a>
+                        <a href="/episode/review-budgeting-basics-httppodcastcu-villagecompodfilehonorcu29901_budgeting_basics_jan_13_1325775464mp3"
+                            class="episode-list-item">Review Budgeting Basics</a>
+                        <a href="/episode/10-ways-to-cut-your-debt-now-httppodcastcu-villagecompodfilehonorcu29824_cut_debt_now_1317230814mp3"
+                            class="episode-list-item">10 Ways to Cut Your Debt Now</a>
+                        <a href="/episode/nine-ways-you-can-prevent-identity-theft-httppodcastcu-villagecompodfilehonorcu29723_prevent_id_t_1317230751mp3"
+                            class="episode-list-item">Nine Ways You Can Prevent Identity Theft</a>
+                        <a href="/episode/to-borrow-or-not-to-borrow-httppodcastcu-villagecompodfilehonorcu29622_borrow_or_no_1317230681mp3"
+                            class="episode-list-item">To Borrow or Not to Borrow?</a>
+                        <a href="/episode/five-tips-for-getting-the-most-from-your-credit-card-httppodcastcu-villagecompodfilehonorcu29521_getmostfromc_1317230619mp3"
+                            class="episode-list-item">Five Tips for Getting the Most from Your Credit Card</a>
+                        <a href="/episode/how-to-reduce-your-utility-bills-during-the-holiday-season-httppodcastcu-villagecompodfilehonorcu294oct_21_final_1315579323mp3"
+                            class="episode-list-item">How to Reduce Your Utility Bills during the Holiday Season</a>
+                        <a href="/episode/economize-and-be-safe-when-using-holiday-lights-httppodcastcu-villagecompodfilehonorcu293oct_7_final_1315579253mp3"
+                            class="episode-list-item">Economize and Be Safe When Using Holiday Lights</a>
+                        <a href="/episode/prepare-now-for-winter-httppodcastcu-villagecompodfilehonorcu290winter_final_1313092472mp3"
+                            class="episode-list-item">Prepare Now For Winter</a>
+                        <a href="/episode/make-your-move-a-financially-smart-one-httppodcastcu-villagecompodfilehonorcu289moving_final_1313092390mp3"
+                            class="episode-list-item">Make Your Move a Financially Smart One</a>
+                        <a href="/episode/inspect-the-exterior-of-your-house-httppodcastcu-villagecompodfilehonorcu28616_inspect_home_for_maintenance_problems_1308673101mp3"
+                            class="episode-list-item">Inspect the Exterior of Your House</a>
+                        <a href="/episode/keep-summer-utility-bills-low-httppodcastcu-villagecompodfilehonorcu28515_keep_summer_utility_bills_low_1308673059mp3"
+                            class="episode-list-item">Keep Summer Utility Bills Low</a>
+                        <a href="/episode/10-things-new-couples-should-do-about-money-httppodcastcu-villagecompodfilehonorcu28414_couples_financial_plan_1308673023mp3"
+                            class="episode-list-item">10 Things New Couples should do about Money</a>
+                        <a href="/episode/get-the-right-travel-insurance-httppodcastcu-villagecompodfilehonorcu27812_get_the_right_travel_insurance_1303849650mp3"
+                            class="episode-list-item">Get the Right Travel Insurance</a>
+                        <a href="/episode/plan-a-vacation-without-ignoring-your-financial-goals-httppodcastcu-villagecompodfilehonorcu27711_planvacation_and_keepfinancgoals_1303849576mp3"
+                            class="episode-list-item">Plan a Vacation without Ignoring Your Financial Goals</a>
+                        <a href="/episode/improve-credit-before-buying-or-renting-a-home-httppodcastcu-villagecompodfilehonorcu27310_icbeforerentbuy_1297285752mp3"
+                            class="episode-list-item">Improve Credit before Buying or Renting a Home</a>
+                        <a href="/episode/economics-of-renting-vs-buying-httppodcastcu-villagecompodfilehonorcu27209_rentvbuy_1297285484mp3"
+                            class="episode-list-item">Economics of Renting vs. Buying</a>
+                        <a href="/episode/car-buying-homework-httppodcastcu-villagecompodfilehonorcu27108_carbuyinghw_1295890460mp3"
+                            class="episode-list-item">Car-buying Homework</a>
+                        <a href="/episode/ten-facts-about-amended-returns-httppodcastcu-villagecompodfilehonorcu27007_amendedreturns_1295890388mp3"
+                            class="episode-list-item">Ten Facts about Amended Returns</a>
+                        <a href="/episode/top-ten-tax-time-tips-httppodcastcu-villagecompodfilehonorcu26906_toptentaxtimetips_1295890322mp3"
+                            class="episode-list-item">Top Ten Tax Time Tips</a>
+                        <a href="/episode/questions-to-ask-your-cpa-at-tax-time-httppodcastcu-villagecompodfilehonorcu26805_quests4cpa_1295889712mp3"
+                            class="episode-list-item">Questions to Ask Your CPA at Tax Time</a>
+                        <a href="/episode/getting-organized-at-tax-time-httppodcastcu-villagecompodfilehonorcu26504_organizedattaxtime_final_1294868568mp3"
+                            class="episode-list-item">Getting Organized at Tax Time</a>
+                        <a href="/episode/dates-and-tasks-for-your-financial-calendar-httppodcastcu-villagecompodfilehonorcu26402_financial_cal_final_1294868310mp3"
+                            class="episode-list-item">Dates and Tasks for Your Financial Calendar</a>
+                        <a href="/episode/money-resolutions-httppodcastcu-villagecompodfilehonorcu26301_money_resolutions_final_1294263962mp3"
+                            class="episode-list-item">Money Resolutions</a>
+                        <a href="/episode/avoid-credit-card-debt-this-holiday-season-httppodcastcu-villagecompodfilehonorcu261keepccdebtlow_1289226422mp3"
+                            class="episode-list-item">Avoid Credit Card Debt this Holiday Season</a>
+                        <a href="/episode/keep-holiday-spending-down-httppodcastcu-villagecompodfilehonorcu260holidayspendingdown_1289226323mp3"
+                            class="episode-list-item">Keep Holiday Spending Down</a>
+                        <a href="/episode/bringing-healthcare-issues-into-financial-planning-httppodcastcu-villagecompodfilehonorcu259healthcareissues_1284993785mp3"
+                            class="episode-list-item">Bringing Healthcare Issues into Financial Planning</a>
+                        <a href="/episode/financial-considerations-when-disaster-strikes-httppodcastcu-villagecompodfilehonorcu258whendiasterstrikes_1284993702mp3"
+                            class="episode-list-item">Financial Considerations When Disaster Strikes</a>
+                        <a href="/episode/affording-graduate-school-while-youre-still-working-httppodcastcu-villagecompodfilehonorcu257gradschool_1284752602mp3"
+                            class="episode-list-item">Affording Graduate School While You&#39;re Still Working</a>
+                        <a href="/episode/prepare-for-open-enrollment-httppodcastcu-villagecompodfilehonorcu256openenrollment_final_1283532736mp3"
+                            class="episode-list-item">Prepare for Open Enrollment</a>
+                        <a href="/episode/talk-about-budgeting-and-saving-with-kids-httppodcastcu-villagecompodfilehonorcu255budgetingforkids_final_1281452692mp3"
+                            class="episode-list-item">Talk about Budgeting and Saving with Kids</a>
+                        <a href="/episode/affording-your-pets-illness-httppodcastcu-villagecompodfilehonorcu254petcare_final_1281452542mp3"
+                            class="episode-list-item">Affording Your Pet&#39;s Illness</a>
+                        <a href="/episode/protecting-your-summer-vacation-httppodcastcu-villagecompodfilehonorcu253protecting_vaca_1277486041mp3"
+                            class="episode-list-item">Protecting Your Summer Vacation</a>
+                        <a href="/episode/planning-an-affordable-family-vacation-httppodcastcu-villagecompodfilehonorcu252planning_vaca_1277485558mp3"
+                            class="episode-list-item">Planning an Affordable Family Vacation</a>
+                        <a href="/episode/how-to-screen-a-prospective-financial-planner-httppodcastcu-villagecompodfilehonorcu248scrnprspctvcfp_1274197203mp3"
+                            class="episode-list-item">How to Screen a Prospective Financial Planner</a>
+                        <a href="/episode/do-you-need-professional-financial-advice-httppodcastcu-villagecompodfilehonorcu247proffinadvice_1274197100mp3"
+                            class="episode-list-item">Do You Need Professional Financial Advice?</a>
+                        <a href="/episode/planning-for-eldercare-httppodcastcu-villagecompodfilehonorcu245eldercare_final_1271427692mp3"
+                            class="episode-list-item">Planning for Eldercare</a>
+                        <a href="/episode/long-term-care-strategy-httppodcastcu-villagecompodfilehonorcu244longtermcaresolutions_1271427533mp3"
+                            class="episode-list-item">Long-term Care Strategy</a>
+                        <a href="/episode/nine-reasons-to-visit-an-irs-taxpayer-assistance-center-httppodcastcu-villagecompodfilehonorcu240tac_1269530679mp3"
+                            class="episode-list-item">Nine Reasons to Visit an IRS Taxpayer Assistance Center</a>
+                        <a href="/episode/what-you-should-know-about-e-filing-your-taxes-httppodcastcu-villagecompodfilehonorcu239electronic_tax_return_1269530518mp3"
+                            class="episode-list-item">What You Should Know about E-filing Your Taxes</a>
+                        <a href="/episode/7-why-wordpress-can-you-ruffle-a-beak-tagsoundcloud2010tracks176877478"
+                            class="episode-list-item">7: Why WordPress? | Can you ruffle a beak?</a>
+                        <a href="/episode/6-ch-ch-ch-changes-hiding-in-the-toilet-tagsoundcloud2010tracks176873630"
+                            class="episode-list-item">6: Ch.. Ch.. Ch.. Changes | Hiding in the toilet</a>
+                        <a href="/episode/5-time-to-get-real-lawnmower-man-tagsoundcloud2010tracks176854822"
+                            class="episode-list-item">5: Time to get real | Lawnmower Man</a>
+                        <a href="/episode/4-toolkit-the-one-guy-in-the-corner-with-a-toshiba-tagsoundcloud2010tracks176854757"
+                            class="episode-list-item">4: Toolkit | The one guy in the corner with a Toshiba!</a>
+                        <a href="/episode/3-continuous-professional-development-dont-steal-bad-code-tagsoundcloud2010tracks176854668"
+                            class="episode-list-item">3: Continuous Professional Development | &quot;Don&#39;t steal bad code!&quot;</a>
+                        <a href="/episode/2-saying-i-dont-know-never-sharpen-a-teapot-tagsoundcloud2010tracks176854584"
+                            class="episode-list-item">2: Saying I Don&#39;t know | &quot;Never Sharpen a Teapot&quot;</a>
+                        <a href="/episode/1-whats-it-all-for-dont-surf-mountains-tagsoundcloud2010tracks176854452"
+                            class="episode-list-item">1: What&#39;s it all for? | &quot;Don&#39;t surf mountains!&quot;</a>
+                        <a href="/episode/episode-1-web-privacy-and-online-user-authentication-b4f898fca22dbeec41a18a630762e266"
+                            class="episode-list-item">Episode 1: web privacy and online user authentication</a>
+                        <a href="/episode/kieran8217s-big-red-button-httpsbacktofrontshowcomepisode-47"
+                            class="episode-list-item">Kieran&amp;#8217;s Big Red Button</a>
+                        <a href="/episode/back-stories-with-oliver-lindberg-httpsbacktofrontshowcomback-stories-with-oliver-lindberg"
+                            class="episode-list-item">Back Stories with Oliver Lindberg</a>
+                        <a href="/episode/the-future-of-medium-httpsbacktofrontshowcomepisode-46"
+                            class="episode-list-item">The Future of Medium?</a>
+                        <a href="/episode/we-don8217t-need-no-education-httpsbacktofrontshowcomepisode-45"
+                            class="episode-list-item">We Don&amp;#8217;t Need no Education</a>
+                        <a href="/episode/back-stories-with-kurt-elster-httpsbacktofrontshowcomback-stories-with-kurt-elster"
+                            class="episode-list-item">Back Stories with Kurt Elster</a>
+                        <a href="/episode/back-stories-with-craig-lockwood-httpsbacktofrontshowcomback-stories-craig-lockwood"
+                            class="episode-list-item">Back Stories with Craig Lockwood</a>
+                        <a href="/episode/back-stories-with-marc-thiele-httpsbacktofrontshowcomback-stories-marc-thiele"
+                            class="episode-list-item">Back Stories with Marc Thiele</a>
+                        <a href="/episode/the-super-lit-fam-dope-en-flique-episode-httpsbacktofrontshowcomepisode-44"
+                            class="episode-list-item">The Super Lit, Fam, Dope, En Flique Episode</a>
+                        <a href="/episode/lost-with-lindberg-httpsbacktofrontshowcomepisode-43"
+                            class="episode-list-item">Lost with Lindberg</a>
+                        <a href="/episode/the-gavin-ballard-special-httpsbacktofrontshowcomepisode-42"
+                            class="episode-list-item">The Gavin Ballard Special</a>
+                        <a href="/episode/free-content-forever-httpsbacktofrontshowcomepisode-41"
+                            class="episode-list-item">Free Content Forever?</a>
+                        <a href="/episode/the-big-40-httpsbacktofrontshowcomepisode-40" class="episode-list-item">The Big 40!</a>
+                        <a href="/episode/moving-away-from-the-code-face-httpsbacktofrontshowcomepisode-39"
+                            class="episode-list-item">Moving Away from the Code Face</a>
+                        <a href="/episode/dont-let-a-loan-ruin-a-relationship-httppodcastcu-villagecompodfilehonorcu238loanruinrelationship_final_1269011104mp3"
+                            class="episode-list-item">Don&#39;t Let a Loan Ruin a Relationship</a>
+                        <a href="/episode/helping-family-members-during-tough-times-httppodcastcu-villagecompodfilehonorcu237helping_family_final_1267817425mp3"
+                            class="episode-list-item">Helping Family Members during Tough Times</a>
+                        <a href="/episode/make-sure-living-trust-offers-are-trustworthy-httppodcastcu-villagecompodfilehonorcu236living_trust_final_1265035276mp3"
+                            class="episode-list-item">Make Sure Living Trust Offers Are Trustworthy</a>
+                        <a href="/episode/legal-documents-you-need-to-have-httppodcastcu-villagecompodfilehonorcu235legal_documents_final_1265034989mp3"
+                            class="episode-list-item">Legal Documents You Need to Have</a>
+                        <a href="/episode/post-recession-financial-habits-httppodcastcu-villagecompodfilehonorcu234post_recession_1265033672mp3"
+                            class="episode-list-item">Post-recession Financial Habits</a>
+                        <a href="/episode/five-quick-steps-to-keep-more-money-in-your-pocket-httppodcastcu-villagecompodfilehonorcu233keep_more_money_1263305961mp3"
+                            class="episode-list-item">Five Quick Steps to Keep More Money in Your Pocket</a>
+                        <a href="/episode/preparing-for-tax-season-httppodcastcu-villagecompodfilehonorcu230tax_season_1260309379mp3"
+                            class="episode-list-item">Preparing for Tax Season</a>
+                        <a href="/episode/online-holiday-shopping-httppodcastcu-villagecompodfilehonorcu229online_shopping_1260305095mp3"
+                            class="episode-list-item">Online Holiday Shopping</a>
+                        <a href="/episode/smart-tips-for-managing-your-debt-httppodcastcu-villagecompodfilehonorcu228managing_debt_1259182130mp3"
+                            class="episode-list-item">Smart Tips for Managing Your Debt</a>
+                        <a href="/episode/10-rules-for-managing-credit-cards-httppodcastcu-villagecompodfilehonorcu224rules4credit_cards_1257370456mp3"
+                            class="episode-list-item">10 Rules for Managing Credit Cards</a>
+                        <a href="/episode/avoid-scholarship-scams-httppodcastcu-villagecompodfilehonorcu218scholarships_final_1253192833mp3"
+                            class="episode-list-item">Avoid Scholarship Scams</a>
+                        <a href="/episode/id-theft-prevention-and-recovery-httppodcastcu-villagecompodfilehonorcu217id_theft_final_1253192755mp3"
+                            class="episode-list-item">ID Theft: Prevention and Recovery</a>
+                        <a href="/episode/household-budgeting-tips-httppodcastcu-villagecompodfilehonorcu216household_budgeting_final_1253192658mp3"
+                            class="episode-list-item">Household Budgeting Tips</a>
+                        <a href="/episode/review-your-financial-habits-httppodcastcu-villagecompodfilehonorcu215reviewfinancialhabits_1252699826mp3"
+                            class="episode-list-item">Review Your Financial Habits</a>
+                        <a href="/episode/do-your-research-before-taking-the-corporate-buyout-httppodcastcu-villagecompodfilehonorcu214corporate_buyout_pensions_1251831189mp3"
+                            class="episode-list-item">Do Your Research before Taking the Corporate Buyout</a>
+                        <a href="/episode/dont-spend-retirement-on-tuition-httppodcastcu-villagecompodfilehonorcu211college_costs_1250708391mp3"
+                            class="episode-list-item">Don&#39;t Spend Retirement on Tuition</a>
+                        <a href="/episode/interviewing-a-remodeler-httppodcastcu-villagecompodfilehonorcu166interviewing_a_remodeler_20090602mp3"
+                            class="episode-list-item">Interviewing a Remodeler</a>
+                        <a href="/episode/renting-good-idea-httppodcastcu-villagecompodfilehonorcu165renting_good_idea_20090602mp3"
+                            class="episode-list-item">Renting, Good Idea?</a>
+                        <a href="/episode/what-is-your-financial-compatibility-httppodcastcu-villagecompodfilehonorcu164whats_your_financial_compatibility_20090602mp3"
+                            class="episode-list-item">What is Your Financial Compatibility?</a>
+                        <a href="/episode/consider-a-prenup-when-it-is-time-to-remarry-httppodcastcu-villagecompodfilehonorcu163consider_a_prenup_when_time_remarry_20090602mp3"
+                            class="episode-list-item">Consider a Prenup When it is Time to Remarry</a>
+                        <a href="/episode/debt-management-plans-httppodcastcu-villagecompodfilehonorcu147debt_management_plan_20090303mp3"
+                            class="episode-list-item">Debt Management Plans</a>
+                        <a href="/episode/choosing-a-credit-counselor-httppodcastcu-villagecompodfilehonorcu146choosing_a_credit_counselor_20090303mp3"
+                            class="episode-list-item">Choosing a Credit Counselor</a>
+                        <a href="/episode/six-ways-to-prepare-for-lifes-financial-emergencies-httppodcastcu-villagecompodfilehonorcu136six_ways_prepare_lifes_fin_emer_20090103mp3"
+                            class="episode-list-item">Six Ways to Prepare for Life’s Financial Emergencies</a>
+                        <a href="/episode/discussing-money-issues-with-older-relatives-httppodcastcu-villagecompodfilehonorcu135discussing_money_older_relatives_20090103mp3"
+                            class="episode-list-item">Discussing Money Issues with Older Relatives</a>
+                        <a href="/episode/great-ideas-for-cutting-your-heating-bills-httppodcastcu-villagecompodfilehonorcu132heating_bills_20081201mp3"
+                            class="episode-list-item">Great Ideas for Cutting Your Heating Bills</a>
+                        <a href="/episode/cut-debt-during-the-holiday-season-httppodcastcu-villagecompodfilehonorcu131holiday_debt_20081201mp3"
+                            class="episode-list-item">Cut Debt During the Holiday Season</a>
+                        <a href="/episode/do-you-know-your-risk-tolerance-httppodcastcu-villagecompodfilehonorcu118risk_tolerance_20081017mp3"
+                            class="episode-list-item">Do You Know Your Risk Tolerance?</a>
+                        <a href="/episode/teach-your-kids-financial-skills-httppodcastcu-villagecompodfilehonorcu112teach_your_kids_financial_skills_20080901mp3"
+                            class="episode-list-item">Teach Your Kids Financial Skills</a>
+                        <a href="/episode/educate-your-college-student-about-identity-theft-httppodcastcu-villagecompodfilehonorcu111educate_your_college_student_identity_theft_20080901mp3"
+                            class="episode-list-item">Educate Your College Student about Identity Theft</a>
+                        <a href="/episode/how-to-fix-credit-report-errors-httppodcastcu-villagecompodfilehonorcu108how_to_fixcreports_20080808mp3"
+                            class="episode-list-item">How to Fix Credit Report Errors</a>
+                        <a href="/episode/6-things-you-can-do-to-raise-your-credit-score-httppodcastcu-villagecompodfilehonorcu1076_things_credit_score_20080808mp3"
+                            class="episode-list-item">6 Things You Can Do to Raise Your Credit Score</a>
+                        <a href="/episode/protect-yourself-at-the-atm-httppodcastcu-villagecompodfilehonorcu102protect_yourself_at_the_atm_20080711mp3"
+                            class="episode-list-item">Protect Yourself at the ATM</a>
+                        <a href="/episode/8-ways-to-sabotage-your-household-finances-httppodcastcu-villagecompodfilehonorcu1018_ways_to_sabotage_your_household_finances_20080711mp3"
+                            class="episode-list-item">8 Ways to Sabotage Your Household Finances</a>
+                        <a href="/episode/how-to-afford-your-bundle-of-joy-httppodcastcu-villagecompodfilehonorcu97ymm_bundle_of_joy_5_min-_7_sec_20080616mp3"
+                            class="episode-list-item">How to Afford Your Bundle of Joy</a>
+                        <a href="/episode/10-financial-questions-to-ask-before-you-get-married-httppodcastcu-villagecompodfilehonorcu96ymm_marraige_debt_4_min_36_sec_20080616mp3"
+                            class="episode-list-item">10 Financial Questions to Ask before You Get Married</a>
+                        <a href="/episode/eight-steps-on-how-to-buy-your-first-house-httppodcastcu-villagecompodfilehonorcu91eight_steps_how_buy_your_first_house20080516mp3"
+                            class="episode-list-item">Eight Steps on How to Buy Your First House</a>
+                        <a href="/episode/developing-a-realistic-remodeling-budget-httppodcastcu-villagecompodfilehonorcu90developing_a_realistic_remodeling_budget20080516mp3"
+                            class="episode-list-item">Developing a Realistic Remodeling Budget</a>
+                        <a href="/episode/amending-your-tax-return-httppodcastcu-villagecompodfilehonorcu82ymm_amending_your_tax_return_20080411mp3"
+                            class="episode-list-item">Amending Your Tax Return</a>
+                        <a href="/episode/faqs-about-tax-audits-httppodcastcu-villagecompodfilehonorcu85ymm_tax_audits_20080324mp3"
+                            class="episode-list-item">FAQs about Tax Audits</a>
+                        <a href="/episode/get-a-jump-start-on-your-taxes-and-avoid-common-errors-httppodcastcu-villagecompodfilehonorcu84ymm_file_your_taxes_20080314mp3"
+                            class="episode-list-item">Get a Jump Start on Your Taxes - and Avoid Common Errors</a>
+                        <a href="/episode/your-money-matters-retirement-savings-tips-httppodcastcu-villagecompodfilehonorcu70ymm_retirement_savings_tips_20080229mp3"
+                            class="episode-list-item">Your Money Matters: Retirement Savings Tips</a>
+                        <a href="/episode/your-money-matters-budgeting-can-put-you-in-control-httppodcastcu-villagecompodfilehonorcu69ymm_budgeting_can_put_you_in_control_20080215mp3"
+                            class="episode-list-item">Your Money Matters: Budgeting Can Put You in Control</a>
+                        <a href="/episode/your-money-matters-guidelines-for-improved-spending-httppodcastcu-villagecompodfilehonorcu68ymm_guidelines_for_improved_spending_20080201mp3"
+                            class="episode-list-item">Your Money Matters: Guidelines for Improved Spending</a>
+                        <a href="/episode/your-money-matters-financial-records-what-to-keep-what-to-toss-httppodcastcu-villagecompodfilehonorcu64financial_records_what_to_keep_20080118mp3"
+                            class="episode-list-item">Your Money Matters: Financial Records - What to Keep, What to Toss</a>
+                        <a href="/episode/your-money-matters-keeping-good-records-httppodcastcu-villagecompodfilehonorcu62keeping-good-records_20071221mp3"
+                            class="episode-list-item">Your Money Matters: Keeping Good Records</a>
+                        <a href="/episode/your-money-matters-holiday-shopping-tips-httppodcastcu-villagecompodfilehonorcu56ymm_holidayshopping_20071120mp3"
+                            class="episode-list-item">Your Money Matters: Holiday Shopping Tips</a>
+                        <a href="/episode/your-money-matters-recovering-from-bankruptcy-httppodcastcu-villagecompodfilehonorcu53ymm_after_bankruptcy_20071109mp3"
+                            class="episode-list-item">Your Money Matters: Recovering from Bankruptcy</a>
+                        <a href="/episode/your-money-matters-getting-started-in-the-stock-market-httppodcastcu-villagecompodfilehonorcu48ymm_startingstockmarket_20071006mp3"
+                            class="episode-list-item">Your Money Matters: Getting Started in the Stock Market</a>
+                        <a href="/episode/your-money-matters-financing-a-new-car-httppodcastcu-villagecompodfilehonorcu43ymm_financingnewcar_20070921mp3"
+                            class="episode-list-item">Your Money Matters: Financing a New Car</a>
+                        <a href="/episode/your-money-matters-manage-your-way-out-of-debt-httppodcastcu-villagecompodfilehonorcu41ymm_getoutofdebt_20070907mp3"
+                            class="episode-list-item">Your Money Matters: Manage Your Way Out of Debt</a>
+                        <a href="/episode/your-money-matters-using-a-credit-limit-record-httppodcastcu-villagecompodfilehonorcu38ymm_creditlimitrecord_20070824mp3"
+                            class="episode-list-item">Your Money Matters: Using a Credit Limit Record</a>
+                        <a href="/episode/your-money-matters-identity-theft-protection-httppodcastcu-villagecompodfilehonorcu34ymm_idtheft_20070822mp3"
+                            class="episode-list-item">Your Money Matters: Identity Theft Protection</a>
+                        <a href="/episode/your-money-matters-managing-credit-card-debt-httppodcastcu-villagecompodfilehonorcu35ymm_managecreditcards_20070822mp3"
+                            class="episode-list-item">Your Money Matters: Managing Credit Card Debt</a>
+                        <a href="/episode/your-money-matters-seven-step-financial-fitness-formula-httppodcastcu-villagecompodfilehonorcu17ymm_finanfitness_20070620mp3"
+                            class="episode-list-item">Your Money Matters: Seven Step Financial Fitness Formula</a>
+                        <a href="/episode/the-joys-038-perils-of-remote-working-httpsbacktofrontshowcomepisode-38"
+                            class="episode-list-item">The Joys &amp;#038; Perils of Remote Working</a>
+                        <a href="/episode/around-the-web-httpsbacktofrontshowcomepisode-37"
+                            class="episode-list-item">Around the Web</a>
+                        <a href="/episode/the-2014-baftas-httpsbacktofrontshowcomepisode-36" class="episode-list-item">The 2014 BAFTAS</a>
+                        <a href="/episode/that-vat-thing-httpsbacktofrontshowcomepisode-35" class="episode-list-item">That VAT Thing</a>
+                        <a href="/episode/hacker-not-cracker-httpsbacktofrontshowcomepisode-34" class="episode-list-item">Hacker not Cracker</a>
+                        <a href="/episode/back-behind-the-yeti8217s-httpsbacktofrontshowcomepisode-33"
+                            class="episode-list-item">Back behind the Yeti&amp;#8217;s</a>
+                        <a href="/episode/the-club-sandwich-special-httpsbacktofrontshowcomepisode-32"
+                            class="episode-list-item">The Club Sandwich Special</a>
+                        <a href="/episode/episode-31-httpsbacktofrontshowcomepisode-31" class="episode-list-item">Episode 31</a>
+                        <a href="/episode/so-entitled-httpsbacktofrontshowcomepisode-30" class="episode-list-item">So Entitled?</a>
+                        <a href="/episode/around-the-web-httpsbacktofrontshowcomepisode-29" class="episode-list-item">Around The Web</a>
+                        <a href="/episode/soft6008-2011-class-36-video-recorded-20110331-null" class="episode-list-item">SOFT6008 2011 Class 36 Video Recorded 2011.03.31</a>
+                        <a href="/episode/soft6008-2011-class-32-video-recorded-20110324-null"
+                            class="episode-list-item">SOFT6008 2011 Class 32 Video Recorded 2011.03.24</a>
+                        <a href="/episode/soft6008-2011-class-24-video-recorded-20110310-null"
+                            class="episode-list-item">SOFT6008 2011 Class 24 Video Recorded 2011.03.10</a>
+                        <a href="/episode/soft6008-2011-class-23-video-recorded-20110307-null"
+                            class="episode-list-item">SOFT6008 2011 Class 23 Video Recorded 2011.03.07</a>
+                        <a href="/episode/soft6008-2011-assignment-1-specification-null"
+                            class="episode-list-item">SOFT6008 2011 Assignment 1 Specification</a>
+                        <a href="/episode/soft6008-2011-discussion-of-assignment-1-video-recorded-201100303-null"
+                            class="episode-list-item">SOFT6008 2011 Discussion of Assignment 1 Video Recorded 2011.003.03</a>
+                        <a href="/episode/soft6008-2011-class-20-video-recorded-20110303-null"
+                            class="episode-list-item">SOFT6008 2011 Class 20 Video Recorded 2011.03.03</a>
+                        <a href="/episode/soft6008-2011-class-19-video-recorded-20110228-null"
+                            class="episode-list-item">SOFT6008 2011 Class 19 Video Recorded 2011.02.28</a>
+                        <a href="/episode/soft6008-2011-class-19-hi-res-video-recorded-20110228-null"
+                            class="episode-list-item">SOFT6008 2011 Class 19 HI RES Video Recorded 2011.02.28</a>
+                        <a href="/episode/soft6008-2011-class-16-audio-recorded-20110224-null"
+                            class="episode-list-item">SOFT6008 2011 Class 16 Audio Recorded 2011.02.24</a>
+                        <a href="/episode/soft6008-2011-class-14-video-recorded-20110221-null"
+                            class="episode-list-item">SOFT6008 2011 Class 14 Video Recorded 2011.02.21</a>
+                        <a href="/episode/soft6008-2011-notes-checksums-null"
+                            class="episode-list-item">SOFT6008 2011 Notes: Checksums</a>
+                        <a href="/episode/soft6008-2011-online-class-user-input-validation-null"
+                            class="episode-list-item">SOFT6008 2011 Online Class: User Input Validation</a>
+                        <a href="/episode/soft6008-2010-slides-user-input-validation-null"
+                            class="episode-list-item">SOFT6008 2010 Slides: User Input Validation</a>
+                        <a href="/episode/soft6008-2011-class-13-audio-recorded-20110221-null"
+                            class="episode-list-item">SOFT6008 2011 Class 13 Audio Recorded 2011.02.21</a>
+                        <a href="/episode/soft6008-2011-class-12-video-recorded-20110217-null"
+                            class="episode-list-item">SOFT6008 2011 Class 12 Video Recorded 2011.02.17</a>
+                        <a href="/episode/soft6008-2011-online-class-cookies-null"
+                            class="episode-list-item">SOFT6008 2011 Online Class: Cookies</a>
+                        <a href="/episode/soft6008-2011-notes-js03-null" class="episode-list-item">SOFT6008 2011 Notes: JS03</a>
+                        <a href="/episode/soft6008-2011-class-09-audio-recorded-20110214-null"
+                            class="episode-list-item">SOFT6008 2011 Class 09 Audio Recorded 2011.02.14</a>
+                        <a href="/episode/soft6008-2011-class-08-video-recorded-20110210-null"
+                            class="episode-list-item">SOFT6008 2011 Class 08 Video Recorded 2011.02.10</a>
+                        <a href="/episode/soft6008-2011-class-07-audio-recorded-20110207-null"
+                            class="episode-list-item">SOFT6008 2011 Class 07 Audio Recorded 2011.02.07</a>
+                        <a href="/episode/soft6008-2011-class-05-audio-recorded-20110207-null"
+                            class="episode-list-item">SOFT6008 2011 Class 05 Audio Recorded 2011.02.07</a>
+                        <a href="/episode/soft6008-2011-class-04-video-recorded-20110203-null"
+                            class="episode-list-item">SOFT6008 2011 Class 04 Video Recorded 2011.02.03</a>
+                        <a href="/episode/soft6008-2011-class-03-video-recorded-20110131-null"
+                            class="episode-list-item">SOFT6008 2011 Class 03 Video Recorded 2011.01.31</a>
+                        <a href="/episode/soft6008-2011-class-02-handoutiswd20-20110131-null"
+                            class="episode-list-item">SOFT6008 2011 Class 02 Handout:ISWD20 2011.01.31</a>
+                        <a href="/episode/soft6008-2011-class-02-video-recorded-20110131-null"
+                            class="episode-list-item">SOFT6008 2011 Class 02 Video Recorded 2011.01.31</a>
+                        <a href="/episode/soft6008-2011-class-01-audio-recorded-20110131-null"
+                            class="episode-list-item">SOFT6008 2011 Class 01 Audio Recorded 2011.01.31</a>
+                        <a href="/episode/soft6008-2010-class-37x-video-recorded-20100419-null"
+                            class="episode-list-item">SOFT6008 2010 Class 37x Video Recorded 2010.04.19</a>
+                        <a href="/episode/soft6008-2010-class-37-video-recorded-20100419-null"
+                            class="episode-list-item">SOFT6008 2010 Class 37 Video Recorded 2010.04.19</a>
+                        <a href="/episode/soft6008-2010-class-30-video-recorded-20100322-null"
+                            class="episode-list-item">SOFT6008 2010 Class 30 Video Recorded 2010.03.22</a>
+                        <a href="/episode/soft6008-2010-class-28-video-recorded-20100316-null"
+                            class="episode-list-item">SOFT6008 2010 Class 28 Video Recorded 2010.03.16</a>
+                        <a href="/episode/soft6008-2010-class-21-video-recorded-20100308-null"
+                            class="episode-list-item">SOFT6008 2010 Class 21 Video Recorded 2010.03.08</a>
+                        <a href="/episode/soft6008-2010-class-20-audio-recorded-20100302-null"
+                            class="episode-list-item">SOFT6008 2010 Class 20 Audio Recorded 2010.03.02</a>
+                        <a href="/episode/soft6008-2010-class-19-notesjs03-20100301-null"
+                            class="episode-list-item">SOFT6008 2010 Class 19 Notes:js03 2010.03.01</a>
+                        <a href="/episode/soft6008-2010-class-19-notesjs02-20100301-null"
+                            class="episode-list-item">SOFT6008 2010 Class 19 Notes:js02 2010.03.01</a>
+                        <a href="/episode/soft6008-2010-class-19-audio-recorded-20100301-null"
+                            class="episode-list-item">SOFT6008 2010 Class 19 Audio Recorded 2010.03.01</a>
+                        <a href="/episode/soft6008-2010-class-18-audio-recorded-20100301-null"
+                            class="episode-list-item">SOFT6008 2010 Class 18 Audio Recorded 2010.03.01</a>
+                        <a href="/episode/soft6008-2010-class-13-video-recorded-20100222-null"
+                            class="episode-list-item">SOFT6008 2010 Class 13 Video Recorded 2010.02.22</a>
+                        <a href="/episode/soft6008-2010-class-10-video-recorded-20100215-null"
+                            class="episode-list-item">SOFT6008 2010 Class 10 Video Recorded 2010.02.15</a>
+                        <a href="/episode/soft6008-2010-class-07-video-recorded-20100208-null"
+                            class="episode-list-item">SOFT6008 2010 Class 07 Video Recorded 2010.02.08</a>
+                        <a href="/episode/soft6008-2010-class-05-video-recorded-20100208-null"
+                            class="episode-list-item">SOFT6008 2010 Class 05 Video Recorded 2010.02.08</a>
+                        <a href="/episode/soft6008-2010-class-03-video-recorded-20100201-null"
+                            class="episode-list-item">SOFT6008 2010 Class 03 Video Recorded 2010.02.01</a>
+                        <a href="/episode/soft6008-2010-class-02-video-recorded-20100201-null"
+                            class="episode-list-item">SOFT6008 2010 Class 02 Video Recorded 2010.02.01</a>
+                        <a href="/episode/soft6008-2010-class-01-video-recorded-20100201-null"
+                            class="episode-list-item">SOFT6008 2010 Class 01 Video Recorded 2010.02.01</a>
+                        <a href="/episode/online-class-01-javascript-i-null"
+                            class="episode-list-item">Online Class 01: JavaScript I</a>
+                        <a href="/episode/online-class-02-javascript-ii-null" class="episode-list-item">Online Class 02: JavaScript II</a>
+                        <a href="/episode/online-class-03-javascript-iii-null" class="episode-list-item">Online Class 03: JavaScript III</a>
+                        <a href="/episode/online-class-04-javascript-iv-null" class="episode-list-item">Online Class 04: JavaScript IV</a>
+                        <a href="/episode/online-class-04-javascript-iv-notes-null" class="episode-list-item">Online Class 04: JavaScript IV notes</a>
+                        <a href="/episode/online-class-05-javascript-v-null" class="episode-list-item">Online Class 05: JavaScript V</a>
+                        <a href="/episode/2011-soft6007-class-16-null" class="episode-list-item">2011 SOFT6007 Class 16</a>
+                        <a href="/episode/2011-soft6007-class-13-null" class="episode-list-item">2011 SOFT6007 Class 13</a>
+                        <a href="/episode/2011-soft6007-class-12-null" class="episode-list-item">2011 SOFT6007 Class 12</a>
+                        <a href="/episode/online-class-image-maps-notes-null" class="episode-list-item">Online Class: Image maps Notes</a>
+                        <a href="/episode/online-class-image-maps-null" class="episode-list-item">Online Class: Image maps</a>
+                        <a href="/episode/2011-soft6007-class-08-null" class="episode-list-item">2011 SOFT6007 Class 08</a>
+                        <a href="/episode/online-class-tables-notes-null" class="episode-list-item">Online Class: Tables Notes</a>
+                        <a href="/episode/online-class-tables-null" class="episode-list-item">Online Class: Tables</a>
+                        <a href="/episode/2011-soft6007-class-05-null" class="episode-list-item">2011 SOFT6007 Class 05</a>
+                        <a href="/episode/online-class-lists-null" class="episode-list-item">Online Class: Lists</a>
+                        <a href="/episode/online-class-images-in-html-documents-null" class="episode-list-item">Online Class: Images in HTML documents</a>
+                        <a href="/episode/2011-soft6007-class-01-null" class="episode-list-item">2011 SOFT6007 Class 01</a>
+                        <a href="/episode/online-class-introduction-to-the-internet-notes-null"
+                            class="episode-list-item">Online Class: Introduction to the Internet Notes</a>
+                        <a href="/episode/online-class-introduction-to-the-internet-null"
+                            class="episode-list-item">Online Class: Introduction to the Internet</a>
+                        <a href="/episode/soft6007-ev-week-10-part-2-video-null"
+                            class="episode-list-item">SOFT6007 Ev Week 10 Part 2 Video</a>
+                        <a href="/episode/soft6007-ev-week-10-part-1-video-null" class="episode-list-item">SOFT6007 Ev Week 10 Part 1 Video</a>
+                        <a href="/episode/soft6007-class-37-audio-null" class="episode-list-item">SOFT6007 Class 37 Audio</a>
+                        <a href="/episode/soft6007-class-35-a-video-null" class="episode-list-item">SOFT6007 Class 35 A Video</a>
+                        <a href="/episode/soft6007-class-34-a-video-null" class="episode-list-item">SOFT6007 Class 34 A Video</a>
+                        <a href="/episode/soft6007-class-34-b-video-null" class="episode-list-item">SOFT6007 Class 34 B Video</a>
+                        <a href="/episode/soft6007-ev-week-09-video-part-2-null" class="episode-list-item">SOFT6007 EV Week 09 Video Part 2</a>
+                        <a href="/episode/soft6007-ev-week-09-video-part-1-null" class="episode-list-item">SOFT6007 EV Week 09 Video Part 1</a>
+                        <a href="/episode/soft6007-class-33-video-null" class="episode-list-item">SOFT6007 Class 33 Video</a>
+                        <a href="/episode/soft6007-class-30-a-video-null" class="episode-list-item">SOFT6007 Class 30 A Video</a>
+                        <a href="/episode/soft6007-class-29-audio-null" class="episode-list-item">SOFT6007 Class 29 Audio</a>
+                        <a href="/episode/soft6007-class-28-video-null" class="episode-list-item">SOFT6007 Class 28 Video</a>
+                        <a href="/episode/soft6007-class-25-video-null" class="episode-list-item">SOFT6007 Class 25 Video</a>
+                        <a href="/episode/css-slides-null" class="episode-list-item">CSS Slides</a>
+                        <a href="/episode/soft6007-class-21-video-null" class="episode-list-item">SOFT6007 Class 21 Video</a>
+                        <a href="/episode/soft6007-ev-week-06-video-null" class="episode-list-item">SOFT6007 EV Week 06 Video</a>
+                        <a href="/episode/soft6007-ev-week-05-video-null" class="episode-list-item">SOFT6007 EV Week 05 Video</a>
+                        <a href="/episode/class-17-audio-recorded-20100302-null" class="episode-list-item">Class 17 Audio Recorded 2010.03.02</a>
+                        <a href="/episode/soft6007-ev-week-04-video-null" class="episode-list-item">SOFT6007 EV Week 04 Video</a>
+                        <a href="/episode/soft6007-class-15-b-video-null" class="episode-list-item">SOFT6007 Class 15 B Video</a>
+                        <a href="/episode/soft6007-class-14-b-video-null" class="episode-list-item">SOFT6007 Class 14 B Video</a>
+                        <a href="/episode/soft6007-ev-week-03-video-null" class="episode-list-item">SOFT6007 EV Week 03 Video</a>
+                        <a href="/episode/soft6007-class-07b-video-null" class="episode-list-item">SOFT6007 Class 07B Video</a>
+                        <a href="/episode/soft6007-class-06b-video-null" class="episode-list-item">SOFT6007 Class 06B Video</a>
+                        <a href="/episode/soft6007-class-06b-video-null" class="episode-list-item">SOFT6007 Class 06B Video</a>
+                        <a href="/episode/soft6007-ev-week-02-video-null" class="episode-list-item">SOFT6007 EV Week 02 Video</a>
+                        <a href="/episode/soft6007-class-05-null" class="episode-list-item">SOFT6007 Class 05</a>
+                        <a href="/episode/soft6007-class-04-sample-page-3-source-null" class="episode-list-item">SOFT6007 Class 04 Sample Page 3 Source</a>
+                        <a href="/episode/soft6007-class-04-sample-page-3-null"
+                            class="episode-list-item">SOFT6007 Class 04 Sample Page 3</a>
+                        <a href="/episode/soft6007-class-04-audio-null" class="episode-list-item">SOFT6007 Class 04 Audio</a>
+                        <a href="/episode/soft6007-class-03b-video-null" class="episode-list-item">SOFT6007 Class 03B Video</a>
+                        <a href="/episode/soft6007-class-03a-video-null" class="episode-list-item">SOFT6007 Class 03A Video</a>
+                        <a href="/episode/soft6007-class-02b-video-null" class="episode-list-item">SOFT6007 Class 02B Video</a>
+                        <a href="/episode/soft6007-class-02a-video-null" class="episode-list-item">SOFT6007 Class 02A Video</a>
+                        <a href="/episode/soft6007-evening-week-01-null" class="episode-list-item">SOFT6007 Evening Week 01</a>
+                        <a href="/episode/soft6007-class-01-video-null" class="episode-list-item">SOFT6007 Class 01 Video</a>
+                        <a href="/episode/online-class-02-html-basics-null" class="episode-list-item">Online Class 02: HTML Basics</a>
+                        <a href="/episode/online-class-02-notes-null" class="episode-list-item">Online Class 02: Notes</a>
+                        <a href="/episode/online-class-03-images-in-html-documents-null" class="episode-list-item">Online Class 03: Images in HTML Documents</a>
+                        <a href="/episode/house-rules-for-html-null" class="episode-list-item">House Rules for HTML</a>
+                        <a href="/episode/online-class-06-going-live-null" class="episode-list-item">Online Class 06: Going Live!</a>
+                        <a href="/episode/online-class-07-image-maps-exercise-i-null" class="episode-list-item">Online Class 07: Image Maps Exercise I</a>
+                        <a href="/episode/online-class-08-digital-color-part-i-null"
+                            class="episode-list-item">Online Class 08: Digital Color - Part I</a>
+                        <a href="/episode/online-class-09-digital-color-part-ii-null"
+                            class="episode-list-item">Online Class 09: Digital Color - Part II</a>
+                        <a href="/episode/online-class-10-adding-color-to-web-pages-null"
+                            class="episode-list-item">Online Class 10: Adding Color to Web Pages</a>
+                        <a href="/episode/online-class-11-designing-with-tables-null"
+                            class="episode-list-item">Online Class 11: Designing with Tables</a>
+                        <a href="/episode/online-class-12-javascript-i-null" class="episode-list-item">Online Class 12: JavaScript I</a>
+                        <a href="/episode/online-class-12-javscript-i-null" class="episode-list-item">Online Class 12: JavScript I</a>
+                        <a href="/episode/online-class-13-javascript-ii-null" class="episode-list-item">Online Class 13: JavaScript II</a>
+                        <a href="/episode/online-class-14-javascript-iii-null" class="episode-list-item">Online Class 14: JavaScript III</a>
+                        <a href="/episode/ensure-your-graphic-design-sends-a-clear-brand-message-httpwwwcheckerboardcomwp-contentuploads2016100001-ensure-your-graphic-design-sends-a-clear-brand-messagemp3"
+                            class="episode-list-item">Ensure your graphic design sends a clear brand message</a>
+                        <a href="/episode/graphic-designer-20-why-your-graphic-designer-needs-marketing-chops-httpwwwcheckerboardcomwp-contentuploads2016100002-graphic-designer-2-0-why-your-graphic-designer-needs-marketing-chopsmp3"
+                            class="episode-list-item">Graphic Designer 2.0: Why your graphic designer needs marketing chops</a>
+                        <a href="/episode/the-danger-of-not-listening-to-your-customers-httpwwwcheckerboardcomwp-contentuploads2016110003-the-danger-of-not-listening-to-your-customersmp3"
+                            class="episode-list-item">The danger of not listening to your customers</a>
+                        <a href="/episode/six-questions-most-website-builders-dont-ask-but-should-httpwwwcheckerboardcomwp-contentuploads2016110004-six-questions-most-website-builders-dont-ask-but-shouldmp3"
+                            class="episode-list-item">Six questions most website builders don’t ask, but should</a>
+                        <a href="/episode/white-papers-matter-httpwwwcheckerboardcomwp-contentuploads2016110005-white-papers-mattermp3"
+                            class="episode-list-item">White papers matter</a>
+                        <a href="/episode/marketing-to-go-why-isnt-your-marketing-working-httpwwwcheckerboardcomwp-contentuploads2017010006-marketing-to-go-why-isnt-your-marketing-workingmp3"
+                            class="episode-list-item">Marketing-to-Go: Why Isn’t Your Marketing Working?</a>
+                        <a href="/episode/marketing-to-go-how-should-you-promote-your-new-product-httpwwwcheckerboardcomwp-contentuploads2017010007-marketing-to-go-how-should-you-promote-your-new-productmp3"
+                            class="episode-list-item">Marketing to Go: How Should You Promote Your New Product?</a>
+                        <a href="/episode/marketing-to-go-how-can-you-get-people-to-buy-your-new-product-httpwwwcheckerboardcomwp-contentuploads2017010008-marketing-to-go-how-can-you-get-people-to-buy-your-productmp3"
+                            class="episode-list-item">Marketing to Go: How Can You Get People to Buy Your New Product?</a>
+                        <a href="/episode/marketing-to-go-what-should-i-include-in-my-new-business-website-httpwwwcheckerboardcomwp-contentuploads2017030009-what-should-i-include-in-my-new-business-websitemp3"
+                            class="episode-list-item">Marketing to Go: What Should I Include in My New Business Website?</a>
+                        <a href="/episode/keep-your-website-current-with-a-digital-marketing-assistant-httpwwwcheckerboardcomwp-contentuploads2017040010-keep-your-website-current-with-a-digital-marketing-assistantmp3"
+                            class="episode-list-item">Keep your website current with a digital marketing assistant</a>
+                        <a href="/episode/four-reasons-to-include-video-in-your-next-marketing-campaign-httpwwwcheckerboardcomwp-contentuploads2017040011-four-reasons-to-include-video-in-your-next-marketing-campaignmp3"
+                            class="episode-list-item">Four reasons to include video in your next marketing campaign</a>
+                        <a href="/episode/marketing-to-go-brand-statement-httpwwwcheckerboardcomwp-contentuploads2017050012-marketing-to-go-brand-statementmp3"
+                            class="episode-list-item">Marketing to Go: Brand Statement</a>
+                        <a href="/episode/social-media-trends-you-need-to-know-httpwwwcheckerboardcomwp-contentuploads2017060013-social-media-trends-you-need-to-knowmp3"
+                            class="episode-list-item">Social media trends you need to know</a>
+                        <a href="/episode/marketing-to-go-product-mix-httpwwwcheckerboardcomwp-contentuploads2017060014-marketing-to-go-product-mixmp3"
+                            class="episode-list-item">Marketing to Go: Product Mix</a>
+                        <a href="/episode/marketing-to-go-market-segmentation-variables-httpwwwcheckerboardcomwp-contentuploads2017070015-marketing-to-go-market-segmentation-variablesmp3"
+                            class="episode-list-item">Marketing to Go: Market Segmentation Variables</a>
+                        <a href="/episode/marketing-to-go-marketing-segmentation-strategies-httpwwwcheckerboardcomwp-contentuploads2017070016-marketing-to-go-marketing-segmentation-strategiesmp3"
+                            class="episode-list-item">Marketing to Go: Marketing Segmentation Strategies</a>
+                        <a href="/episode/marketing-to-go-company-vision-httpwwwcheckerboardcomwp-contentuploads2017080017-marketing-to-go-company-visionmp3"
+                            class="episode-list-item">Marketing to Go: Company Vision</a>
+                        <a href="/episode/web-development-backups-part-1-mysql-null"
+                            class="episode-list-item">Web Development - Backups Part 1 - MySQL</a>
+                        <a href="/episode/web-development-client-project-template-null"
+                            class="episode-list-item">Web Development - Client Project Template</a>
+                        <a href="/episode/mobile-app-development-android-emulator-wont-start-null"
+                            class="episode-list-item">Mobile App Development - Android - Emulator Won&#39;t Start</a>
+                        <a href="/episode/domains-httpsbacktofrontshowcomepisode-28"
+                            class="episode-list-item">Domains</a>
+                        <a href="/episode/around-the-web-httpsbacktofrontshowcomepisode-27" class="episode-list-item">Around The Web</a>
+                        <a href="/episode/conferences-httpsbacktofrontshowcomepisode-26" class="episode-list-item">Conferences</a>
+                        <a href="/episode/around-the-web-httpsbacktofrontshowcomepisode-25" class="episode-list-item">Around The Web</a>
+                        <a href="/episode/transitioning-httpsbacktofrontshowcomepisode-24" class="episode-list-item">Transitioning</a>
+                        <a href="/episode/excuses-what-excuses-httpsbacktofrontshowcomepisode-23" class="episode-list-item">Excuses, what Excuses</a>
+                        <a href="/episode/getty-goes-free-httpsbacktofrontshowcomepisode-22" class="episode-list-item">Getty goes Free</a>
+                        <a href="/episode/happy-new-year-httpsbacktofrontshowcomepisode-21" class="episode-list-item">Happy New Year</a>
+                        <a href="/episode/the-one-with-marc-httpsbacktofrontshowcomepisode-20" class="episode-list-item">The One with Marc</a>
+                        <a href="/episode/annual-awards-special-httpsbacktofrontshowcomepisode-19"
+                            class="episode-list-item">Annual Awards Special</a>
+                        <a href="/episode/how-to-work-remotely-httpsbacktofrontshowcomepisode-18"
+                            class="episode-list-item">How to Work Remotely</a>
+                        <a href="/episode/frost-on-speaking-httpsbacktofrontshowcomepisode-17" class="episode-list-item">Frost on Speaking</a>
+                        <a href="/episode/mixed-bag-httpsbacktofrontshowcomepisode-16" class="episode-list-item">Mixed Bag</a>
+                        <a href="/episode/proving-your-app-httpsbacktofrontshowcomepisode-15" class="episode-list-item">Proving your App</a>
+                        <a href="/episode/back-to-school-httpsbacktofrontshowcomepisode-14" class="episode-list-item">Back to School</a>
+                        <a href="/episode/six-choice-cuts-httpsbacktofrontshowcomepisode-13" class="episode-list-item">Six Choice Cuts</a>
+                        <a href="/episode/back-to-the-code-face-httpsbacktofrontshowcomepisode-12" class="episode-list-item">Back to the Code Face</a>
+                        <a href="/episode/how-not-to-run-a-competition-httpsbacktofrontshowcomepisode-11"
+                            class="episode-list-item">How Not to Run a Competition</a>
+                        <a href="/episode/the-problem-of-overfunding-on-kickstarter-httpsbacktofrontshowcomepisode-10"
+                            class="episode-list-item">The Problem of Overfunding on KickStarter</a>
+                        <a href="/episode/new-flickr-new-digg-httpsbacktofrontshowcomepisode-9"
+                            class="episode-list-item">New Flickr, New Digg!</a>
+                        <a href="/episode/celebrities-on-kickstarter-httpsbacktofrontshowcomepisode-8"
+                            class="episode-list-item">Celebrities on KickStarter</a>
+                        <a href="/episode/online-collaboration-httpsbacktofrontshowcomepisode-7"
+                            class="episode-list-item">Online Collaboration</a>
+                        <a href="/episode/all-things-startup-httpsbacktofrontshowcomepisode-6" class="episode-list-item">All Things Startup</a>
+                        <a href="/episode/remote-no-more-httpsbacktofrontshowcomepisode-5" class="episode-list-item">Remote No More!</a>
+                        <a href="/episode/he-who-dares-pays-httpsbacktofrontshowcomepisode-4" class="episode-list-item">He Who Dares Pays</a>
+                        <a href="/episode/wordpress-36-httpsbacktofrontshowcomepisode-3" class="episode-list-item">WordPress 3.6</a>
+                        <a href="/episode/development-tools-httpsbacktofrontshowcomepisode-2" class="episode-list-item">Development Tools</a>
+                        <a href="/episode/the-difficult-first-episode-httpsbacktofrontshowcomepisode-1"
+                            class="episode-list-item">The Difficult First Episode</a>
+                        <a href="/episode/class-01-14220563095" class="episode-list-item">Class 01</a>
+                        <a href="/episode/soft6007-slides01pdf-14240032511" class="episode-list-item">SOFT6007-Slides01.pdf</a>
+                        <a href="/episode/class-02-part-a-14220563093" class="episode-list-item">Class 02 Part A</a>
+                        <a href="/episode/class-02-part-b-14220563091" class="episode-list-item">Class 02 Part B</a>
+                        <a href="/episode/soft6007-slides02pdf-14240032514" class="episode-list-item">SOFT6007-Slides02.pdf</a>
+                        <a href="/episode/class-03-14240032517" class="episode-list-item">Class 03</a>
+                        <a href="/episode/soft6007-slides03pdf-14240032520" class="episode-list-item">SOFT6007-Slides03.pdf</a>
+                        <a href="/episode/class-04-14240032523" class="episode-list-item">Class 04</a>
+                        <a href="/episode/soft6007-slides04pdf-14240032526" class="episode-list-item">SOFT6007-Slides04.pdf</a>
+                        <a href="/episode/class-05-14240032529" class="episode-list-item">Class 05</a>
+                        <a href="/episode/soft6007-slides05pdf-14240032532" class="episode-list-item">SOFT6007-Slides05.pdf</a>
+                        <a href="/episode/class-06-14240032535" class="episode-list-item">Class 06</a>
+                        <a href="/episode/soft6007-slides06pdf-14240032538" class="episode-list-item">SOFT6007-Slides06.pdf</a>
+                        <a href="/episode/soft6007-slides07pdf-14240032541" class="episode-list-item">SOFT6007-Slides07.pdf</a>
+                        <a href="/episode/soft6007-slides08pdf-14240032544" class="episode-list-item">SOFT6007-Slides08.pdf</a>
+                        <a href="/episode/class-09-14240032547" class="episode-list-item">Class 09</a>
+                        <a href="/episode/class-12-14240032550" class="episode-list-item">Class 12</a>
+                        <a href="/episode/class-13-14240032553" class="episode-list-item">Class 13</a>
+                        <a href="/episode/class-14-14240032556" class="episode-list-item">Class 14</a>
+                        <a href="/episode/class-17-14240032559" class="episode-list-item">Class 17</a>
+                        <a href="/episode/class-18-14240032562" class="episode-list-item">Class 18</a>
+                        <a href="/episode/class-19-14240032565" class="episode-list-item">Class 19</a>
+                        <a href="/episode/class-20-14240032568" class="episode-list-item">Class 20</a>
+                        <a href="/episode/class-21-14240032571" class="episode-list-item">Class 21</a>
+                        <a href="/episode/class-23-lab-14372653007" class="episode-list-item">Class 23 Lab</a>
+                        <a href="/episode/class-24-14372653009" class="episode-list-item">Class 24</a>
+                        <a href="/episode/class-25-14372653011" class="episode-list-item">Class 25</a>
+                        <a href="/episode/class-27-14783319439" class="episode-list-item">Class 27</a>
+                        <a href="/episode/soft6008-01bpdf-14271043742" class="episode-list-item">SOFT6008-01b.pdf</a>
+                        <a href="/episode/soft6008-02jpdf-14271043745" class="episode-list-item">SOFT6008-02j.pdf</a>
+                        <a href="/episode/html-12-formspdf-14271043748" class="episode-list-item">html-12-forms.pdf</a>
+                        <a href="/episode/special-charspdf-14271043751" class="episode-list-item">special-chars.pdf</a>
+                        <a href="/episode/class-02-14018921180" class="episode-list-item">Class 02</a>
+                        <a href="/episode/class-03-14018921179" class="episode-list-item">Class 03</a>
+                        <a href="/episode/class-04-14041222664" class="episode-list-item">Class 04</a>
+                        <a href="/episode/class-05-14041222663" class="episode-list-item">Class 05</a>
+                        <a href="/episode/class-06-14041222662" class="episode-list-item">Class 06</a>
+                        <a href="/episode/class-09-14041222661" class="episode-list-item">Class 09</a>
+                        <a href="/episode/class-10-14041222660" class="episode-list-item">Class 10</a>
+                        <a href="/episode/class-12-14041222659" class="episode-list-item">Class 12</a>
+                        <a href="/episode/class-13-14041222658" class="episode-list-item">Class 13</a>
+                        <a href="/episode/class-18-14041222656" class="episode-list-item">Class 18</a>
+                        <a href="/episode/class-23-14363786532" class="episode-list-item">Class 23</a>
+                        <a href="/episode/class-24-14363786534" class="episode-list-item">Class 24</a>
+                        <a href="/episode/class-27-14777160819" class="episode-list-item">Class 27</a>
+                        <a href="/episode/class-01-13988673896" class="episode-list-item">Class 01</a>
+                        <a href="/episode/soft6007-slides01pdf-14240065241" class="episode-list-item">SOFT6007-Slides01.pdf</a>
+                        <a href="/episode/class-02-lab-group-a-13988673893" class="episode-list-item">Class 02 - Lab Group A</a>
+                        <a href="/episode/class-02-lab-group-b-14017530097" class="episode-list-item">Class 02 - Lab Group B</a>
+                        <a href="/episode/soft6007-slides02pdf-14240065244" class="episode-list-item">SOFT6007-Slides02.pdf</a>
+                        <a href="/episode/class-03-14017530095" class="episode-list-item">Class 03</a>
+                        <a href="/episode/soft6007-slides03pdf-14240065247" class="episode-list-item">SOFT6007-Slides03.pdf</a>
+                        <a href="/episode/class-04-14017530093" class="episode-list-item">Class 04</a>
+                        <a href="/episode/soft6007-slides04pdf-14240065250" class="episode-list-item">SOFT6007-Slides04.pdf</a>
+                        <a href="/episode/class-05-lab-group-a-14017530091" class="episode-list-item">Class 05 - Lab Group A</a>
+                        <a href="/episode/class-05-lab-group-b-14017530089" class="episode-list-item">Class 05 - Lab Group B</a>
+                        <a href="/episode/soft6007-slides05pdf-14240065253" class="episode-list-item">SOFT6007-Slides05.pdf</a>
+                        <a href="/episode/class-06-14017530087" class="episode-list-item">Class 06</a>
+                        <a href="/episode/soft6007-slides06pdf-14240065256" class="episode-list-item">SOFT6007-Slides06.pdf</a>
+                        <a href="/episode/soft6007-slides07pdf-14240065259" class="episode-list-item">SOFT6007-Slides07.pdf</a>
+                        <a href="/episode/soft6007-slides08pdf-14240065262" class="episode-list-item">SOFT6007-Slides08.pdf</a>
+                        <a href="/episode/class-09-14017530085" class="episode-list-item">Class 09</a>
+                        <a href="/episode/class-12-14017530083" class="episode-list-item">Class 12</a>
+                        <a href="/episode/class-13-14017530081" class="episode-list-item">Class 13</a>
+                        <a href="/episode/class-14-lab-group-b-14017530079" class="episode-list-item">Class 14 - Lab Group B</a>
+                        <a href="/episode/class-17-lab-group-a-14017530078" class="episode-list-item">Class 17 - Lab Group A</a>
+                        <a href="/episode/class-17-lab-group-b-14017530077" class="episode-list-item">Class 17 - Lab Group B</a>
+                        <a href="/episode/class-18-14017530075" class="episode-list-item">Class 18</a>
+                        <a href="/episode/class-19-14017530073" class="episode-list-item">Class 19</a>
+                        <a href="/episode/class-20-lab-group-a-14363819303" class="episode-list-item">Class 20 - Lab Group A</a>
+                        <a href="/episode/class-21-14363819305" class="episode-list-item">Class 21</a>
+                        <a href="/episode/class-23-lab-group-b-14363819307" class="episode-list-item">Class 23 - Lab Group B</a>
+                        <a href="/episode/class-24-14363819309" class="episode-list-item">Class 24</a>
+                        <a href="/episode/class-25-14363819311" class="episode-list-item">Class 25</a>
+                        <a href="/episode/class-27-14772802214" class="episode-list-item">Class 27</a>
+                        <a href="/episode/soft6008-01bpdf-14269701309" class="episode-list-item">SOFT6008-01b.pdf</a>
+                        <a href="/episode/soft6008-02jpdf-14269701312" class="episode-list-item">SOFT6008-02j.pdf</a>
+                        <a href="/episode/special-charspdf-14269701315" class="episode-list-item">special-chars.pdf</a>
+                        <a href="/episode/html-12-formspdf-14269701318" class="episode-list-item">html-12-forms.pdf</a>
+                        <a href="/episode/tasty-treats-rems-vs-ems-remote-work-making-money-getting-good-at-design-more-dbae18b20fc88ba5c504ff2c2d5c7bae"
+                            class="episode-list-item">Tasty Treats — Rems VS Ems, Remote Work, Making Money, Getting good at Design + more! 🍬</a>
+                        <a href="/episode/advice-for-new-developers-imposter-syndrome-and-interviewing-at-google-9a570de6416c74f7c882396552b59dd0"
+                            class="episode-list-item">Advice for New Developers, Imposter Syndrome and Interviewing at Google</a>
+                        <a href="/episode/our-stacks-explained-ef614ef3b274b0a6e51a0353adabe128"
+                            class="episode-list-item">Our Stacks Explained 🖥️ 💪</a>
+                        <a href="/episode/the-command-line-for-web-developers-3a9167ca1c34c5ea302ae93da1709729"
+                            class="episode-list-item">The Command Line for Web Developers</a>
+                        <a href="/episode/why-is-everyone-switching-to-vs-code-757564dd16d994d4831589254c6b564f"
+                            class="episode-list-item">Why is everyone switching to VS Code?</a>
+                        <a href="/episode/our-favourite-productivity-hacks-9bc1809dae6fc0b237c99e54b3598204"
+                            class="episode-list-item">Our favourite Productivity Hacks 🔥</a>
+                        <a href="/episode/css-in-js-drama-free-b5c0b4cc7e36fdd3fb8daf141480ceb8"
+                            class="episode-list-item">CSS in JS 💅👩‍🎤💁🚒 (Drama Free!)</a>
+                        <a href="/episode/dang-thats-handy-javascript-utility-libraries-cae7752a19684f6afa2147106c69f010"
+                            class="episode-list-item">Dang, that&#39;s handy! JavaScript Utility Libraries 🛠️</a>
+                        <a href="/episode/wes-bos-origin-story-5b5dec67b39c766d07f3e23cc6ec7254"
+                            class="episode-list-item">Wes Bos Origin Story 🎸💼💻🔥🐷</a>
+                        <a href="/episode/scott-tolinski-origin-story-f71bc1e63c890248416278bdf3307497"
+                            class="episode-list-item">Scott Tolinski Origin Story 🎧 📹 💻 🕺</a>
+                        <a href="/episode/accepting-money-on-the-internet-c47fbf6911463017dbc81fc2a90e5ebc"
+                            class="episode-list-item">Accepting Money on the Internet 💰💸</a>
+                        <a href="/episode/how-to-slam-dunk-freelancing-d9cdb5913780b7bd1952a83f9375ac79"
+                            class="episode-list-item">How to Slam Dunk Freelancing 🏀🤑</a>
+                        <a href="/episode/javascript-tooling-004-7e5dbc453f1cfba567cc158c4ad3f5ce"
+                            class="episode-list-item">JavaScript Tooling - 004</a>
+                        <a href="/episode/css-preprocessors-and-structuring-css-003-116f0b7c607fee94ff6949bc3f2f86d4"
+                            class="episode-list-item">CSS Preprocessors and Structuring CSS - 003</a>
+                        <a href="/episode/webcam-and-audio-access-with-webrtc-and-getusermedia-002-abe8cb60682a8127644f0927afea4adc"
+                            class="episode-list-item">Webcam and audio access with WebRTC and getUserMedia() - 002</a>
+                        <a href="/episode/react-tools-001-4cb16f0b4d505ab92cc9dbfc23736640"
+                            class="episode-list-item">React Tools - 001</a>
+                        <a href="/episode/syntax-000-preview-39cdb0e187c02a0eb28d0c7744adae64" class="episode-list-item">Syntax 000 - PREVIEW</a>
+                        <a href="/episode/getting-replaced-on-the-job-6e5462f8-4409-e371-ae15-fd1fb07bb6ca"
+                            class="episode-list-item">Getting Replaced on the Job</a>
+                        <a href="/episode/social-lurking-explained-in-plain-english-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3613"
+                            class="episode-list-item">Social Lurking – Explained in Plain English - The Web in Plain English - by Dave Naves of Daveworks
+                            Web Development</a>
+                        <a href="/episode/google-analytics-in-plain-english-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3603"
+                            class="episode-list-item">Google Analytics in Plain English - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                        <a href="/episode/sexy-bookmarks-wordpress-plug-in-explained-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3591"
+                            class="episode-list-item">Sexy Bookmarks WordPress Plug-in Explained - The Web in Plain English - by Dave Naves of Daveworks
+                            Web Development</a>
+                        <a href="/episode/breaking-down-the-lies-from-marketers-seos-that-guarantee-page-one-results-on-google-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3581"
+                            class="episode-list-item">Breaking Down the LIES from Marketers &amp; SEOs that ~Guarantee page one results on Google~ - The
+                            Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                        <a href="/episode/how-to-use-google-calendar-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3558"
+                            class="episode-list-item">How to Use Google Calendar - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                        <a href="/episode/selling-services-on-amazon-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3562"
+                            class="episode-list-item">Selling Services on Amazon - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                        <a href="/episode/how-to-advertise-products-on-amazon-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3545"
+                            class="episode-list-item">How to Advertise Products on Amazon - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                        <a href="/episode/what-is-fulfillment-by-amazon-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3537"
+                            class="episode-list-item">What is Fulfillment by Amazon? - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                        <a href="/episode/how-to-sell-on-amazoncom-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3530"
+                            class="episode-list-item">How to Sell on Amazon.com - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                        <a href="/episode/how-to-make-money-via-amazon-associates-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3511"
+                            class="episode-list-item">How to Make Money via Amazon Associates - The Web in Plain English - by Dave Naves of Daveworks Web
+                            Development</a>
+                        <a href="/episode/advanced-google-searching-techniques-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3505"
+                            class="episode-list-item">Advanced Google Searching Techniques - The Web in Plain English - by Dave Naves of Daveworks Web
+                            Development</a>
+                        <a href="/episode/amazon-prime-in-plain-english-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3498"
+                            class="episode-list-item">Amazon Prime in Plain English - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                        <a href="/episode/advanced-blogging-techniques-using-wordpress-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3398"
+                            class="episode-list-item">Advanced Blogging Techniques Using WordPress - The Web in Plain English - by Dave Naves of Daveworks
+                            Web Development</a>
+                        <a href="/episode/advanced-gmail-techniques-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3405"
+                            class="episode-list-item">Advanced Gmail Techniques - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                        <a href="/episode/youtube-for-business-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3403"
+                            class="episode-list-item">YouTube for Business - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                        <a href="/episode/how-to-use-linkedin-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3396"
+                            class="episode-list-item">How to Use Linkedin - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                        <a
+                            href="/episode/what-is-google-hangouts-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3368"
+                            class="episode-list-item">What is Google Hangouts? - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                            <a href="/episode/seo-in-plain-english-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3336"
+                                class="episode-list-item">SEO in Plain English - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                            <a href="/episode/what-is-hootsuite-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3315"
+                                class="episode-list-item">What is Hootsuite? - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                            <a href="/episode/social-networking-explained-in-plain-english-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3293"
+                                class="episode-list-item">Social Networking Explained in Plain English - The Web in Plain English - by Dave Naves of Daveworks
+                                Web Development</a>
+                            <a href="/episode/facebook-hidden-features-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3296"
+                                class="episode-list-item">Facebook Hidden Features - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                            <a href="/episode/how-to-make-money-using-pinterest-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3254"
+                                class="episode-list-item">How to Make Money Using Pinterest - The Web in Plain English - by Dave Naves of Daveworks Web
+                                Development</a>
+                            <a href="/episode/how-to-use-twitter-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp3309"
+                                class="episode-list-item">How to Use Twitter - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                            <a href="/episode/why-you-might-want-your-next-computer-to-be-a-google-chromebook-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp2493"
+                                class="episode-list-item">Why You Might Want Your Next Computer to be a Google Chromebook - The Web in Plain English -
+                                by Dave Naves of Daveworks Web Development</a>
+                            <a href="/episode/what-is-buffer-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp1990"
+                                class="episode-list-item">What is Buffer? - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                            <a
+                                href="/episode/what-is-google-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp1793"
+                                class="episode-list-item">What is Google+? - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                                <a href="/episode/what-is-google-voice-the-web-in-plain-english-by-dave-naves-of-daveworks-web-development-httpdaveworksnetweb-design-development-tipsp1663"
+                                    class="episode-list-item">What is Google Voice? - The Web in Plain English - by Dave Naves of Daveworks Web Development</a>
+                                <a href="/episode/7-config-management-camp-kubernetes-sysdig-mgmt-httppodcastsyscastpost_typepodcastp92"
+                                    class="episode-list-item">7: Config Management Camp: Kubernetes, Sysdig &amp; Mgmt</a>
+                                <a href="/episode/65-syscast-is-taking-a-little-break-httppodcastsyscastpost_typepodcastp89"
+                                    class="episode-list-item">6.5: SysCast is taking a little break</a>
+                                <a href="/episode/6-application-security-cryptography-with-scott-arciszewski-httppodcastsyscastpost_typepodcastp82"
+                                    class="episode-list-item">6: Application Security &amp; Cryptography with Scott Arciszewski</a>
+                                <a href="/episode/5-ansible-config-management-deploying-code-with-james-cammarata-from-red-hat-httppodcastsyscastpost_typepodcastp74"
+                                    class="episode-list-item">5: Ansible: config management &amp; deploying code with James Cammarata from Red Hat</a>
+                                <a href="/episode/4-curl-libcurl-and-the-future-of-the-web-with-daniel-stenberg-httppodcastsyscastpost_typepodcastp71"
+                                    class="episode-list-item">4: Curl, libcurl and the future of the web, with Daniel Stenberg</a>
+                                <a href="/episode/3-managing-secrets-with-vault-with-seth-vargo-httppodcastsyscastpost_typepodcastp58"
+                                    class="episode-list-item">3: Managing Secrets with Vault, with Seth Vargo</a>
+                                <a href="/episode/2-an-introduction-to-docker-with-nils-de-moor-httppodcastsyscastpost_typepodcastp53"
+                                    class="episode-list-item">2: An introduction to Docker with Nils De Moor</a>
+                                <a href="/episode/1-matt-holt-creator-of-caddy-webserver-httppodcastsyscastpost_typepodcastp17"
+                                    class="episode-list-item">1: Matt Holt, creator of Caddy webserver</a>
+                                <a href="/episode/web-animation-basics-tagsoundcloud2010tracks296336500"
+                                    class="episode-list-item">Web Animation Basics</a>
+                                <a href="/episode/agile-project-management-tagsoundcloud2010tracks294102348"
+                                    class="episode-list-item">Agile Project Management</a>
+                                <a href="/episode/layers-of-a-web-application-tagsoundcloud2010tracks292989693"
+                                    class="episode-list-item">Layers of a Web Application</a>
+                                <a href="/episode/wordpress-and-drupal-tagsoundcloud2010tracks291916058"
+                                    class="episode-list-item">Wordpress and Drupal</a>
+                                <a href="/episode/web-accessibility-basics-tagsoundcloud2010tracks290526477"
+                                    class="episode-list-item">Web Accessibility Basics</a>
+                                <a href="/episode/what-is-meadowbright-tagsoundcloud2010tracks290085216"
+                                    class="episode-list-item">What is Meadowbright?</a>
+                                <a href="/episode/web-developer-careers-podcast-1-owen-gigg-and-michelle-blauw-tagsoundcloud2010tracks327623007"
+                                    class="episode-list-item">Web Developer Careers Podcast #1 Owen Gigg and Michelle Blauw</a>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <!-- edit footer logo here -->
+                    <a href="#" class="logo col-sm-8">
+                        <img src="img/pwa-podstr-logo-144x70.png" class="img-responsive" alt="PWA Pdstr">
+                    </a>
+                    <div class="col-sm-12 text">
+                        <p>
+                            <i class="fa fa-map-pin"></i> 354 MAIN STREET | ANYTOWN USA | 11111</p>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:9192515067">Phone : (919) 251-5067</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i> E-mail :
+                            <a href="mailto:info@love2dev.com">info@love2dev.com</a>
+                        </p>
+                    </div>
+                    <span class="col-sm-12 social-wrapper circle">
+                        <a href="http://twitter.com/chrislove" class="social-icon fa fa-twitter"></a>
+                        <a href="https://www.facebook.com/love2dev/" class="social-icon fa fa-facebook"></a>
+                        <a target="_blank" href="https://plus.google.com/b/110904107389779237581/?pageId=110904107389779237581">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/love2dev">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UC3mfh2MN-5D-zOyiRLp9H6g">
+                            <i class="fa fa-youtube-play"></i>
+                        </a>
+                        <a target="_blank" href="https://www.pinterest.com/docluv/">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="footer-content">
+                        <h2>Links</h2>
+                        <nav>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li>
+                                    <a href="podcasts/">Podcasts</a>
+                                </li>
+                                <li>
+                                    <a href="listenlater/">Listen Later</a>
+                                </li>
+                                <li>
+                                    <a href="search/">Search</a>
+                                </li>
+                                <li>
+                                    <a href="config/">Config</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var scripts = ["js/libs/jquery.small.js",
+            "js/libs/index.js",
+            "js/libs/collapse.js",
+            "js/libs/util.js",
+            "js/app/app.js",
+            "js/app/podcast&#x2F;the-world-of-web-development.js"
+        ];
+    </script>
+
+    <script src="js/app/app.bootstrap.js"></script>
+</body>
+
+</html>

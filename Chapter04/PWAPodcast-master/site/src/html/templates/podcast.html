@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row podcast-details">
+        <div class="card">
+            <img srcset="{{{artwork.30}}} 30w, {{{artwork.60}}} 60w, {{{artwork.100}}} 100w, {{{artwork.600}}} 600w" sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw"
+                src="{{{image.url}}}" alt="{{title}}" class="card-img-top">
+
+            <div class="card-body">
+                <h3 class="card-title">{{title}}</h3>
+                <p class="card-text">{{{description}}}</p>
+            </div>
+            <i class="fa fa-plus" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="row episode-list">
+        {{#episodes}}
+        <a href="/episode/{{slug}}" class="episode-list-item">{{title}}</a>
+        {{/episodes}}
+    </div>
+</div>

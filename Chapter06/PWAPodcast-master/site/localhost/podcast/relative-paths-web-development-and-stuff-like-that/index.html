@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <base href="http://localhost:57662/">
+    <!-- Stylesheets -->
+    <link href="css/libs/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/libs/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href="css/app/site.css" rel="stylesheet">
+
+    <title>Relative Paths | Web Development and stuff like that</title>
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="PWA Pdstr">
+    <link rel="icon" sizes="192x192" href="meta/e75c99a5-4362-760a-8519-25dd4b1ae7e7.webPlatform.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Pdstr">
+    <link rel="apple-touch-icon" href="meta/4eb56734-e805-4709-14d3-907549c2db2e.webPlatform.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="meta/4eb56734-e805-4709-14d3-907549c2db2e.webPlatform.png">
+    <meta name="msapplication-TileColor" content="#ED7D31">
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#F6911E">
+    <meta name="description" content="Podstr">
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link href="favicon.png" rel="shortcut icon">
+    <link href="humans.txt" rel="author">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a href="/" class="navbar-brand">
+            <img src="img/pwa-podstr-logo-144x70.png" alt="PWA Pdstr" class="img-responsive">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="podcasts/">Podcasts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="listenlater/">Listen Later</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="config/">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 flex-nowrap">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <main class="main-content container-fluid" role="main">
+        <div class="container">
+            <div class="row podcast-details">
+                <div class="card">
+                    <img srcset="http://is4.mzstatic.com/image/thumb/Music62/v4/b6/d8/b2/b6d8b2d5-4ca0-d8b2-01ac-85dd878fffb9/source/30x30bb.jpg 30w, http://is4.mzstatic.com/image/thumb/Music62/v4/b6/d8/b2/b6d8b2d5-4ca0-d8b2-01ac-85dd878fffb9/source/60x60bb.jpg 60w, http://is4.mzstatic.com/image/thumb/Music62/v4/b6/d8/b2/b6d8b2d5-4ca0-d8b2-01ac-85dd878fffb9/source/100x100bb.jpg 100w, http://is4.mzstatic.com/image/thumb/Music62/v4/b6/d8/b2/b6d8b2d5-4ca0-d8b2-01ac-85dd878fffb9/source/600x600bb.jpg 600w"
+                        sizes="(max-width: 769px) 100vw, (max-width: 1025px) 46vw, 30vw" src="http://is4.mzstatic.com/image/thumb/Music62/v4/b6/d8/b2/b6d8b2d5-4ca0-d8b2-01ac-85dd878fffb9/source/600x600bb.jpg"
+                        alt="Relative Paths | Web Development and stuff like that" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Relative Paths | Web Development and stuff like that</h3>
+                        <p class="card-text">Mark Phoenix and Ben Hutchings</p>
+                    </div>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="row episode-list">
+                <a href="/episode/50-jukebox-special-tagsoundcloud2010tracks337977500" class="episode-list-item">50: Jukebox Special</a>
+                <a href="/episode/49-web-security-with-tim-nash-tagsoundcloud2010tracks324065287"
+                    class="episode-list-item">49: Web Security | With Tim Nash</a>
+                <a href="/episode/48-progressive-enhancement-with-aaron-gustafson-tagsoundcloud2010tracks317326313"
+                    class="episode-list-item">48: Progressive Enhancement | With Aaron Gustafson</a>
+                <a href="/episode/47-dogmatism-with-chris-coyier-tagsoundcloud2010tracks314224279"
+                    class="episode-list-item">47: Dogmatism | With Chris Coyier</a>
+                <a href="/episode/46-css-grid-layout-an-interview-with-rachel-andrew-tagsoundcloud2010tracks310147153"
+                    class="episode-list-item">46: CSS Grid Layout | An interview with Rachel Andrew</a>
+                <a href="/episode/45-a-chat-about-seo-with-elliott-richmond-tagsoundcloud2010tracks299289456"
+                    class="episode-list-item">45: A chat about SEO | with Elliott Richmond</a>
+                <a href="/episode/44-looking-back-at-2016-they-ran-screaming-tagsoundcloud2010tracks304763861"
+                    class="episode-list-item">44: Looking back at 2016 | They ran screaming</a>
+                <a href="/episode/43-perch-cms-an-interview-with-clive-walker-tagsoundcloud2010tracks294443834"
+                    class="episode-list-item">43: Perch CMS | An interview with Clive Walker</a>
+                <a href="/episode/42-pc-versus-mac-apple-comes-down-the-mountain-tagsoundcloud2010tracks292283041"
+                    class="episode-list-item">42: PC versus Mac | Apple comes down the mountain</a>
+                <a href="/episode/41-working-with-designers-do-you-etch-a-sketch-tagsoundcloud2010tracks290200214"
+                    class="episode-list-item">41: Working with Designers | Do you Etch-a-Sketch?</a>
+                <a href="/episode/40-going-limited-daft-bunk-tagsoundcloud2010tracks287379497"
+                    class="episode-list-item">40: Going Limited | Daft Bunk</a>
+                <a href="/episode/39-https-deliver-some-dog-justice-tagsoundcloud2010tracks281806631"
+                    class="episode-list-item">39: HTTPS | Deliver some dog justice</a>
+                <a href="/episode/38-mistakes-x-2-its-a-bit-like-mousetrap-tagsoundcloud2010tracks276773704"
+                    class="episode-list-item">38: Mistakes x 2 | It&#39;s a bit like mousetrap</a>
+                <a href="/episode/37-personal-sites-disappointment-will-spur-them-on-tagsoundcloud2010tracks273441477"
+                    class="episode-list-item">37: Personal Sites | &quot;Disappointment will spur them on&quot;</a>
+                <a href="/episode/36-details-billy-the-whippet-tagsoundcloud2010tracks261523851"
+                    class="episode-list-item">36: Details | &quot;Billy the Whippet&quot;</a>
+                <a href="/episode/35-pc-versus-mac-versus-sandals-tagsoundcloud2010tracks253181649"
+                    class="episode-list-item">35: PC versus Mac | &quot;versus Sandals&quot;</a>
+                <a href="/episode/34-just-chat-really-no-real-plan-tagsoundcloud2010tracks249801314"
+                    class="episode-list-item">34: &quot;Just chat really&quot; | No real plan</a>
+                <a href="/episode/33-longshot-photo-a-follow-up-interview-with-ken-long-tagsoundcloud2010tracks237140182"
+                    class="episode-list-item">33: Longshot Photo | A follow-up interview with Ken Long</a>
+                <a href="/episode/32-wow-plugins-an-interview-with-kimb-jones-tagsoundcloud2010tracks230457502"
+                    class="episode-list-item">32: WOW Plugins | An interview with Kimb Jones</a>
+                <a href="/episode/31-dealing-with-mistakes-the-whole-kitten-caboodle-tagsoundcloud2010tracks227299846"
+                    class="episode-list-item">31: Dealing with mistakes | The whole kitten caboodle</a>
+                <a href="/episode/30-designers-shouldnt-code-an-interview-with-ben-brignell-tagsoundcloud2010tracks225332703"
+                    class="episode-list-item">30: Designers should(n&#39;t) code | An interview with Ben Brignell</a>
+                <a href="/episode/29-interview-wordpress-plugin-development-with-mark-wilkinson-tagsoundcloud2010tracks222921320"
+                    class="episode-list-item">29: Interview | Wordpress Plugin Development with Mark Wilkinson</a>
+                <a href="/episode/28-going-live-build-a-website-on-an-etch-a-sketch-tagsoundcloud2010tracks221126436"
+                    class="episode-list-item">28: Going Live | Build a website on an Etch-a-Sketch</a>
+                <a href="/episode/27-customer-education-like-people-in-music-shops-tagsoundcloud2010tracks218770463"
+                    class="episode-list-item">27: Customer Education | Like people in music shops</a>
+                <a href="/episode/26-customer-care-hug-their-heart-tagsoundcloud2010tracks213455600"
+                    class="episode-list-item">26: Customer Care | Hug their heart</a>
+                <a href="/episode/25-interview-beyond-wordpress-with-emily-lewis-and-lea-alcantara-tagsoundcloud2010tracks208500938"
+                    class="episode-list-item">25: Interview | Beyond WordPress with Emily Lewis and Lea Alcantara.</a>
+                <a href="/episode/245-relatively-short-a-picosode-tagsoundcloud2010tracks207093338"
+                    class="episode-list-item">24.5: Relatively Short | A Picosode</a>
+                <a href="/episode/24-my-best-job-getting-cardboard-from-a-skip-tagsoundcloud2010tracks203416458"
+                    class="episode-list-item">24: My Best Job! | Getting Cardboard From a Skip</a>
+                <a href="/episode/23-interview-theme-frameworks-with-jonny-allbut-tagsoundcloud2010tracks200902277"
+                    class="episode-list-item">23: Interview | Theme Frameworks with Jonny Allbut</a>
+                <a href="/episode/22-interview-commercial-plugin-development-with-jonathan-davis-tagsoundcloud2010tracks198716111"
+                    class="episode-list-item">22: Interview | Commercial Plugin Development with Jonathan Davis</a>
+                <a href="/episode/21-setting-up-tabs-or-spaces-tagsoundcloud2010tracks196456489"
+                    class="episode-list-item">21: Setting Up | Tabs or Spaces?</a>
+                <a href="/episode/20-interview-wordcamp-birmingham-with-rachel-mccollin-tagsoundcloud2010tracks194151716"
+                    class="episode-list-item">20: Interview | WordCamp Birmingham with Rachel McCollin</a>
+                <a href="/episode/195-relatively-short-the-unpesode-tagsoundcloud2010tracks192098702"
+                    class="episode-list-item">19.5: Relatively Short | &quot;The Unpesode!&quot;</a>
+                <a href="/episode/19-stress-shouldve-auditioned-that-whale-tagsoundcloud2010tracks189773571"
+                    class="episode-list-item">19: Stress | Should&#39;ve auditioned that whale!</a>
+                <a href="/episode/18-back-to-basics-spaghetti-kitten-tagsoundcloud2010tracks187467100"
+                    class="episode-list-item">18: Back to Basics | Spaghetti Kitten</a>
+                <a href="/episode/17-looking-back-looking-forward-a-stool-to-oil-tagsoundcloud2010tracks185998196"
+                    class="episode-list-item">17: Looking Back Looking Forward | A Stool to Oil</a>
+                <a href="/episode/16-interview-a-live-client-meeting-with-ken-from-longshot-photo-tagsoundcloud2010tracks184873880"
+                    class="episode-list-item">16: Interview | A Live Client meeting with Ken from Longshot Photo.</a>
+                <a href="/episode/15-time-management-panic-develop-till-its-done-tagsoundcloud2010tracks182953910"
+                    class="episode-list-item">15: Time Management | Panic Develop Till it&#39;s Done</a>
+                <a href="/episode/14-hosting-its-like-tyres-tagsoundcloud2010tracks182115867"
+                    class="episode-list-item">14: Hosting | It&#39;s like tyres!</a>
+                <a href="/episode/13-design-for-developers-too-many-biscuits-tagsoundcloud2010tracks179435913"
+                    class="episode-list-item">13: Design for Developers | Too Many Biscuits</a>
+                <a href="/episode/12-project-x-part-1-very-respectful-to-begonias-tagsoundcloud2010tracks178405900"
+                    class="episode-list-item">12: Project X part 1 | Very respectful to Begonias</a>
+                <a href="/episode/11-interview-malc-from-fluid2-tagsoundcloud2010tracks177673036"
+                    class="episode-list-item">11: Interview | Malc from Fluid2</a>
+                <a href="/episode/10-pricing-mr-furtwangler-i-presume-tagsoundcloud2010tracks176886207"
+                    class="episode-list-item">10: Pricing | Mr Furtwangler I presume</a>
+                <a href="/episode/9-deployment-eating-out-of-a-bin-tagsoundcloud2010tracks176882030"
+                    class="episode-list-item">9: Deployment | Eating out of a bin</a>
+                <a href="/episode/8-geek-mental-help-week-dont-push-over-a-cow-tagsoundcloud2010tracks176879906"
+                    class="episode-list-item">8: Geek mental help week | Don&#39;t push over a cow!</a>
+                <a href="/episode/7-why-wordpress-can-you-ruffle-a-beak-tagsoundcloud2010tracks176877478"
+                    class="episode-list-item">7: Why WordPress? | Can you ruffle a beak?</a>
+                <a href="/episode/6-ch-ch-ch-changes-hiding-in-the-toilet-tagsoundcloud2010tracks176873630"
+                    class="episode-list-item">6: Ch.. Ch.. Ch.. Changes | Hiding in the toilet</a>
+                <a href="/episode/5-time-to-get-real-lawnmower-man-tagsoundcloud2010tracks176854822"
+                    class="episode-list-item">5: Time to get real | Lawnmower Man</a>
+                <a href="/episode/4-toolkit-the-one-guy-in-the-corner-with-a-toshiba-tagsoundcloud2010tracks176854757"
+                    class="episode-list-item">4: Toolkit | The one guy in the corner with a Toshiba!</a>
+                <a href="/episode/3-continuous-professional-development-dont-steal-bad-code-tagsoundcloud2010tracks176854668"
+                    class="episode-list-item">3: Continuous Professional Development | &quot;Don&#39;t steal bad code!&quot;</a>
+                <a href="/episode/2-saying-i-dont-know-never-sharpen-a-teapot-tagsoundcloud2010tracks176854584"
+                    class="episode-list-item">2: Saying I Don&#39;t know | &quot;Never Sharpen a Teapot&quot;</a>
+                <a href="/episode/1-whats-it-all-for-dont-surf-mountains-tagsoundcloud2010tracks176854452"
+                    class="episode-list-item">1: What&#39;s it all for? | &quot;Don&#39;t surf mountains!&quot;</a>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <!-- edit footer logo here -->
+                    <a href="#" class="logo col-sm-8">
+                        <img src="img/pwa-podstr-logo-144x70.png" class="img-responsive" alt="PWA Pdstr">
+                    </a>
+                    <div class="col-sm-12 text">
+                        <p>
+                            <i class="fa fa-map-pin"></i> 354 MAIN STREET | ANYTOWN USA | 11111</p>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:9192515067">Phone : (919) 251-5067</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i> E-mail :
+                            <a href="mailto:info@love2dev.com">info@love2dev.com</a>
+                        </p>
+                    </div>
+                    <span class="col-sm-12 social-wrapper circle">
+                        <a href="http://twitter.com/chrislove" class="social-icon fa fa-twitter"></a>
+                        <a href="https://www.facebook.com/love2dev/" class="social-icon fa fa-facebook"></a>
+                        <a target="_blank" href="https://plus.google.com/b/110904107389779237581/?pageId=110904107389779237581">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/love2dev">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UC3mfh2MN-5D-zOyiRLp9H6g">
+                            <i class="fa fa-youtube-play"></i>
+                        </a>
+                        <a target="_blank" href="https://www.pinterest.com/docluv/">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="footer-content">
+                        <h2>Links</h2>
+                        <nav>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li>
+                                    <a href="podcasts/">Podcasts</a>
+                                </li>
+                                <li>
+                                    <a href="listenlater/">Listen Later</a>
+                                </li>
+                                <li>
+                                    <a href="search/">Search</a>
+                                </li>
+                                <li>
+                                    <a href="config/">Config</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var scripts = ["js/libs/jquery.small.js",
+            "js/libs/index.js",
+            "js/libs/collapse.js",
+            "js/libs/util.js",
+            "js/app/app.js",
+            "js/app/podcast&#x2F;relative-paths-web-development-and-stuff-like-that.js"
+        ];
+    </script>
+
+    <script src="js/app/app.bootstrap.js"></script>
+</body>
+
+</html>

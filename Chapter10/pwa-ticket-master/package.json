@@ -1,0 +1,25 @@
+{
+    "name": "ticket_pwa",
+    "version": "0.0.1",
+    "description": "Ticket Manager PWA",
+    "main": "bin/build.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "api-server": "json-server --watch db.json --port 15501",
+        "web-server": "http-server www/public -p 15500 -c -i"
+    },
+    "author": "Chris Love",
+    "private": true,
+    "devDependencies": {
+        "json-server": "*",
+        "http-server": "*",
+        "mustache": "*",
+        "faker": "*",
+        "glob": "*",
+        "lodash": "*",
+        "strip-bom": "*",
+        "mkdirp": "*",
+        "qr-encode": "*",
+        "ba64": "*"
+    }
+}

@@ -1,0 +1,18 @@
+{
+"collectionId": 1112318786,
+"title": "Podcast Name",
+"feedUrl": "https://domain.com/rss",
+"artwork": {
+"30": "http://is1.mzstatic.com/image/thumb/Music117/v4/40/e5/ef/40e5ef3c-f5b9-20df-14cc-e5c38d50a8da/source/30x30bb.jpg",
+"60": "http://is1.mzstatic.com/image/thumb/Music117/v4/40/e5/ef/40e5ef3c-f5b9-20df-14cc-e5c38d50a8da/source/60x60bb.jpg",
+"100": "http://is1.mzstatic.com/image/thumb/Music117/v4/40/e5/ef/40e5ef3c-f5b9-20df-14cc-e5c38d50a8da/source/100x100bb.jpg",
+"600": "http://is1.mzstatic.com/image/thumb/Music117/v4/40/e5/ef/40e5ef3c-f5b9-20df-14cc-e5c38d50a8da/source/600x600bb.jpg"
+},
+"genres": [
+"Tech News",
+"Podcasts",
+"Technology",
+"Business",
+"Careers"
+]
+}

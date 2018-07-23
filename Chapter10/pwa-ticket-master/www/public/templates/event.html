@@ -1,0 +1,31 @@
+<div class="card ticket-card" id="{{id}}">
+    <div class="card-header">
+        <h5 class="card-title">{{title}}</h5>
+    </div>
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <img class="card-img-top ticket-barcode" src="img/venues/{{image}}" alt="{{title}}" />
+        </div>
+        <div class="col-md-6">
+            <div class="card-body">
+                <p class="card-text">{{venue}}</p>
+                <p class="card-text">{{date}} - {{city}} {{state}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card-body d-flex flex-row justify-content-start flex-wrap">
+            {{#available-tickets}}
+            <div class="col-sm-6 col-md-4 col-lg-2 card bg-light mb-3 p-2">
+                <ul class="list-group list-group-flush bg-light">
+                    <li class="list-group-item">{{section}} {{row}} {{seat}}</li>
+                    <li class="list-group-item">${{price}}</li>
+                    <li class="list-group-item">
+                        <a href="cart?eventid={{eventid}}&ticketid={{id}}" class="btn btn-primary">Buy Now</a>
+                    </li>
+                </ul>
+            </div>
+            {{/available-tickets}}
+        </div>
+    </div>
+</div>

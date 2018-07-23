@@ -1,0 +1,13 @@
+{
+    "title": "3. Introduction to CSS",
+    "description": "http://advancedbeginnerchallenge.com – I built a course to get your first job in web development, or upgrade from Junior to mid-level. All done over email for your convenience.\n\n\nCheck out Team Treehouse to grow as a programmer! http://starthere.fm/treehouse\n\nIn episode 3 Dain & Keith talk about areas of CSS that you should take time to understand. \n\nResources\n\nhttp://learn.shayhowe.com/html-css/getting-to-know-css/ with Shay Howe\n\nAfter doing this lesson you'll understand more about the CSS cascade, specificity, selectors, common values and lengths.\n\nhttp://meyerweb.com/eric/tools/css/reset/ by Eric Meyer\n\nCSS Frameworks\n\nhttp://getbootstrap.com/\nhttp://foundation.zurb.com/\nhttp://getuikit.com/\n\n\nTalk to Us\n\nWhat do you think are the most difficult CSS concepts to understand? miller.dain@gmail.com",
+    "pubdate": "2014-08-04T00:00:00.000Z",
+    "link": "https://soundcloud.com/starthere-webdev/3-introduction-to-css",
+    "guid": "tag:soundcloud,2010:tracks/234714701",
+    "image": "http://i1.sndcdn.com/avatars-000227802710-27eerh-original.jpg",
+    "podcast": {
+        "title": "Start Here: Web Development",
+        "description": "Do you want to get your first job as a web developer, or level up in your web dev career?? Well, StartHere: Web Development is the show for you! Dain Miller is your new mentor as he shares his industry experience, insight, and resources to help get you from knowing nothing to becoming a full-time web developer. Everyone starts somewhere and you’re starting here.",
+        "image": "http://i1.sndcdn.com/avatars-000227802710-27eerh-original.jpg"
+    }
+}

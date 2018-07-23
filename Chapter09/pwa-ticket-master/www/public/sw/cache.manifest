@@ -1,0 +1,42 @@
+[{
+    "url": "/",
+    "strategy": "precache-dependency",
+    "ttl": 604800
+}, {
+    "url": "/js/app/app.js",
+    "strategy": "precache-dependency",
+    "ttl": 604800
+}, {
+    "url": "/css/site.css",
+    "strategy": "precache-dependency",
+    "ttl": 604800
+}, {
+    "url": "/404",
+    "strategy": "precache-dependency",
+    "ttl": 1209600
+}, {
+    "url": "/privacy",
+    "strategy": "genericFallback",
+    "fallback": "fallback/",
+    "ttl": 604800
+}, {
+    "url": "/img/img/fast-furniture-logo.gif",
+    "strategy": "precache-dependency",
+    "ttl": 604800
+}, {
+    "url": "\/contact/|\/settings/",
+    "strategy": "precache-dependency",
+    "ttl": 604800
+}, {
+    "url": "\/product\/*",
+    "strategy": "cacheFirst",
+    "ttl": 1800
+}, {
+    "url": "/css/bootstrap.min.css",
+    "strategy": "precache-dependency",
+    "ttl": 604800
+}, {
+    "url": "\/categories\/*",
+    "strategy": "cacheFirst",
+    "ttl": 1800
+}]
