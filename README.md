@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this Book for only $5 on PacktPub.com](https://www.packtpub.com/product/progressive-web-application-development-by-example/9781787125421)
------
-*If you have read this book, please leave a review on [Amazon.com](https://www.amazon.com/gp/product/1787125424).     Potential readers can then use your unbiased opinion to help them make purchase decisions. Thank you. The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Progressive Web Application Development by Example
 
 <a href="https://www.packtpub.com/application-development/progressive-web-application-development-example?utm_source=github&utm_medium=repository&utm_campaign=9781787125421"><img src="https://www.packtpub.com/sites/default/files/B06922_MockupCoverNew.png" alt="Progressive Web Application Development by Example" height="256px" align="right"></a>
